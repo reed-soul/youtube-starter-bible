@@ -24,7 +24,9 @@ export default withMermaid(
     },
 
     head: [
-      ['meta', { name: 'theme-color', content: '#ff0000' }],
+      ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
+      ['link', { rel: 'apple-touch-icon', href: '/logo.svg' }],
+      ['meta', { name: 'theme-color', content: '#c81e1e' }],
       ['meta', { property: 'og:type', content: 'website' }],
       ['meta', { property: 'og:locale', content: 'zh_CN' }],
       ['meta', { property: 'og:site_name', content: '小白油管起步，一路玩到专家' }],
@@ -39,10 +41,12 @@ export default withMermaid(
         'meta',
         {
           property: 'og:description',
-          content: '从零到专家的 YouTube 起步完全指南（开源，持续更新）'
+          content: '从零到专家的 YouTube 起步完全指南（开源 · 官方优先 · 持续更新）'
         }
       ],
-      ['meta', { name: 'twitter:card', content: 'summary' }]
+      ['meta', { property: 'og:image', content: `${SITE_HOST}/og.png` }],
+      ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+      ['meta', { name: 'twitter:image', content: `${SITE_HOST}/og.png` }]
     ],
 
     transformPageData(pageData) {
@@ -126,8 +130,32 @@ export default withMermaid(
       }
     },
 
+    markdown: {
+      config(md) {
+        const defaultText = md.renderer.rules.text
+        md.renderer.rules.text = (tokens, idx, options, env, self) => {
+          const raw = defaultText
+            ? defaultText(tokens, idx, options, env, self)
+            : tokens[idx].content
+          return String(raw).replace(
+            /【(官方|行业实践|神话|合规)】/g,
+            (_m, kind) => {
+              const map: Record<string, string> = {
+                官方: 'official',
+                行业实践: 'practice',
+                神话: 'myth',
+                合规: 'compliance'
+              }
+              const cls = map[kind] || 'official'
+              return `<span class="ev-badge ev-badge--${cls}">【${kind}】</span>`
+            }
+          )
+        }
+      }
+    },
+
     themeConfig: {
-      logo: undefined,
+      logo: '/logo.svg',
       siteTitle: '油管起步完全指南',
       outline: { label: '本页目录', level: [2, 3] },
       lastUpdated: { text: '最后更新' },
@@ -232,7 +260,21 @@ export default withMermaid(
     },
 
     mermaid: {
-      theme: 'default'
+      theme: 'neutral',
+      themeVariables: {
+        primaryColor: '#fde8e8',
+        primaryTextColor: '#1a1a1c',
+        primaryBorderColor: '#c81e1e',
+        lineColor: '#8a8a94',
+        secondaryColor: '#f5f3ef',
+        tertiaryColor: '#fff7ed',
+        background: '#faf9f7',
+        mainBkg: '#ffffff',
+        nodeBorder: '#c81e1e',
+        clusterBkg: '#f5f3ef',
+        titleColor: '#1a1a1c',
+        edgeLabelBackground: '#faf9f7'
+      }
     },
     mermaidPlugin: {
       class: 'mermaid'
