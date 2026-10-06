@@ -137,7 +137,20 @@
 | 24↑ | YouTube Blog EN（同上 §4 #24） | https://blog.youtube/news-and-events/youtube-partner-program-updates-2027-new-opportunities-earn/ | 英文官方同日稿；门槛句未逐字写 1k 订阅（以 #67 为准） | **2026-08-10** ✅ |
 
 
-**第 13 章刻意不引用为操作依据的内容**：教虚假选区/住宅 IP 包装、具体「必过银行卡」担保、未标注日期的税率截图教程。
+### AdSense 收款流程信息图补强（2026-10-06）
+
+| # | 文献 | URL | 支撑 | 🕒 |
+|---|------|-----|------|----|
+| 69 | 地址验证（PIN 码）概览 | https://support.google.com/adsense/answer/157667?hl=zh-Hans | 约 3 周送达；生成日起 4 个月；达验证门槛后寄送 | **2026-10-06** ✅ |
+| 70 | 申请替代 PIN | https://support.google.com/adsense/answer/1348257?hl=zh-Hans | 满约 3 周可重寄；第 4 次仍未收到 → 排查工具 | ✅ |
+| 71 | AdSense 付款时间 | https://support.google.com/adsense/answer/7164703?hl=zh-Hans | 月初定稿；20 日门槛；21–26 日付款；电汇最多约 15 工作日；AFY 约 7–12 日 | **2026-10-06** ✅ |
+| 72 | 付款最低限额 | https://support.google.com/adsense/answer/1709871?hl=zh-Hans | USD：验证 $10、选方式 $10、起付 $100 | **2026-10-06** ✅ |
+| 73 | 步骤：如何获得付款 | https://support.google.com/adsense/answer/1709858?hl=zh-Hans | 身份/地址/收款方式/起付串联 | ✅ |
+| 74 | 🟡 发财麦克 · AdSense 提现实操 | https://facaimike.com/youtube-payment.html/ | 一手：PIN/电汇/招行结汇时序；**已剔除**改频道地区等不可核建议 | 抓取 2026-10-06；二级 |
+| 75 | 🟡 发财麦克 · YouTube 新手怎么做 | https://facaimike.com/youtube-how.html/ | 增长心态类二级；收款事实以 #69–73 / #42–44 为准 | 抓取 2026-10-06；二级 |
+
+
+**第 13 章 / AdSense 电汇页刻意不引用为操作依据的内容**：教虚假选区/住宅 IP 包装、改频道国家到港台「曲线救国」、具体「必过银行卡」担保、未标注日期的税率截图教程。二级一手文（#74）仅吸收可与官方交叉核验的时序与字段提示。
 
 ## 5. Shorts 原创排序（2026-10）——官方表述 + 二级报道
 
@@ -208,6 +221,7 @@
 | 第 13 章：结汇便利化额度口径需再核银行/SAFE | 52 |
 | 第 13 章核实：Google/工行/招行电汇本行费 | 56, 57, 59 |
 | 第 13 章核实：Hyperwallet 中国可用与费率登录可见 | 60, 61, 42 |
+| AdSense 电汇页：YPP→入账流程图 / 月付周期 / 方式对照 | 69, 70, 71, 72, 73, 42, 43, 56, 60, 61；二级 74 |
 | 第 13 章核实：频道国家设置决定 YPP 资格 | 62, 40, 41 |
 | 第 13 章核实：IRS 表列中国 Royalties 10% | 64, 48, 46 |
 | 第 13 章核实：个税项目依实施条例事实归类 | 65, 66, 49 |
