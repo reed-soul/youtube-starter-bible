@@ -16,6 +16,20 @@ verifiedAt: 2026-10-06
 
 <SwiftLookup />
 
+## 怎么查到自己开户行的 SWIFT
+
+可靠性大致顺序（本站建议按此优先，**不要只信第三方网站表**）：
+
+1. **开户行柜台 / 电话客服**（最高）— 报出卡号后请柜员或客服读出**该账户适用**的 8 或 11 位 SWIFT-BIC，并确认是否必须用分行码。  
+   - 交通银行客服：**[95559](tel:95559)**（亦见官网页脚常见公示）  
+   - 邮储银行客服：**[95580](tel:95580)** / 40088-95580（见 [联系我们](https://www.psbc.com/cn/common/lxwm/)）  
+2. **银行 App / 网银在线客服** — 在「跨境汇款 / 收款路径 / 外汇」相关入口询问同一问题。  
+3. **[Swift 官方 BIC Search](https://www.swift.com/bsl/)**（SwiftRef 免费检索，需验证码；与完整付费目录不同）— 可核对某 BIC **是否登记在目录中**，**不能替代**开户行对「你这张卡该填哪条」的确认。  
+4. **银行官网公开汇路/BIC 页** — 本站速查表只采信这一层已打开核对过的原文。  
+5. **第三方目录 / 博客 / 支付 App 列表**（最低）— 仅作线索，**禁止**当作 AdSense 填写依据。
+
+**本站不会**根据城市或分行名（例如「佛山分行」）生成个性化电汇模板或替你填写 AdSense 字段；分行码（如网传 `COMMCNSHFOS`）必须以开户行当面确认为准。
+
 ## 未收录说明（交行 / 邮储 · 2026-10-06 复核）
 
 | 银行 | 状态 | 原因 |
@@ -47,9 +61,14 @@ verifiedAt: 2026-10-06
 - **用户粘贴候选** `PSBCCNBJ` / `PSBCCNBJXXX`：**未在 psbc.com 打开页见到**，故不进速查表。
 - **次级佐证（不收录）**：GLEIF LEI [`300300C1040311005298`](https://api.gleif.org/api/v1/lei-records/300300C1040311005298) 的 `bic` 为 `["PSBCCNBJXXX"]`；第三方目录同——**仅次级**。
 
+
+### SWIFT BIC Search 核对（进行中）
+
+官方入口：[https://www.swift.com/bsl/](https://www.swift.com/bsl/)（Free BIC search on swift.com；[使用条款](https://www.swift.com/about-us/legal/online-services/free-bic-search-swiftcom)）。本环境无法绕过验证码完成查询；**并行浏览器核验结果到齐前**，不对 `COMMCNSHXXX` / `PSBCCNBJXXX` / `COMMCNSHFOS` 做「SWIFT 目录中存在」的站内声明。即便目录命中，也**仍不进上方速查表行**（表行只认银行官网原文），并始终 **以开户行确认为准**。
+
 ### 收录门槛（不变）
 
-只有**银行官网页面（或该行域名上的汇路/年报 PDF）原文**出现的 8/11 位 BIC 才进入上方 `<SwiftLookup />`。GLEIF / SWIFT 公开映射 / 支付 App 目录一律标次级、不进表。
+只有**银行官网页面（或该行域名上的汇路/年报 PDF）原文**出现的 8/11 位 BIC 才进入上方 `<SwiftLookup />`。GLEIF、Swift BIC Search、支付 App / 博客目录一律**次级或「目录存在」脚注**，**不进表行**。
 
 ## 核实状态（本页 · 2026-10-06）
 
