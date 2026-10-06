@@ -1,6 +1,6 @@
 # 来源与引用 SOURCES
 
-> 基准核对日：**2026-10-06**（Asia/Shanghai；含第 13 章大陆创作者来源）  
+> 基准核对日：**2026-10-06**（Asia/Shanghai；第 13 章五项核实补强同日）  
 > 原则：**官方优先**；第三方仅作标注的二级原则。政策会变——动手前请打开原链确认。  
 > 本页同时承担：**章节主张 → 文献** 对照表，便于审计与 PR。
 
@@ -111,6 +111,24 @@
 | 54 | Search Central · title / snippet / sitemap | https://developers.google.com/search/docs/appearance/title-link · https://developers.google.com/search/docs/appearance/snippet · https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview | 标题、描述、sitemap | 2026 |
 | 55 | Article structured data | https://developers.google.com/search/docs/appearance/structured-data/article | 可选 Article JSON-LD | 2026-09 文档 |
 
+
+### 13 章五项核实补强（2026-10-06）
+
+| # | 文献 | URL | 支撑 | 🕒 |
+|---|------|-----|------|----|
+| 56 | AdSense 电汇 FAQ（费用/中间行） | https://support.google.com/adsense/answer/6025222?hl=zh-Hans | Google 不收电汇费；银行/中间行可能扣费 | ✅ |
+| 57 | 工行 · 个人跨境汇入说明 | https://www.icbc.com.cn/page/721852463664889903.html | **不收境外汇入手续费**；转汇行可能扣费 | ✅ 2026-10-06 |
+| 58 | 中行个人金融服务价目 PDF（2025-11） | https://pic.bankofchina.com/bocappd/pricelist/202511/P020251110646838136627.pdf | 个人跨境**汇出**价目；汇入正常入账须柜台确认 | ✅ 抓取 |
+| 59 | 招行境外汇款/储蓄说明（产品页） | https://www.cmbchina.com/personal/saving/SavingInfo.aspx?pageid=saving13 | 公开口径：不收入账手续费（中间行除外） | ⚠️ 环境偶发 500；浏览器复核 |
+| 60 | Hyperwallet 中国可用公告 | https://support.google.com/adsense/answer/16691394?hl=zh-Hans | **2025-10-30** 中国发布商可用 | ✅ |
+| 61 | 通过 PayPal Hyperwallet 收款 | https://support.google.com/adsense/answer/15292512?hl=zh-Hans | 须新建账号；费率登录可见 | ✅ |
+| 62 | 管理频道设置（所在国家/地区） | https://support.google.com/youtube/answer/2976814?hl=zh-Hans | **该设置决定 YPP 资格** | ✅ |
+| 63 | AdSense Payments FAQs（银行同国） | https://support.google.com/adsense/answer/7164701?hl=en | 银行须与收款地址同国 | ✅ |
+| 64 | IRS Tax Treaty Table 1（Rev. May 2023） | https://www.irs.gov/pub/irs-lbi/tax-treaty-table-1.pdf | China Royalties **10%** | ✅ |
+| 65 | 个税法实施条例（国务院令第707号） | https://www.gov.cn/zhengce/content/2018-12/22/content_5351177.htm | 特许权/劳务/稿酬/经营定义 | ✅ |
+| 66 | 境外所得个税公告 2020 年第 3 号（12366） | https://12366.chinatax.gov.cn/bzds/082/082-5-4.html | 申报期、抵免限额、凭证 | ✅ |
+
+
 **第 13 章刻意不引用为操作依据的内容**：教虚假选区/住宅 IP 包装、具体「必过银行卡」担保、未标注日期的税率截图教程。
 
 ## 5. Shorts 原创排序（2026-10）——官方表述 + 二级报道
@@ -180,6 +198,11 @@
 | 第 13 章：中国境外所得申报时间窗 | 49 |
 | 第 13 章：二次利用 / AI 披露 | 50, 51, 27–30 |
 | 第 13 章：结汇便利化额度口径需再核银行/SAFE | 52 |
+| 第 13 章核实：Google/工行/招行电汇本行费 | 56, 57, 59 |
+| 第 13 章核实：Hyperwallet 中国可用与费率登录可见 | 60, 61, 42 |
+| 第 13 章核实：频道国家设置决定 YPP 资格 | 62, 40, 41 |
+| 第 13 章核实：IRS 表列中国 Royalties 10% | 64, 48, 46 |
+| 第 13 章核实：个税项目依实施条例事实归类 | 65, 66, 49 |
 
 ---
 
