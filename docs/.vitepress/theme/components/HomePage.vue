@@ -44,11 +44,12 @@ const chapters = [
   { n: '10', t: '通用审计清单', d: '任意频道结构化体检', l: '/10-通用审计清单', icon: 'check' },
   { n: '11', t: '常见问题 FAQ', d: '官方 / 实践 / 神话分级答疑', l: '/11-常见问题FAQ', icon: 'help' },
   { n: '12', t: '反例与失败模式', d: '症状 → 机制 → 纠正', l: '/12-反例与失败模式', icon: 'alert' },
-  { n: '13', t: '中国大陆创作者', d: 'YPP 地区 · 收款 · 税务核实', l: '/13-中国大陆创作者专章', icon: 'globe' }
+  { n: '13', t: '中国大陆创作者', d: 'YPP · 电汇 · 税务 · FAQ 落地页', l: '/13-中国大陆创作者专章', icon: 'globe' }
 ]
 
 const faqs = [
-  { q: '中国大陆能申请 YPP 吗？', a: '须居住在适用地区；名单含港台，截至核对日未见「中国」。见第 13 章。', l: '/13-中国大陆创作者专章' },
+  { q: '中国大陆能申请 YPP 吗？', a: '须居住在适用地区；名单含港台，截至核对日未见「中国」。', l: '/ypp-中国大陆资格' },
+  { q: 'AdSense 中国怎么电汇收款？', a: '收款地址为中国时可选电汇与 Hyperwallet；银行须与地址同国。', l: '/adsense-电汇收款' },
   { q: '高 CTR 低留存怎么办？', a: '典型「骗点」：优先重做开场兑现，而不是再抬点击。见第 12 章。', l: '/12-反例与失败模式' },
   { q: 'Shorts 播放高却不涨粉？', a: '走完 Related Video 四步，并让长视频前几秒接住。见第 06 章。', l: '/06-Shorts漏斗' }
 ]
@@ -182,6 +183,8 @@ const faqs = [
       <div class="cta-row">
         <a class="btn btn-primary" href="/00-导读">进入导读</a>
         <a class="btn btn-ghost" href="/13-中国大陆创作者专章">大陆创作者专章</a>
+        <a class="btn btn-ghost" href="/13-大陆FAQ">大陆 FAQ</a>
+        <a class="btn btn-ghost" href="/ypp-中国大陆资格">YPP 资格</a>
       </div>
     </section>
   </div>

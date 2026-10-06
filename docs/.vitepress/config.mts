@@ -189,7 +189,15 @@ export default withMermaid(
       nav: [
         { text: '首页', link: '/' },
         { text: '导读', link: '/00-导读' },
-        { text: '大陆创作者', link: '/13-中国大陆创作者专章' },
+        {
+          text: '大陆创作者',
+          items: [
+            { text: '13 · 专章总览', link: '/13-中国大陆创作者专章' },
+            { text: '大陆高意图 FAQ', link: '/13-大陆FAQ' },
+            { text: 'YPP 中国大陆资格', link: '/ypp-中国大陆资格' },
+            { text: 'AdSense 电汇收款', link: '/adsense-电汇收款' }
+          ]
+        },
         { text: '作战卡', link: '/作战卡' },
         { text: 'FAQ', link: '/11-常见问题FAQ' },
         { text: '关于', link: '/关于' },
@@ -226,6 +234,14 @@ export default withMermaid(
               text: '13 · 中国大陆创作者专章',
               link: '/13-中国大陆创作者专章'
             }
+          ]
+        },
+        {
+          text: '大陆专题落地页',
+          items: [
+            { text: '大陆高意图 FAQ', link: '/13-大陆FAQ' },
+            { text: 'YPP 中国大陆资格', link: '/ypp-中国大陆资格' },
+            { text: 'AdSense 电汇收款', link: '/adsense-电汇收款' }
           ]
         },
         {
