@@ -98,10 +98,15 @@ const faqs = [
     <section class="section">
       <div class="section-head">
         <h2>章节目录</h2>
-        <p>13 章正文 + 作战卡 / 图示 / 术语 / 来源。</p>
+        <p>13 章正文，按编号顺序阅读；周末只攻一章主链。</p>
       </div>
       <div class="cards">
-        <a v-for="c in chapters" :key="c.n" class="card" :href="c.l">
+        <a
+          v-for="c in chapters.filter((x) => x.n !== '13')"
+          :key="c.n"
+          class="card"
+          :href="c.l"
+        >
           <div class="card-top">
             <span class="num">{{ c.n }}</span>
             <span class="icon" :data-icon="c.icon" aria-hidden="true" />
@@ -109,12 +114,49 @@ const faqs = [
           <h3>{{ c.t }}</h3>
           <p>{{ c.d }}</p>
         </a>
+      </div>
+      <a
+        v-for="c in chapters.filter((x) => x.n === '13')"
+        :key="c.n"
+        class="card card-feature"
+        :href="c.l"
+      >
+        <div class="card-top">
+          <span class="num">{{ c.n }}</span>
+          <span class="feature-tag">专章</span>
+        </div>
+        <div class="feature-body">
+          <h3>{{ c.t }}</h3>
+          <p>{{ c.d }} · 含 YPP 地区、收款路径与税务核实状态表</p>
+        </div>
+      </a>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>工具与附录</h2>
+        <p>打印作战卡、图示索引、术语与来源对照。</p>
+      </div>
+      <div class="cards tools">
         <a class="card card-accent" href="/作战卡">
-          <div class="card-top">
-            <span class="num">卡</span>
-          </div>
+          <div class="card-top"><span class="num">卡</span></div>
           <h3>作战卡 · 一页打印</h3>
           <p>发片前漏斗检查 · 贴显示器旁</p>
+        </a>
+        <a class="card" href="/图示">
+          <div class="card-top"><span class="num">图</span></div>
+          <h3>图示索引</h3>
+          <p>Mermaid 漏斗与流程一览</p>
+        </a>
+        <a class="card" href="/GLOSSARY">
+          <div class="card-top"><span class="num">词</span></div>
+          <h3>术语表 GLOSSARY</h3>
+          <p>CTR / AVG / YPP 等速查</p>
+        </a>
+        <a class="card" href="/SOURCES">
+          <div class="card-top"><span class="num">源</span></div>
+          <h3>来源 SOURCES</h3>
+          <p>主张 ↔ 官方/实践对照</p>
         </a>
       </div>
     </section>
@@ -349,8 +391,11 @@ const faqs = [
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 0.9rem;
+}
+.cards.tools {
+  grid-template-columns: repeat(4, 1fr);
 }
 .card {
   display: block;
@@ -394,6 +439,49 @@ const faqs = [
   font-size: 0.84rem;
   line-height: 1.55;
   color: var(--vp-c-text-2);
+}
+.card-feature {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 0.9rem;
+  padding: 1.2rem 1.35rem;
+  text-decoration: none !important;
+  background: linear-gradient(120deg, var(--vp-c-brand-soft), var(--vp-c-bg-elv) 55%);
+  border: 1px solid color-mix(in srgb, var(--vp-c-brand-1) 28%, var(--vp-c-border));
+  border-radius: 14px;
+  color: inherit;
+  transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+.card-feature:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-2px);
+  box-shadow: var(--yp-shadow);
+}
+.card-feature .card-top {
+  margin: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+.feature-tag {
+  font-size: 0.7rem;
+  font-weight: 650;
+  color: var(--vp-c-brand-1);
+  letter-spacing: 0.06em;
+}
+.feature-body h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.05rem;
+  border: none;
+  padding: 0;
+  color: var(--vp-c-text-1);
+}
+.feature-body p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.55;
 }
 .card-accent {
   background: linear-gradient(145deg, var(--vp-c-brand-soft), var(--vp-c-bg-elv));
@@ -464,12 +552,56 @@ const faqs = [
   margin: 0;
 }
 
+@media (max-width: 1100px) {
+  .cards,
+  .cards.tools {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media (max-width: 900px) {
   .stages {
     grid-template-columns: 1fr;
   }
   .hero {
     padding-top: 3rem;
+  }
+  .cards,
+  .cards.tools {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 560px) {
+  .yp-home {
+    padding: 0 1rem 3rem;
+  }
+  .cards,
+  .cards.tools {
+    grid-template-columns: 1fr;
+  }
+  .card-feature {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cta-band {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .cta-band .cta-row {
+    justify-content: stretch;
+  }
+  .cta-band .btn {
+    flex: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .btn {
+    transition: none;
+  }
+  .card:hover,
+  .btn:hover {
+    transform: none;
   }
 }
 </style>

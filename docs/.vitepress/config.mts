@@ -1,5 +1,6 @@
 import { defineConfig, type HeadConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
+import { fileURLToPath, URL } from 'node:url'
 
 const SITE_ORIGIN = 'https://creator.taoliapp.com/'
 const SITE_HOST = 'https://creator.taoliapp.com'
@@ -26,7 +27,7 @@ export default withMermaid(
     head: [
       ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
       ['link', { rel: 'apple-touch-icon', href: '/logo.svg' }],
-      ['meta', { name: 'theme-color', content: '#c81e1e' }],
+      ['meta', { name: 'theme-color', content: '#b91c1c' }],
       ['meta', { property: 'og:type', content: 'website' }],
       ['meta', { property: 'og:locale', content: 'zh_CN' }],
       ['meta', { property: 'og:site_name', content: '小白油管起步，一路玩到专家' }],
@@ -260,24 +261,22 @@ export default withMermaid(
     },
 
     mermaid: {
-      theme: 'neutral',
-      themeVariables: {
-        primaryColor: '#fde8e8',
-        primaryTextColor: '#1a1a1c',
-        primaryBorderColor: '#c81e1e',
-        lineColor: '#8a8a94',
-        secondaryColor: '#f5f3ef',
-        tertiaryColor: '#fff7ed',
-        background: '#faf9f7',
-        mainBkg: '#ffffff',
-        nodeBorder: '#c81e1e',
-        clusterBkg: '#f5f3ef',
-        titleColor: '#1a1a1c',
-        edgeLabelBackground: '#faf9f7'
-      }
+      startOnLoad: false,
+      securityLevel: 'loose',
+      theme: 'base'
     },
     mermaidPlugin: {
       class: 'mermaid'
+    },
+
+    vite: {
+      resolve: {
+        alias: {
+          'vitepress-plugin-mermaid/Mermaid.vue': fileURLToPath(
+            new URL('./theme/components/Mermaid.vue', import.meta.url)
+          )
+        }
+      }
     }
   })
 )
