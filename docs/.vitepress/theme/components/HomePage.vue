@@ -139,10 +139,15 @@ const faqs = [
     <section class="section">
       <div class="section-head">
         <h2>工具与附录</h2>
-        <p>打印作战卡、图示索引、术语与来源对照。</p>
+        <p>设备剪辑起步、打印作战卡、图示索引、术语与来源对照。</p>
       </div>
       <div class="cards tools">
-        <a class="card card-accent" href="/作战卡">
+        <a class="card card-accent" href="/设备与剪辑起步">
+          <div class="card-top"><span class="num">拍</span></div>
+          <h3>设备与剪辑起步</h3>
+          <p>手机够用 · 免费剪辑官方下载 · 1080p</p>
+        </a>
+        <a class="card" href="/作战卡">
           <div class="card-top"><span class="num">卡</span></div>
           <h3>作战卡 · 一页打印</h3>
           <p>发片前漏斗检查 · 贴显示器旁</p>

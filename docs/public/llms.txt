@@ -6,7 +6,7 @@
 - 仓库：https://github.com/reed-soul/youtube-starter-bible
 - 维护者：reed-soul
 - 许可：内容 CC-BY-4.0
-- 基准日期：2026-10-06（Asia/Shanghai）
+- 基准日期：2026-10-07（Asia/Shanghai）
 - 完整正文（可选）：https://creator.taoliapp.com/llms-full.txt
 - 关于与编辑政策：https://creator.taoliapp.com/关于
 
@@ -36,9 +36,11 @@
 - [Shorts 收益怎么分配](https://creator.taoliapp.com/shorts-收益分配)：创作者池四步、音乐 1/2 与 1/3、45%、2027 每月 1,000 万
 - [AdSense 电汇收款](https://creator.taoliapp.com/adsense-电汇收款)：中国电汇与 Hyperwallet、付款周期、PIN
 - [收款自查清单](https://creator.taoliapp.com/收款自查清单)：11 项可勾选 / 可打印：PIN、税表、电汇、20 日门槛、21–26 日付款
+- [作战卡 / 审计清单 / 再利用自查](https://creator.taoliapp.com/作战卡)：浏览器「打印 / 另存为 PDF」；审计与 YPP 再利用自查同能力
 - [付款日历 / 到账推算](https://creator.taoliapp.com/youtube-付款日历)：7–12 日入余额、20 日截止、21–26 日发起、电汇最多约 15 个工作日（估算器）
 - [W-8BEN 字段图解](https://creator.taoliapp.com/w8ben-填写图解)：AdSense 税务工具路径、Line 1–10、中美条约 Royalties 10%、未提交 24%（非税务建议）
 - [注册 · 品牌账号 · 两步验证](https://creator.taoliapp.com/youtube-注册与品牌账号)：创建频道、品牌账号、Handle 规则、2FA（YPP 必需）、频道权限五级
+- [设备与剪辑起步](https://creator.taoliapp.com/设备与剪辑起步)：手机当相机；麦克风/灯光预算区间；剪映/CapCut/DaVinci 官方下载；1080p 上传对照；无联盟无 VPN
 - [版权主张 vs 警示](https://creator.taoliapp.com/youtube-版权主张与警示)：Content ID 30/7 天、版权警示 90 天与抗辩 10 个工作日、社区准则 1/2 周与 90 天内 3 条
 - [银行 SWIFT 速查](https://creator.taoliapp.com/银行SWIFT速查)：招/工/中/建/农官网；交行 COMMCNSHXXX / 邮储 PSBCCNBJXXX 为 SWIFT 目录档；勿用 COMMCNSHFOS
 - [个税事实边界](https://creator.taoliapp.com/个税事实边界)：实施条例税目定义；境外所得申报框架；非税务建议

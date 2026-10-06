@@ -776,18 +776,27 @@ button:focus-visible,
   }
 }
 
-/* Print: checklists / battle cards → clean paper (batch 2) */
+/* Print: checklists / battle cards / self-checks → clean paper */
 @media print {
   .VPNav, .VPLocalNav, .VPSidebar, .VPDocAside, .VPDocFooter, .VPFooter,
-  .yp-progress, .yp-verified, .yp-noprint, .edit-link, .prev-next {
+  .VPSkipLink, .VPBackdrop, .VPSidebarItem .caret,
+  .yp-progress, .yp-verified, .yp-noprint, .edit-link, .prev-next,
+  .VPDocAsideOutline, .aside, .VPLocalNavOutlineDropdown {
     display: none !important;
   }
-  .VPContent, .VPDoc, .VPDoc .container, .VPDoc .content, .VPDoc .content-container {
+  .Layout.has-sidebar::before { display: none !important; }
+  .VPContent, .VPDoc, .VPDoc .container, .VPDoc .content, .VPDoc .content-container,
+  .VPDoc .content-container .content {
     padding: 0 !important;
     margin: 0 !important;
     max-width: none !important;
+    width: 100% !important;
   }
-  .vp-doc a { color: inherit; text-decoration: underline; }
-  .vp-doc h2 { break-after: avoid; }
-  body { background: #fff !important; }
+  .vp-doc { font-size: 11pt; line-height: 1.45; color: #000 !important; }
+  .vp-doc a { color: inherit !important; text-decoration: underline; }
+  .vp-doc h1, .vp-doc h2, .vp-doc h3 { break-after: avoid; color: #000 !important; }
+  .vp-doc table { break-inside: avoid; }
+  .vp-doc tr, .vp-doc li { break-inside: avoid; }
+  body { background: #fff !important; color: #000 !important; }
+  a[href]::after { content: none !important; }
 }

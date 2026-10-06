@@ -32,6 +32,7 @@ const order = [
   'youtube-付款日历.md',
   'w8ben-填写图解.md',
   'youtube-注册与品牌账号.md',
+  '设备与剪辑起步.md',
   'youtube-版权主张与警示.md',
   '银行SWIFT速查.md',
   '个税事实边界.md',

@@ -46,6 +46,8 @@ export default {
     app.component('CaseTimeline', defineAsyncComponent(() => import('./components/CaseTimeline.vue')))
     app.component('OfficialQuote', defineAsyncComponent(() => import('./components/OfficialQuote.vue')))
     app.component('FaqJsonLd', defineAsyncComponent(() => import('./components/FaqJsonLd.vue')))
+    app.component('PrintButton', defineAsyncComponent(() => import('./components/PrintButton.vue')))
+    app.component('ReuseSelfCheck', defineAsyncComponent(() => import('./components/ReuseSelfCheck.vue')))
     if (typeof window !== 'undefined') {
       watch(
         () => router.route.path,
