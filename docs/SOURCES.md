@@ -1,3 +1,7 @@
+---
+verifiedAt: 2026-10-06
+---
+
 # 来源与引用 SOURCES
 
 > 基准核对日：**2026-10-06**（Asia/Shanghai；第 13 章五项核实补强同日）  
@@ -152,6 +156,25 @@
 
 **第 13 章 / AdSense 电汇页刻意不引用为操作依据的内容**：教虚假选区/住宅 IP 包装、改频道国家到港台「曲线救国」、具体「必过银行卡」担保、未标注日期的税率截图教程。二级一手文（#74）仅吸收可与官方交叉核验的时序与字段提示。
 
+
+
+### Batch 1：创收地区提示 / YPP 计算器 / RPM / Shorts 分成 / 审核申诉 / 更新日志（2026-10-06）
+
+| # | 文献 | URL | 支撑 | 🕒 |
+|---|------|-----|------|----|
+| 76 | YouTube partner earnings overview | https://support.google.com/youtube/answer/72902?hl=en | Watch Page **55%**；Shorts Creator Pool 分配后 **45%**；Commerce Product Module **70%**；7–12 日入余额；21–26 日付款；不保证收入 | **2026-10-06** ✅ 已读原文 |
+| 77 | Understand ad revenue analytics（RPM / CPM） | https://support.google.com/youtube/answer/9314357?hl=en | RPM / CPM / 基于播放的 CPM 定义；$7 / 2,000 展示 / 1,500 获利播放 → $3.50 / $4.67；RPM 低于 CPM 的两个原因 | **2026-10-06** ✅ 已读原文 |
+| 78 | YouTube Shorts monetization policies | https://support.google.com/youtube/answer/12504220?hl=en | 创作者池四步；音乐 1/2、1/3；45%；接受模块前观看不计；官方示例 $100,000→$405；2027 每月 10M/90d；定向 Shorts 广告 45% | **2026-10-06** ✅ 已读原文 |
+| 79 | My channel was rejected for monetization FAQs | https://support.google.com/youtube/answer/9235730?hl=zh-Hans | 首次被拒 30 天可重申；否则 90 天；21 天内可申诉；重审约 1 个月 | **2026-10-06** ✅ 已读原文 |
+| 80 | Appeal a YPP suspension or application rejection | https://support.google.com/youtube/answer/9564590?hl=zh-Hans | 申诉 14 天答复；成功 30 天内批准；失败 90 天可重申；计划暂停前 7 天；已暂停 21 天；视频申诉格式 | **2026-10-06** ✅ 已读原文 |
+| 81 | Change AdSense payments profile name/address | https://support.google.com/adsense/answer/2628816?hl=zh-Hans | **无法**在现有账号内更改收款国家；搬迁须关闭旧账号再建新账号 | **2026-10-06** ✅ 已读原文 |
+| 82 | Channel terminations & appeals | https://support.google.com/youtube/answer/2802168?hl=en | 终止后禁止使用/持有/新建其他频道；规避禁令；申诉 1 年最多 2 次 | **2026-10-06** ✅ 已读原文 |
+| 83 | 🟡 发财麦克 · 收入公开（5 万订阅） | https://facaimike.com/open-make-money.html/ | 个人自曝：2026-05 观看 7,397 / 广告收入 $50.83；本站推算约 $6.87/千次；**不代表读者收入** | 2026-07-09；抓取 2026-10-06 |
+| 84 | 🟡 发财麦克 · 做 YouTube 赚钱吗 | https://facaimike.com/youtube-earnings.html/ | 个人自曝：单视频基于播放 CPM $15.83 × 获利播放 48,318 × 55% ≈ $420.68；后台 $423.80 | 2023-07-18 / 改 2025-07-25；抓取 2026-10-06 |
+| 85 | YouTube Blog · More ways to earn（扩展版 YPP） | https://blog.youtube/news-and-events/more-ways-for-creators-to-earn-on-youtube/ | 2023-06-13：500 订阅 + 3 次公开上传 + 3,000h / 3M Shorts；首批 US/UK/CA/TW/KR | **2023-06-13** ✅ |
+
+**Batch 1 刻意不收录**：facaimike「9 个中文频道 RPM」汇编（视频截图时间码未逐一打开核对）；任何「行业平均 RPM」表；VPN / 改频道地区操作说明。
+
 ## 5. Shorts 原创排序（2026-10）——官方表述 + 二级报道
 
 | # | 文献 | URL | 支撑 | 🕒 |
@@ -222,6 +245,12 @@
 | 第 13 章核实：Google/工行/招行电汇本行费 | 56, 57, 59 |
 | 第 13 章核实：Hyperwallet 中国可用与费率登录可见 | 60, 61, 42 |
 | AdSense 电汇页：YPP→入账流程图 / 月付周期 / 方式对照 | 69, 70, 71, 72, 73, 42, 43, 56, 60, 61；二级 74 |
+| 「创收功能无法在您所在地区使用」专页 | 40, 41, 62, 23, 81, 82 |
+| YPP 进度计算器三档门槛 | 19, 20, 21, 67, 68, 24 |
+| RPM / CPM / 1 万播放估算 | 76, 77；二级 83, 84 |
+| Shorts 创作者池 45% 与音乐拆分 | 78, 76, 67 |
+| YPP 审核 / 申诉 / 30·90 天 / 再利用内容 | 19, 79, 80, 23, 50 |
+| 政策更新日志条目 | 67, 68, 24, 60, 23, 78, 85 |
 | 第 13 章核实：频道国家设置决定 YPP 资格 | 62, 40, 41 |
 | 第 13 章核实：IRS 表列中国 Royalties 10% | 64, 48, 46 |
 | 第 13 章核实：个税项目依实施条例事实归类 | 65, 66, 49 |

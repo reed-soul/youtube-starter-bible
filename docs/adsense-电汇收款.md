@@ -1,11 +1,12 @@
 ---
+verifiedAt: 2026-10-06
 title: YouTube AdSense 中国电汇收款怎么设置
 description: 【官方】收款地址为中国时，AdSense/YouTube 支持电汇与 Hyperwallet。银行须与地址同国；Google 不收电汇费，本行/中间行费用以银行价目为准。核对日 2026-10-06。
 ---
 
 # YouTube AdSense 中国电汇收款怎么设置
 
-> 核对日：**2026-10-06** · 相关：[13 专章 §4](13-中国大陆创作者专章.md#4-adsense-收款电汇银行与结汇) · [YPP 地区资格](ypp-中国大陆资格.md) · [大陆 FAQ](13-大陆FAQ.md)
+> 核对日：**2026-10-06** · 相关：[13 专章 §4](13-中国大陆创作者专章.md#_4-adsense-收款-电汇、银行与结汇) · [YPP 地区资格](ypp-中国大陆资格.md) · [1 万播放多少钱](youtube-1万播放多少钱.md) · [大陆 FAQ](13-大陆FAQ.md) · [政策更新日志](更新日志.md)
 
 ## 一句话答案
 
@@ -97,7 +98,7 @@ description: 【官方】收款地址为中国时，AdSense/YouTube 支持电汇
 - 【官方】2025-10-30 起明确中国发布商可用 Hyperwallet；YouTube/AdSense 付款表均为适用。  
 - 须**新建** Hyperwallet 账号（勿混用其它场景账号）。  
 - **提现费率不在 Help 写死**——登录后查看。  
-- 详见专章 [§4.4](13-中国大陆创作者专章.md#44-paypal-hyperwallet中国--已核对) 与 [中国可用公告](https://support.google.com/adsense/answer/16691394?hl=zh-Hans)。
+- 详见专章 [§4.4](13-中国大陆创作者专章.md#_4-4-paypal-hyperwallet-中国-·-已核对) 与 [中国可用公告](https://support.google.com/adsense/answer/16691394?hl=zh-Hans)。
 
 ---
 

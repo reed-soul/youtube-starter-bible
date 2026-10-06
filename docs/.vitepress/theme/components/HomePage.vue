@@ -48,10 +48,10 @@ const chapters = [
 ]
 
 const faqs = [
-  { q: '中国大陆能申请 YPP 吗？', a: '须居住在适用地区；名单含港台，截至核对日未见「中国」。', l: '/ypp-中国大陆资格' },
-  { q: 'AdSense 中国怎么电汇收款？', a: '收款地址为中国时可选电汇与 Hyperwallet；银行须与地址同国。', l: '/adsense-电汇收款' },
-  { q: '高 CTR 低留存怎么办？', a: '典型「骗点」：优先重做开场兑现，而不是再抬点击。见第 12 章。', l: '/12-反例与失败模式' },
-  { q: 'Shorts 播放高却不涨粉？', a: '走完 Related Video 四步，并让长视频前几秒接住。见第 06 章。', l: '/06-Shorts漏斗' }
+  { q: '创收功能无法在您所在地区使用？', a: '通常表示频道所在国家/地区不在 YPP 名单；截至核对日未见「中国」。', l: '/创收功能无法在您所在地区使用' },
+  { q: 'YouTube 多少观看才有钱？', a: '500 / 3,000h / 300 万 Shorts（粉丝打赏）；1,000 / 4,000h / 1,000 万（广告）；2027 新门槛见计算器。', l: '/ypp-进度计算器' },
+  { q: '1 万播放多少钱？', a: '没有固定价：≈ 你的 RPM × 10。用工作室里自己的 RPM 估算。', l: '/youtube-1万播放多少钱' },
+  { q: 'AdSense 中国怎么电汇收款？', a: '收款地址为中国时可选电汇与 Hyperwallet；银行须与地址同国。', l: '/adsense-电汇收款' }
 ]
 </script>
 
@@ -185,6 +185,8 @@ const faqs = [
         <a class="btn btn-ghost" href="/13-中国大陆创作者专章">大陆创作者专章</a>
         <a class="btn btn-ghost" href="/13-大陆FAQ">大陆 FAQ</a>
         <a class="btn btn-ghost" href="/ypp-中国大陆资格">YPP 资格</a>
+        <a class="btn btn-ghost" href="/ypp-进度计算器">YPP 计算器</a>
+        <a class="btn btn-ghost" href="/更新日志">政策更新</a>
       </div>
     </section>
   </div>

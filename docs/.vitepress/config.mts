@@ -48,7 +48,16 @@ export default withMermaid(
       ],
       ['meta', { property: 'og:image', content: `${SITE_HOST}/og.png` }],
       ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-      ['meta', { name: 'twitter:image', content: `${SITE_HOST}/og.png` }]
+      ['meta', { name: 'twitter:image', content: `${SITE_HOST}/og.png` }],
+      [
+        'link',
+        {
+          rel: 'alternate',
+          type: 'application/rss+xml',
+          title: 'YouTube 变现政策更新日志',
+          href: '/feed.xml'
+        }
+      ]
     ],
 
     transformPageData(pageData) {
@@ -192,10 +201,26 @@ export default withMermaid(
         {
           text: '大陆创作者',
           items: [
-            { text: '13 · 专章总览', link: '/13-中国大陆创作者专章' },
-            { text: '大陆高意图 FAQ', link: '/13-大陆FAQ' },
-            { text: 'YPP 中国大陆资格', link: '/ypp-中国大陆资格' },
-            { text: 'AdSense 电汇收款', link: '/adsense-电汇收款' }
+            {
+              text: '专题',
+              items: [
+                { text: '13 · 专章总览', link: '/13-中国大陆创作者专章' },
+                { text: '大陆高意图 FAQ', link: '/13-大陆FAQ' },
+                { text: 'YPP 中国大陆资格', link: '/ypp-中国大陆资格' },
+                { text: '「创收功能无法在您所在地区使用」', link: '/创收功能无法在您所在地区使用' },
+                { text: 'AdSense 电汇收款', link: '/adsense-电汇收款' }
+              ]
+            },
+            {
+              text: '变现工具与解读',
+              items: [
+                { text: 'YPP 进度计算器（含 2027）', link: '/ypp-进度计算器' },
+                { text: 'YPP 审核 · 被拒 · 申诉', link: '/ypp-审核被拒与申诉' },
+                { text: '1 万播放多少钱（RPM）', link: '/youtube-1万播放多少钱' },
+                { text: 'Shorts 收益怎么分配', link: '/shorts-收益分配' },
+                { text: '政策更新日志', link: '/更新日志' }
+              ]
+            }
           ]
         },
         { text: '作战卡', link: '/作战卡' },
@@ -241,7 +266,17 @@ export default withMermaid(
           items: [
             { text: '大陆高意图 FAQ', link: '/13-大陆FAQ' },
             { text: 'YPP 中国大陆资格', link: '/ypp-中国大陆资格' },
+            { text: '「创收功能无法在您所在地区使用」', link: '/创收功能无法在您所在地区使用' },
             { text: 'AdSense 电汇收款', link: '/adsense-电汇收款' }
+          ]
+        },
+        {
+          text: '变现工具与解读',
+          items: [
+            { text: 'YPP 进度计算器（含 2027）', link: '/ypp-进度计算器' },
+            { text: 'YPP 审核 · 被拒 · 申诉', link: '/ypp-审核被拒与申诉' },
+            { text: '1 万播放多少钱（RPM / CPM）', link: '/youtube-1万播放多少钱' },
+            { text: 'Shorts 收益怎么分配', link: '/shorts-收益分配' }
           ]
         },
         {
@@ -250,6 +285,7 @@ export default withMermaid(
             { text: '作战卡（一页打印）', link: '/作战卡' },
             { text: '图示索引（Mermaid）', link: '/图示' },
             { text: '术语表 GLOSSARY', link: '/GLOSSARY' },
+            { text: '政策更新日志（RSS）', link: '/更新日志' },
             { text: '来源与主张对照 SOURCES', link: '/SOURCES' },
             { text: '关于 / 作者与更新', link: '/关于' }
           ]

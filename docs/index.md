@@ -1,4 +1,5 @@
 ---
+verifiedAt: 2026-10-06
 layout: page
 sidebar: false
 title: 小白油管起步，一路玩到专家

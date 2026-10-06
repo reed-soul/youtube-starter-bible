@@ -27,6 +27,15 @@
 - [11 常见问题 FAQ](https://creator.taoliapp.com/11-常见问题FAQ)：高频问答，区分官方/实践/神话
 - [12 反例与失败模式](https://creator.taoliapp.com/12-反例与失败模式)：症状→机制→纠正的失败模式库
 - [13 中国大陆创作者专章](https://creator.taoliapp.com/13-中国大陆创作者专章)：YPP 地区、AdSense 收款、美税/个税框架、核实状态表
+- [大陆高意图 FAQ](https://creator.taoliapp.com/13-大陆FAQ)：收款、YPP、税务、搬运等高意图问答
+- [YPP 中国大陆资格](https://creator.taoliapp.com/ypp-中国大陆资格)：适用地区名单核对、现行与 2027-02-01 门槛对照
+- [「创收功能无法在您所在地区使用」](https://creator.taoliapp.com/创收功能无法在您所在地区使用)：Studio 提示含义、名单无中国、虚报居住地违反政策
+- [YPP 进度计算器](https://creator.taoliapp.com/ypp-进度计算器)：500 / 1,000 / 2027 三档进度；含有效观看口径
+- [YPP 审核 · 被拒 · 申诉](https://creator.taoliapp.com/ypp-审核被拒与申诉)：约 1 个月、21/14/30 天、30/90 天、再利用内容自查
+- [1 万播放多少钱](https://creator.taoliapp.com/youtube-1万播放多少钱)：RPM / CPM 官方定义 + 诚实估算器 + 带日期公开样本
+- [Shorts 收益怎么分配](https://creator.taoliapp.com/shorts-收益分配)：创作者池四步、音乐 1/2 与 1/3、45%、2027 每月 1,000 万
+- [AdSense 电汇收款](https://creator.taoliapp.com/adsense-电汇收款)：中国电汇与 Hyperwallet、付款周期、PIN
+- [政策更新日志](https://creator.taoliapp.com/更新日志)：可核对的官方变更时间线；RSS https://creator.taoliapp.com/feed.xml
 - [作战卡](https://creator.taoliapp.com/作战卡)：一页打印漏斗与发布前检查
 - [图示索引](https://creator.taoliapp.com/图示)：全书 Mermaid 图示
 - [术语表 GLOSSARY](https://creator.taoliapp.com/GLOSSARY)：Studio/官方用语中英对照
