@@ -2,6 +2,8 @@ import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
 import { h, nextTick, watch } from 'vue'
 import HomePage from './components/HomePage.vue'
+import PayoutFlow from './components/PayoutFlow.vue'
+import PayoutCycle from './components/PayoutCycle.vue'
 import { setupReadingProgress } from './progress'
 import './custom.css'
 
@@ -22,6 +24,8 @@ export default {
   Layout: () => h(DefaultTheme.Layout),
   enhanceApp({ app, router }) {
     app.component('HomePage', HomePage)
+    app.component('PayoutFlow', PayoutFlow)
+    app.component('PayoutCycle', PayoutCycle)
     if (typeof window !== 'undefined') {
       watch(
         () => router.route.path,

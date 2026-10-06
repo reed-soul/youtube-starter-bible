@@ -19,35 +19,11 @@ description: 【官方】收款地址为中国时，AdSense/YouTube 支持电汇
 
 ## 总览：从 YPP 通过到钱进国内银行卡
 
-> 下列为**已有 YPP / AdSense for YouTube**之后的收款主线。YPP **居住地资格**是另一问题 → [YPP 资格页](ypp-中国大陆资格.md)。节点文案刻意缩短，便于手机阅读。
+> 下列为**已有 YPP / AdSense for YouTube**之后的收款主线。YPP **居住地资格**是另一问题 → [YPP 资格页](ypp-中国大陆资格.md)。
 
-```mermaid
-flowchart TD
-  A["YPP 已通过<br/>关联 AdSense"] --> B{"税务信息<br/>已提交?"}
-  B -->|否| B1["填 W-8BEN 等<br/>【官方】"]
-  B1 --> C
-  B -->|是| C{"余额 ≥ 约 $10<br/>验证门槛?"}
-  C -->|否| C0["继续创收<br/>等待门槛"]
-  C0 --> C
-  C -->|是| D{"地址 PIN<br/>已验证?"}
-  D -->|否| D1["等 PIN 信<br/>官方约 3 周"]
-  D1 --> D2{"收到 PIN?"}
-  D2 -->|是| D3["后台输入 PIN"]
-  D2 -->|否·满 3 周| D4["申请重寄<br/>间隔约 3 周"]
-  D4 --> D1
-  D3 --> E
-  D -->|是| E{"已添加收款方式<br/>门槛约 $10?"}
-  E -->|否| E1["添加电汇或<br/>Hyperwallet"]
-  E1 --> F
-  E -->|是| F{"余额 ≥ $100<br/>且无暂停付款?"}
-  F -->|否| F0["结转下月"]
-  F0 --> F
-  F -->|是| G["约 21–26 日<br/>发起付款"]
-  G --> H["电汇：最多约<br/>15 个工作日到账"]
-  H --> I["银行入账审核<br/>→ 结汇/留汇"]
-```
+<PayoutFlow />
 
-**时长口径（官方为主）**
+**时长与门槛（官方为主）**
 
 | 环节 | 官方口径 | 一手经验备注 |
 |------|----------|--------------|
@@ -58,18 +34,10 @@ flowchart TD
 
 主文献：[PIN 概览](https://support.google.com/adsense/answer/157667?hl=zh-Hans) · [付款最低限额](https://support.google.com/adsense/answer/1709871?hl=zh-Hans) · [付款时间](https://support.google.com/adsense/answer/7164703?hl=zh-Hans) · [电汇 FAQ](https://support.google.com/adsense/answer/6025222?hl=zh-Hans)
 
----
 
 ## 月度付款周期（电汇）
 
-```mermaid
-flowchart LR
-  M1["上月：估算收入累计"] --> M2["月初：收入定稿入账<br/>AdSense 约 3 日前后"]
-  M2 --> M3["AFY：约 7–12 日<br/>可见上月 YouTube 收入"]
-  M3 --> M4["≤20 日：改收款信息<br/>余额须达 $100"]
-  M4 --> M5["21–26 日：发起电汇<br/>页上「付款待处理」"]
-  M5 --> M6["最多约 15 工作日<br/>银行可见入账"]
-```
+<PayoutCycle />
 
 **【官方要点】**
 
@@ -79,7 +47,8 @@ flowchart LR
 - **21–26 日**发起电汇；若 21 日为周末/节假日，可顺延至下一工作日。  
 - 电汇到账以银行与中间行为准，Help 写明可允许最多约 **15 个工作日**。
 
----
+主文献：[付款时间](https://support.google.com/adsense/answer/7164703?hl=zh-Hans) · [付款最低限额](https://support.google.com/adsense/answer/1709871?hl=zh-Hans)
+
 
 ## 设置电汇（官方步骤框架）
 
