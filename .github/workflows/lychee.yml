@@ -1,0 +1,48 @@
+name: Link Check (lychee)
+
+on:
+  pull_request:
+  schedule:
+    - cron: '0 3 * * 1' # weekly Monday 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: false
+          args: >-
+            --verbose
+            --no-progress
+            --max-concurrency 4
+            --timeout 20
+            --retry-wait-time 3
+            --max-retries 2
+            --accept 200,204,206,429,403
+            --exclude-mail
+            --exclude-path node_modules
+            --exclude-path docs/.vitepress/dist
+            --exclude '.*\.github\.io/youtube-starter-bible.*'
+            --exclude 'https://www\.youtube\.com/.*'
+            --exclude 'https://studio\.youtube\.com/.*'
+            --exclude 'https://m\.youtube\.com/.*'
+            --exclude 'https://youtu\.be/.*'
+            --exclude 'https://support\.google\.com/youtube/.*'
+            --exclude 'https://blog\.youtube/.*'
+            --exclude 'https://www\.tubebuddy\.com/.*'
+            --exclude 'https://socialblade\.com/.*'
+            --exclude 'https://vidiq\.com/.*'
+            --exclude 'https://creativecommons\.org/.*'
+            --exclude '^#'
+            --exclude '^mailto:'
+            './**/*.md'

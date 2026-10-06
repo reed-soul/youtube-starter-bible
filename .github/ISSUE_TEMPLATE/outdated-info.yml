@@ -1,0 +1,36 @@
+name: 过时信息
+description: 政策、产品名、门槛或链接可能已过时
+title: "[过时] "
+labels: ["outdated", "content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        政策会变。请给出文档中的旧表述与你核对到的新官方页面。
+  - type: input
+    id: location
+    attributes:
+      label: 文档位置
+      placeholder: docs/09-变现与合规红线.md 或 SOURCES.md
+    validations:
+      required: true
+  - type: textarea
+    id: old
+    attributes:
+      label: 文档现行表述
+    validations:
+      required: true
+  - type: textarea
+    id: new
+    attributes:
+      label: 你核对到的现状
+      description: 简述变化；附官方 URL 与核对日期（建议 Asia/Shanghai）
+    validations:
+      required: true
+  - type: input
+    id: checked_at
+    attributes:
+      label: 核对日期
+      placeholder: 2026-10-06
+    validations:
+      required: true

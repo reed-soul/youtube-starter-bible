@@ -1,0 +1,53 @@
+name: 新主题 / 增补章节
+description: 提议新增品类示例、章节或工具页
+title: "[新主题] "
+labels: ["enhancement", "content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请说明受众价值与证据来源。涉及黑帽/刷量的主题会被直接关闭（见 CONTRIBUTING）。
+  - type: input
+    id: topic
+    attributes:
+      label: 提议主题
+    validations:
+      required: true
+  - type: dropdown
+    id: audience
+    attributes:
+      label: 主要读者
+      options:
+        - 完全新手
+        - 已开频道但卡住
+        - 海外华人 / 华语创作者
+        - 开源贡献者 / 站点维护
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么需要
+      description: 现有章节缺口是什么？读者会得到什么可执行能力？
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: 建议大纲（可选）
+      description: 小节标题即可；标明拟用的【官方】/【行业实践】来源
+  - type: textarea
+    id: sources
+    attributes:
+      label: 初步来源
+      description: 至少列出可核链接；无来源的「秘籍」类主题不会采纳
+    validations:
+      required: true
+  - type: checkboxes
+    id: compliance
+    attributes:
+      label: 合规确认
+      options:
+        - label: 不含买量、刷互动、洗稿伪原创、骗点包装等黑帽/虚假互动教唆
+          required: true

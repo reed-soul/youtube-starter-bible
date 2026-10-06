@@ -1,0 +1,49 @@
+name: 内容错误 / 事实纠错
+description: 正文事实、证据等级或表述有误
+title: "[纠错] "
+labels: ["content", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请尽量指出章节、原文与正确依据。**【官方】主张**请附官方链接。
+  - type: input
+    id: location
+    attributes:
+      label: 位置
+      description: 文件路径与章节标题，例如 docs/02-冷启动0到1000.md §3
+      placeholder: docs/xx.md §…
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: 原文摘录
+      description: 有问题的句子（可短引）
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题说明
+      description: 错在哪里？与官方或可核证据如何冲突？
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 依据链接
+      description: 官方 Help / Blog / 其他可核来源 URL
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: 建议证据等级
+      options:
+        - 【官方】
+        - 【行业实践】
+        - 【神话】（应拆穿）
+        - 不确定
+    validations:
+      required: true
