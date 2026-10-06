@@ -208,7 +208,8 @@ export default withMermaid(
                 { text: '大陆高意图 FAQ', link: '/13-大陆FAQ' },
                 { text: 'YPP 中国大陆资格', link: '/ypp-中国大陆资格' },
                 { text: '「创收功能无法在您所在地区使用」', link: '/创收功能无法在您所在地区使用' },
-                { text: '注册 · 品牌账号 · 两步验证', link: '/youtube-注册与品牌账号' }
+                { text: '注册 · 品牌账号 · 两步验证', link: '/youtube-注册与品牌账号' },
+                { text: '设备与剪辑起步', link: '/设备与剪辑起步' }
               ]
             },
             {
@@ -282,7 +283,8 @@ export default withMermaid(
             { text: '大陆高意图 FAQ', link: '/13-大陆FAQ' },
             { text: 'YPP 中国大陆资格', link: '/ypp-中国大陆资格' },
             { text: '「创收功能无法在您所在地区使用」', link: '/创收功能无法在您所在地区使用' },
-            { text: '注册 · 品牌账号 · 两步验证', link: '/youtube-注册与品牌账号' }
+            { text: '注册 · 品牌账号 · 两步验证', link: '/youtube-注册与品牌账号' },
+            { text: '设备与剪辑起步', link: '/设备与剪辑起步' }
           ]
         },
         {
@@ -312,6 +314,7 @@ export default withMermaid(
           text: '附录与工具',
           items: [
             { text: '作战卡（一页打印）', link: '/作战卡' },
+            { text: '设备与剪辑起步', link: '/设备与剪辑起步' },
             { text: '提问 / 读者问答', link: '/提问' },
             { text: '图示索引（Mermaid）', link: '/图示' },
             { text: '术语表 GLOSSARY', link: '/GLOSSARY' },
