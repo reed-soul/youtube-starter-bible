@@ -74,6 +74,24 @@ verifiedAt: 2026-10-06
 
 ---
 
+## Shorts 超过 1 分钟、收到 Content ID 主张后会不会自动禁播？
+
+**【核对日 2026-10-06】** 中英文帮助中心对此表述**不一致**；本站以**英文页现行正文**为操作口径，并并列中文页原文供对照。
+
+| 语言 / 页面 | 现行关键句（摘录） | URL |
+|-------------|-------------------|-----|
+| **英文** 6013276 | 「**Shorts 1-3 minutes in length: Claimed videos will be blocked if there is an active claim applied, regardless of policy.**」 | [6013276?hl=en](https://support.google.com/youtube/answer/6013276?hl=en) |
+| **英文** 15424877 | 「**Any Short that is over one minute in duration with an active Content ID claim of any type, including manual claims, will be blocked globally on YouTube.**」同页 FAQ 再次写「Shorts longer than one minute that have an active Content ID claim, regardless of the policy, will be blocked on YouTube.」 | [15424877?hl=en](https://support.google.com/youtube/answer/15424877?hl=en) |
+| **英文** 13486873（音乐资格） | 「Shorts longer than one minute that have an active Content ID claim, regardless of the policy, will be blocked on YouTube.」 | [13486873?hl=en](https://support.google.com/youtube/answer/13486873?hl=en) |
+| **中文** 6013276 | 「自 **2026 年 9 月 24 日**起，时长超过 1 分钟且收到有效版权主张的**新** Shorts 短视频将**不再被自动禁播**，并可在 YouTube 上继续播放。」页面标注「本页面可能包含使用 AI 技术翻译的内容。AI 翻译未必准确无误。」 | [6013276?hl=zh-Hans](https://support.google.com/youtube/answer/6013276?hl=zh-Hans) |
+| **中文** 15424877 | 同旨：「自 2026 年 9 月 24 日起……将不再被自动禁播……」；亦带 AI 翻译提示 | [15424877?hl=zh-Hans](https://support.google.com/youtube/answer/15424877?hl=zh-Hans) |
+
+**【本站结论】**
+
+1. **英文三页口径一致**：1–3 分钟 Shorts 上若存在有效 Content ID 主张（含手动主张），**无论权利方政策是创收 / 跟踪 / 禁播，视频都会被禁播**；不等于版权警示；解决主张后可再被观看与创收。  
+2. **中文页写的是相反方向的变更**（2026-09-24 起新 Shorts「不再自动禁播」），但同页带 **AI 翻译免责**；检索 blog.youtube / Creator Insider 公开帖（核对日）**未**找到与该日期配套的英文官方博客确认。  
+3. 因此本站**采用英文 Help 现行表述**作为对创作者可见的现行规则；同时保留中文页原文与日期，便于你自行对照。政策若变，以 Google 更新后的英文页为准，并再核中文页是否同步。
+
 ## 常见追问
 
 ### 搬运 / 二次剪辑只要标注来源就没事？
@@ -96,6 +114,6 @@ verifiedAt: 2026-10-06
 | D | 抗辩 / 撤销 | 10 个美国工作日；撤销即解除 | **可核** | [2807684](https://support.google.com/youtube/answer/2807684?hl=zh-Hans) · [2807691](https://support.google.com/youtube/answer/2807691?hl=zh-Hans) |
 | E | 社区准则 | 警告 → 1 周 → 2 周 → 90 天内 3 条 | **可核** | [2802032](https://support.google.com/youtube/answer/2802032?hl=zh-Hans) |
 | F | 申诉窗口 | 警告 / 警示 6 个月；内容移除 1 年 | **可核** | [185111](https://support.google.com/youtube/answer/185111?hl=zh-Hans) |
-| G | Shorts 1–3 分钟被主张后是否禁播 | 中英文帮助页表述不一致（中文页写 2026-09-24 起不再自动禁播，英文页仍写禁播） | **未采用** | [6013276](https://support.google.com/youtube/answer/6013276?hl=en) |
+| G | Shorts 1–3 分钟被主张后是否禁播 | **英文三页一致：有有效主张则禁播（不论政策）**；中文页写 2026-09-24 起新 Shorts「不再自动禁播」且带 AI 翻译提示——本站采英文现行口径，并列中文原文 | **已核 · 采英文** | [6013276 en](https://support.google.com/youtube/answer/6013276?hl=en) · [15424877 en](https://support.google.com/youtube/answer/15424877?hl=en) · zh 对照页 |
 
 **声明**：非法律意见。抗辩通知是法律程序，请谨慎并在需要时咨询律师。

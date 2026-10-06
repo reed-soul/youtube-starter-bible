@@ -83,8 +83,8 @@ const parts = [
       { line: '3', en: 'Permanent residence address', zh: '永久居住地址：', ph: '税收居民国的居住地址', note: '不能是金融机构地址、邮政信箱或只用于收信的地址；Google 也写明不要用邮政信箱或「转交」地址。地址在美国，或与申请条约的国家不一致，会被标记审核。', src: IRS, wide: true, key: true },
       { line: '4', en: 'Mailing address', zh: '邮寄地址：', ph: '与第 3 行不同才填', note: '只有和第 3 行不同才填写。', src: IRS, wide: true },
       { line: '5', en: 'U.S. taxpayer identification number (SSN or ITIN)', zh: '美国税号：', ph: 'SSN / ITIN（如有）', note: '申请某些条约优惠时，要么在第 5 行填美国税号，要么在第 6a 行填外国税号。ITIN 需另用 W-7 申请，IRS 写通常需要 4–6 周。', src: IRS },
-      { line: '6a', en: 'Foreign tax identifying number', zh: '外国税号：', ph: '税收居民国签发的税号', note: 'Google：申请条约优惠需要提供外国或美国纳税人识别号；哪种号码可以接受，Google 原文建议咨询当地税务部门。', src: G, key: true },
-      { line: '6b', en: 'FTIN not legally required', zh: '依法无需外国税号：', checks: ['勾选框'], note: '仅当你依法无需从居民国取得税号时才勾选（IRS 第 6b 行说明）。', src: IRS },
+      { line: '6a', en: 'Foreign tax identifying number', zh: '外国税号：', ph: '税收居民国签发的税号', note: 'IRS：持美国金融机构账户且有关联 1042-S 美国来源收入时，一般须在 6a 填居民国签发的 FTIN，除非该国列在 IRS「不签发外国税号」名单（中国不在名单上）。中国国内法：有公民身份号码的，以公民身份号码为纳税人识别号（个税法第九条 · 税总公告 2018 年第 59 号）；OECD China-TIN 亦写 ID card → TIN is the ID number。Google 仍写「可接受哪种号码请咨询当地税务部门」。本站非税务建议。', src: G, key: true },
+      { line: '6b', en: 'FTIN not legally required', zh: '依法无需外国税号：', checks: ['勾选框'], note: '仅当依法无需从居民国取得 FTIN（含该国不签发 TIN）时可勾选。中国签发纳税人识别号，且不在 IRS「不签发外国税号」名单——中国税收居民一般不应勾选 6b。', src: IRS },
       { line: '7', en: 'Reference number(s)', zh: '参考号：', ph: '可选', note: '供扣缴义务人对账用，可留空。', src: IRS },
       { line: '8', en: 'Date of birth', zh: '出生日期：', ph: 'MM-DD-YYYY', note: 'IRS 规定格式为月-日-年。', src: IRS }
     ]

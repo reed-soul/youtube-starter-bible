@@ -65,6 +65,26 @@ verifiedAt: 2026-10-06
 
 主文献：[china.pdf Art.11](https://www.irs.gov/pub/irs-trty/china.pdf) · [Table 1 PDF](https://www.irs.gov/pub/irs-lbi/tax-treaty-table-1.pdf) · [10390801](https://support.google.com/youtube/answer/10390801?hl=zh-Hans)
 
+
+### 中国税收居民的外国税号（Line 6a）是什么？
+
+> **【非税务建议】** 下列只整理公开法规与 OECD / IRS 原文；是否以及如何填写，请以税务工具当日提示与合格顾问为准。
+
+**【中国国内法】**
+
+- 《个人所得税法》**第九条**：「纳税人有中国公民身份号码的，以中国公民身份号码为纳税人识别号；纳税人没有中国公民身份号码的，由税务机关赋予其纳税人识别号。」（[全文](https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_901ca8faba104739bbf54e22483e6079.html)）  
+- 国家税务总局公告 **2018 年第 59 号**第二条同旨：「有中国公民身份号码的，以其中国公民身份号码作为纳税人识别号」；自 2019-01-01 施行（[国务院部门文件转载](https://www.gov.cn/zhengce/zhengceku/2019-10/28/content_5445927.htm) · [税总局原文入口](https://www.chinatax.gov.cn/chinatax/n810341/n810765/n3359382/201812/c4182780/content.html)）。
+
+**【OECD AEOI · China TIN】** OECD《Information on Tax Identification Numbers · China》写明：Individual 使用中国身份证作为身份证明时，**「TIN is the ID number」**；结构为 18 位数字或 17 位数字 + `X`（[China-TIN.pdf](https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/china-tin.pdf) · [门户索引](https://www.oecd.org/en/networks/global-forum-tax-transparency/resources/aeoi-implementation-portal/tax-identification-numbers.html)，核对 2026-10-06）。
+
+**【IRS W-8BEN 说明 · Line 6a / 6b】**（[Instructions for Form W-8BEN (Rev. 10/2021)](https://www.irs.gov/instructions/iw8ben)）
+
+- Line **6a**：在美国金融机构持有金融账户、且有关联需在 Form 1042-S 报告的美国来源收入时，一般须提供居民国签发的 FTIN，**除非**你是美国属地居民，或你的居民国列在 IRS [List of jurisdictions that do not issue foreign TINs](https://www.irs.gov/businesses/corporations/list-of-jurisdictions-that-do-not-issue-foreign-tins) 上。  
+- Line **6b**：仅在依法无需从居民国取得 FTIN（含该国不签发 TIN）时可勾选。  
+- **核对 2026-10-06**：该 IRS 名单公开列出的辖区包括 Australia、Bermuda、British Virgin Islands、Cayman Islands、Japan 等；**未见 China / People’s Republic of China**。结合中国国内法与 OECD，中国**签发**纳税人识别号（对持身份证的个人即公民身份号码），**不属于**「不签发外国税号」辖区。
+
+**【Google】** 申请条约优惠需要提供外国或美国纳税人识别号；「哪种号码可以接受」原文仍建议咨询当地税务部门（[10390801](https://support.google.com/youtube/answer/10390801?hl=zh-Hans)）。本站据此只陈述「中国国内法下公民身份号码 = 自然人纳税人识别号」这一事实，**不**写成「你在 AdSense 里必须填身份证号」的操作指令。
+
 ### 审核状态与常见拒因
 
 **【官方】**（[10390801](https://support.google.com/youtube/answer/10390801?hl=zh-Hans)）
@@ -124,5 +144,7 @@ W-8 常见触发审核的原因（官方原文摘要）：法定名字或非独�
 | E | 中美 Royalties | 条约 10% 上限；Table 1 Copyrights=10 | **可核** | china.pdf · Table 1 |
 | F | 收入类型勾选 | Other Copyright Royalties / Services 等；选所有有资格的 | **可核** | 10390801 · 10735961 |
 | G | 审核 / 年终表 | ≤7 工作日；1042-S 约 4/14 前 | **可核** | 10390801 · 10391362 |
+| H | 中国 FTIN / Line 6a | 公民身份号码 = 自然人纳税人识别号（个税法九条 · 税总 2018/59）；OECD：ID card → TIN is ID number；中国不在 IRS「不签发 FTIN」名单 | **可核** | 个税法 · 税总 2018/59 · OECD China-TIN · IRS iw8ben · IRS FTIN 名单 |
+| I | Line 6b | 中国签发 TIN，一般不适用「FTIN not legally required」勾选 | **可核** | IRS iw8ben · IRS FTIN 名单 |
 
 **声明**：非法律或税务意见。不提供「中国居民唯一正确截图」。

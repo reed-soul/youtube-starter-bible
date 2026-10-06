@@ -49,7 +49,7 @@ const items: Item[] = [
   { id: 'settle', t: '已看到上月 YouTube 最终收入（约 7–12 日）充入 AFY 余额', n: '与普通 AdSense「约 3 日」定稿时间线不同。', src: { t: '7164703', url: 'https://support.google.com/adsense/answer/7164703?hl=zh-Hans' } },
   { id: 'sent', t: '付款页出现「付款待处理」（约 21–26 日）', n: '若 21 日为周末或节假日，可顺延到下一工作日。', src: { t: '7164703', url: 'https://support.google.com/adsense/answer/7164703?hl=zh-Hans' } },
   { id: 'bank', t: '银行已入账（电汇允许最多约 15 个工作日）', n: '具体时间取决于你的银行机构。', src: { t: '7164703', url: 'https://support.google.com/adsense/answer/7164703?hl=zh-Hans' } },
-  { id: 'fx', t: '如需结汇：已按开户行当日要求办理', n: '本站不写额度、不替你选资金来源勾选。' }
+  { id: 'fx', t: '如需结汇：已按开户行当日要求办理', n: 'SAFE：5 万美元/人·年是便利化额度（非硬上限）；经常项目可凭真实性材料不占额度。本站不替你选用途代码。', src: { t: 'SAFE 指引', url: 'https://www.gov.cn/gongbao/content/2020/content_5560296.htm' } }
 ]
 
 const state = reactive<Record<string, boolean>>(Object.fromEntries(items.map(i => [i.id, false])))
