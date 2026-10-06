@@ -7,3 +7,5 @@ docs/.vitepress/cache/
 
 # generated at build
 docs/public/llms-full.txt
+
+.cloudflare/

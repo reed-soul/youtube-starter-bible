@@ -33,7 +33,21 @@ jobs:
       - name: Build VitePress
         run: npm run docs:build
 
+      - name: Check Cloudflare secrets
+        id: cf_secrets
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Skipping Cloudflare deploy: repo secrets CLOUDFLARE_API_TOKEN and/or CLOUDFLARE_ACCOUNT_ID are not set. Deploy manually with \`cf deploy\` while authenticated, or add a scoped API token."
+          fi
+
       - name: Deploy with Wrangler
+        if: steps.cf_secrets.outputs.present == 'true'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}

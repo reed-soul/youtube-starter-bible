@@ -9,9 +9,10 @@
     "docs:build": "node scripts/generate-llms-full.mjs && vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "docs:llms": "node scripts/generate-llms-full.mjs",
-    "deploy": "npm run docs:build && wrangler deploy"
+    "deploy": "npm run docs:build && cf deploy"
   },
   "devDependencies": {
+    "cf": "^1.0.0-beta.12",
     "mermaid": "^11.6.0",
     "vitepress": "^1.6.3",
     "vitepress-plugin-mermaid": "^2.0.17",
