@@ -214,6 +214,23 @@ verifiedAt: 2026-10-06
 | 111 | YouTube Help · Shorts music eligibility | https://support.google.com/youtube/answer/13486873?hl=en | 英文重申 >1 min Short + active Content ID claim → blocked regardless of policy | **2026-10-06** ✅ |
 
 
+
+### Batch 3：SWIFT 速查 / 个税边界 / 案例时间线 / 路线图 / 提问（2026-10-06）
+
+| # | 文献 | URL | 支撑 | 🕒 |
+|---|------|-----|------|----|
+| 112 | 招商银行 · Address and BIC code of CMB | https://english.cmbchina.com/cmbInfo/about/detailInfo?guid=0c310cee-51b8-4de6-9ec4-96f8563e57dd | 总行 SWIFT **CMBCCNBS** | **2026-10-06** ✅ |
+| 113 | 工商银行北京分行 · 外币汇款路径 | https://www.icbc.com.cn/icbc/html/branches/beijing/guanggao/wh_040831/whgg/whhk061218.htm | 总行 **ICBKCNBJ**；北京分行 **ICBKCNBJBJM** | **2026-10-06** ✅ |
+| 114 | 中国银行 · 国内机构 SWIFT 代码 | https://www.boc.cn/aboutboc/ab6/200810/t20081016_7363.html | 总行 **BKCHCNBJ**；分行 11 位 | **2026-10-06** ✅ |
+| 115 | 建设银行 · 信用卡境外还款 FAQ | https://ccb.com/faq/20130930_475197001/questionlist_1.html | **PCBCCNBJXXX**（汇路说明） | **2026-10-06** ✅（信用卡页口径） |
+| 116 | 农业银行 · Requisites（海外机构页） | http://www.ru.abchina.com/en/Requisites/ | 对应总行 **ABOCCNBJXXX** | **2026-10-06** ✅ |
+| 117 | 《个人所得税法实施条例》第六条 | https://www.gov.cn/zhengce/content/2018-12/22/content_5351177.htm | 劳务/稿酬/特许/经营定义 | **2026-10-06** ✅（复用） |
+| 118 | 《个人所得税法》第九、十条 | https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_901ca8faba104739bbf54e22483e6079.html | 识别号；境外所得申报情形 | **2026-10-06** ✅ |
+| 119 | facaimike · youtube-payment（一手） | https://facaimike.com/youtube-payment/ | YPP 邮件 2022-10-17；PIN≈39 天；首笔 2023-01；223.44/13.77 | **2026-10-06** ✅ 已读保存 HTML |
+| 120 | facaimike · open-make-money（一手） | https://facaimike.com/open-make-money/ | 2026-01–05 月收入序列 | **2026-10-06** ✅ |
+
+**Batch 3 刻意不收录**：交行/邮储未在官网核到的 SWIFT；第三方 6 位残缺代码；lilys AI 摘要中的「老汪」时间线（未打开原视频）；facaimike 改香港地区步骤（仅作冲突警告）。
+
 ## 5. Shorts 原创排序（2026-10）——官方表述 + 二级报道
 
 | # | 文献 | URL | 支撑 | 🕒 |
@@ -295,6 +312,9 @@ verifiedAt: 2026-10-06
 | 收款自查清单 / 付款日历推算器 | 44, 69, 70, 71, 72, 73, 42, 63, 56, 46, 52, 107, 108, 109 |
 | 版权主张 vs 版权警示 vs 社区准则警示 | 96, 97, 98, 99, 100, 101, 41, 110, 111 |
 | AdSense / 专章结汇口径 | 52, 107, 108, 109, 56 |
+| 银行 SWIFT 速查 | 112, 113, 114, 115, 116 |
+| 个税事实边界 | 117, 118, 65, 66, 49 |
+| 公开案例时间线 | 119, 120, 71, 44 |
 | 第 13 章核实：频道国家设置决定 YPP 资格 | 62, 40, 41 |
 | 第 13 章核实：IRS 表列中国 Royalties 10% | 64, 48, 46 |
 | 第 13 章核实：个税项目依实施条例事实归类 | 65, 66, 49 |

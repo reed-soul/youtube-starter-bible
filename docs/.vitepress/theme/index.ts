@@ -41,6 +41,11 @@ export default {
     app.component('PayoutChecklist', defineAsyncComponent(() => import('./components/PayoutChecklist.vue')))
     app.component('PayoutCalendar', defineAsyncComponent(() => import('./components/PayoutCalendar.vue')))
     app.component('StrikeCompare', defineAsyncComponent(() => import('./components/StrikeCompare.vue')))
+    app.component('SwiftLookup', defineAsyncComponent(() => import('./components/SwiftLookup.vue')))
+    app.component('NewbieRoadmap', defineAsyncComponent(() => import('./components/NewbieRoadmap.vue')))
+    app.component('CaseTimeline', defineAsyncComponent(() => import('./components/CaseTimeline.vue')))
+    app.component('OfficialQuote', defineAsyncComponent(() => import('./components/OfficialQuote.vue')))
+    app.component('FaqJsonLd', defineAsyncComponent(() => import('./components/FaqJsonLd.vue')))
     if (typeof window !== 'undefined') {
       watch(
         () => router.route.path,

@@ -217,7 +217,9 @@ export default withMermaid(
                 { text: 'AdSense 电汇收款', link: '/adsense-电汇收款' },
                 { text: '收款自查清单（可勾选）', link: '/收款自查清单' },
                 { text: '付款日历 / 到账推算', link: '/youtube-付款日历' },
-                { text: 'W-8BEN 字段图解', link: '/w8ben-填写图解' }
+                { text: 'W-8BEN 字段图解', link: '/w8ben-填写图解' },
+                { text: '银行 SWIFT 速查', link: '/银行SWIFT速查' },
+                { text: '个税事实边界', link: '/个税事实边界' }
               ]
             },
             {
@@ -228,6 +230,8 @@ export default withMermaid(
                 { text: '1 万播放多少钱（RPM）', link: '/youtube-1万播放多少钱' },
                 { text: 'Shorts 收益怎么分配', link: '/shorts-收益分配' },
                 { text: '版权主张 vs 警示', link: '/youtube-版权主张与警示' },
+                { text: '公开案例时间线', link: '/公开案例时间线' },
+                { text: '新手路线图', link: '/新手路线图' },
                 { text: '政策更新日志', link: '/更新日志' }
               ]
             }
@@ -235,6 +239,7 @@ export default withMermaid(
         },
         { text: '作战卡', link: '/作战卡' },
         { text: 'FAQ', link: '/11-常见问题FAQ' },
+        { text: '提问', link: '/提问' },
         { text: '关于', link: '/关于' },
         {
           text: 'GitHub',
@@ -286,7 +291,9 @@ export default withMermaid(
             { text: 'AdSense 电汇收款', link: '/adsense-电汇收款' },
             { text: '收款自查清单（可勾选）', link: '/收款自查清单' },
             { text: '付款日历 / 到账推算', link: '/youtube-付款日历' },
-            { text: 'W-8BEN 字段图解', link: '/w8ben-填写图解' }
+            { text: 'W-8BEN 字段图解', link: '/w8ben-填写图解' },
+            { text: '银行 SWIFT 速查', link: '/银行SWIFT速查' },
+            { text: '个税事实边界', link: '/个税事实边界' }
           ]
         },
         {
@@ -296,13 +303,16 @@ export default withMermaid(
             { text: 'YPP 审核 · 被拒 · 申诉', link: '/ypp-审核被拒与申诉' },
             { text: '1 万播放多少钱（RPM / CPM）', link: '/youtube-1万播放多少钱' },
             { text: 'Shorts 收益怎么分配', link: '/shorts-收益分配' },
-            { text: '版权主张 vs 警示', link: '/youtube-版权主张与警示' }
+            { text: '版权主张 vs 警示', link: '/youtube-版权主张与警示' },
+            { text: '公开案例时间线', link: '/公开案例时间线' },
+            { text: '新手路线图', link: '/新手路线图' }
           ]
         },
         {
           text: '附录与工具',
           items: [
             { text: '作战卡（一页打印）', link: '/作战卡' },
+            { text: '提问 / 读者问答', link: '/提问' },
             { text: '图示索引（Mermaid）', link: '/图示' },
             { text: '术语表 GLOSSARY', link: '/GLOSSARY' },
             { text: '政策更新日志（RSS）', link: '/更新日志' },
@@ -353,7 +363,22 @@ export default withMermaid(
       return head
     },
 
-    transformHtml(code) {
+    transformHtml(code, id) {
+      // FAQPage JSON-LD for mainland FAQ (SSG-friendly)
+      if (id && /13-大陆FAQ/.test(String(id))) {
+        const faq = {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: [
+            { '@type': 'Question', name: '中国大陆能申请 YouTube 合作伙伴计划吗？', acceptedAnswer: { '@type': 'Answer', text: '取决于频道所在国家/地区是否在 YPP 已推出名单；截至本站核对日名单未见「中国」。' } },
+            { '@type': 'Question', name: 'W-8BEN 中国居民要填吗？预扣多少？', acceptedAnswer: { '@type': 'Answer', text: '通常填 W-8BEN。未提交时个人账号可按全球收入约 24% 预扣；主张协定后特许权使用费框架常见上限 10%（美国来源部分），以后台为准。' } },
+            { '@type': 'Question', name: '付款大概哪天到？', acceptedAnswer: { '@type': 'Answer', text: '约本月 7–12 日入 AFY 余额；20 日前达门槛；21–26 日发起；电汇最多约 15 个工作日。' } },
+            { '@type': 'Question', name: '结汇有没有 5 万美元上限？', acceptedAnswer: { '@type': 'Answer', text: '5 万美元是便利化额度而非硬上限；经常项目可凭材料不占用额度结汇。以开户行为准。' } }
+          ]
+        }
+        const tag = `<script type="application/ld+json">${JSON.stringify(faq).replace(/</g, '\\u003c')}</script>`
+        code = code.replace('</head>', tag + '</head>')
+      }
       return code
         // Percent-encode non-ASCII asset paths (e.g. /assets/06-Shorts漏斗.md.*.lean.js).
         // Cloudflare Pages copies <link rel=preload|modulepreload> into an HTTP Link
