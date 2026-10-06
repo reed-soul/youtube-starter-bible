@@ -107,11 +107,11 @@ verifiedAt: 2026-10-06
 
 ### 频道被盗怎么办？
 
-**【官方】** 先恢复并保护关联的 Google 账号 → 立即还原频道上不是你做的更改（以免因此收到社区准则或版权警示）→ 所有关联用户都采用安全做法（[76187](https://support.google.com/youtube/answer/76187?hl=zh-Hans)）。
+**【官方】** 须**先**恢复关联的 Google 账号，再还原非本人更改并加固全员安全（[76187](https://support.google.com/youtube/answer/76187?hl=zh-Hans)）。**9 个月**数据保留窗、终止后申诉顺序、**1 年 / 2 次**终止申诉与 YPP 被拒分流 → 专页 [YouTube 频道被盗与终止申诉](youtube-频道被盗与终止申诉.md)（**不提供**申诉话术模版）。
 
 ### 被终止后能再开一个吗？
 
-**【官方】** 不能。频道被终止后，禁止使用、拥有或新建任何其他 YouTube 频道（[2802168](https://support.google.com/youtube/answer/2802168?hl=zh-Hans)）。
+**【官方】** 不能规避终止另开频道（[2802168](https://support.google.com/youtube/answer/2802168?hl=zh-Hans)）。流程细节见 [被盗与终止申诉专页](youtube-频道被盗与终止申诉.md)。
 
 ---
 
