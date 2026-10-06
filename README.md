@@ -63,7 +63,7 @@ youtube-starter-bible/
 ├── LICENSE                 # 文档 CC-BY-4.0；站点脚手架可 MIT
 ├── CONTRIBUTING.md
 ├── package.json            # VitePress 文档站
-├── .github/                # Cloudflare Workers 部署 + lychee 链接检查 + Issue 模板
+├── .github/                # Cloudflare Pages 部署 + lychee 链接检查 + Issue 模板
 └── docs/
     ├── index.md            # 站点首页
     ├── .vitepress/         # VitePress 配置（base: / ；正式域 creator.taoliapp.com）
@@ -74,9 +74,8 @@ youtube-starter-bible/
     ├── SOURCES.md · GLOSSARY.md
 ```
 
-**在线文档站**：https://creator.taoliapp.com/（阿里云 DNS 需 CNAME → `youtube-starter-bible.pages.dev`）  
-**Pages 预览**：https://youtube-starter-bible.pages.dev/  
-部署：`npm run deploy`（`wrangler pages deploy`；CI 需 `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID`）  
+**在线文档站**：https://creator.taoliapp.com/  
+部署：`npm run deploy`（Cloudflare Pages；CI 需 `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID`）  
 
 **临时 Workers 预览**：https://youtube-starter-bible.lsqup0702.workers.dev/  
 本地预览：`npm install && npm run docs:dev`  
