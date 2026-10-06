@@ -40,6 +40,11 @@
 - [W-8BEN 字段图解](https://creator.taoliapp.com/w8ben-填写图解)：AdSense 税务工具路径、Line 1–10、中美条约 Royalties 10%、未提交 24%（非税务建议）
 - [注册 · 品牌账号 · 两步验证](https://creator.taoliapp.com/youtube-注册与品牌账号)：创建频道、品牌账号、Handle 规则、2FA（YPP 必需）、频道权限五级
 - [版权主张 vs 警示](https://creator.taoliapp.com/youtube-版权主张与警示)：Content ID 30/7 天、版权警示 90 天与抗辩 10 个工作日、社区准则 1/2 周与 90 天内 3 条
+- [银行 SWIFT 速查](https://creator.taoliapp.com/银行SWIFT速查)：招/工/中/建/农官网；交行 COMMCNSHXXX / 邮储 PSBCCNBJXXX 为 SWIFT 目录档；勿用 COMMCNSHFOS
+- [个税事实边界](https://creator.taoliapp.com/个税事实边界)：实施条例税目定义；境外所得申报框架；非税务建议
+- [公开案例时间线](https://creator.taoliapp.com/公开案例时间线)：facaimike 等一手可核对日期
+- [新手路线图](https://creator.taoliapp.com/新手路线图)：8 站进度 · localStorage
+- [提问](https://creator.taoliapp.com/提问)：GitHub Discussions Q&A
 - [政策更新日志](https://creator.taoliapp.com/更新日志)：可核对的官方变更时间线；RSS https://creator.taoliapp.com/feed.xml
 - [作战卡](https://creator.taoliapp.com/作战卡)：一页打印漏斗与发布前检查
 - [图示索引](https://creator.taoliapp.com/图示)：全书 Mermaid 图示

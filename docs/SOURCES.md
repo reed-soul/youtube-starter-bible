@@ -214,6 +214,34 @@ verifiedAt: 2026-10-06
 | 111 | YouTube Help · Shorts music eligibility | https://support.google.com/youtube/answer/13486873?hl=en | 英文重申 >1 min Short + active Content ID claim → blocked regardless of policy | **2026-10-06** ✅ |
 
 
+
+### Batch 3：SWIFT 速查 / 个税边界 / 案例时间线 / 路线图 / 提问（2026-10-06）
+
+| # | 文献 | URL | 支撑 | 🕒 |
+|---|------|-----|------|----|
+| 112 | 招商银行 · Address and BIC code of CMB | https://english.cmbchina.com/cmbInfo/about/detailInfo?guid=0c310cee-51b8-4de6-9ec4-96f8563e57dd | 总行 SWIFT **CMBCCNBS** | **2026-10-06** ✅ |
+| 113 | 工商银行北京分行 · 外币汇款路径 | https://www.icbc.com.cn/icbc/html/branches/beijing/guanggao/wh_040831/whgg/whhk061218.htm | 总行 **ICBKCNBJ**；北京分行 **ICBKCNBJBJM** | **2026-10-06** ✅ |
+| 114 | 中国银行 · 国内机构 SWIFT 代码 | https://www.boc.cn/aboutboc/ab6/200810/t20081016_7363.html | 总行 **BKCHCNBJ**；分行 11 位 | **2026-10-06** ✅ |
+| 115 | 建设银行 · 信用卡境外还款 FAQ | https://ccb.com/faq/20130930_475197001/questionlist_1.html | **PCBCCNBJXXX**（汇路说明） | **2026-10-06** ✅（信用卡页口径） |
+| 116 | 农业银行 · Requisites（海外机构页） | http://www.ru.abchina.com/en/Requisites/ | 对应总行 **ABOCCNBJXXX** | **2026-10-06** ✅ |
+| 117 | 《个人所得税法实施条例》第六条 | https://www.gov.cn/zhengce/content/2018-12/22/content_5351177.htm | 劳务/稿酬/特许/经营定义 | **2026-10-06** ✅（复用） |
+| 118 | 《个人所得税法》第九、十条 | https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_901ca8faba104739bbf54e22483e6079.html | 识别号；境外所得申报情形 | **2026-10-06** ✅ |
+| 119 | facaimike · youtube-payment（一手） | https://facaimike.com/youtube-payment/ | YPP 邮件 2022-10-17；PIN≈39 天；首笔 2023-01；223.44/13.77 | **2026-10-06** ✅ 已读保存 HTML |
+| 120 | facaimike · open-make-money（一手） | https://facaimike.com/open-make-money/ | 2026-01–05 月收入序列 | **2026-10-06** ✅ |
+| 121 | 交通银行 · 离岸汇款账户行 | https://www.bankcomm.com/BankCommSite/shtml/jyjr/cn/7387/7610/7621/7622/7625/list.shtml?channelId=7387 | 仅境外账户行 SWIFT（COMMHKHHXXX 等）；**无** COMMCNSH | **2026-10-06** ✅（legacy TLS） |
+| 122 | 交通银行 · 2025 H 股年报 PDF | https://www.bankcomm.com/BankCommSite/file/fileDownload.html?fileId=17075f452dbd43eeaf9d02d2f6864ac0 | 英文名 Bank of Communications Co., Ltd.；全文无 COMMCNSH | **2026-10-06** ✅ |
+| 123 | 邮储 · 银邮汇款 / EN remittance | https://www.psbc.com/cn/grfw/cdh/wh/gjhk/202010/t20201014_5924.html · https://www.psbc.com/en/products_and_services/personal/feb/202011/t20201124_45679.html | 要求填收款行 BIC；**无** PSBCCNBJ | **2026-10-06** ✅ |
+| 124 | 邮储 · 联系我们 / 金融许可证 | https://www.psbc.com/cn/common/lxwm/ · http://www.psbc.com/cn/common/jrxkzxx/ | 英文名 POSTAL SAVINGS BANK OF CHINA CO.,LTD.；无 SWIFT | **2026-10-06** ✅ |
+| 125 | GLEIF LEI API（次级） | https://api.gleif.org/api/v1/lei-records/549300AX1UM10U30HK09 · https://api.gleif.org/api/v1/lei-records/300300C1040311005298 | 交行 bic 含 COMMCNSHXXX；邮储 bic=PSBCCNBJXXX — **次级佐证**（表行以 #127 BIC Search 为准，非 GLEIF） | **2026-10-06** 次级 |
+| 126 | Swift · Free BIC Search | https://www.swift.com/bsl/ → https://www.swiftref.com/en/bicsearch · [条款](https://www.swift.com/about-us/legal/online-services/free-bic-search-swiftcom) | 免费 BIC 检索（免登录）；截图 `/workspace/yt-design/swift-bic/` | **2026-10-06** ✅ |
+| 127 | BIC Search · COMMCNSHXXX / PSBCCNBJXXX | 同上（查询当日） | **VALID** 总行：COMMCNSHXXX（上海交行）；PSBCCNBJXXX（北京邮储）；前缀 COMMCNSH≈270、PSBCCNBJ=5 | **2026-10-06** ✅ |
+| 128 | BIC Search · COMMCNSHFOS | 同上 | **0 BICs**（查两次）— 不推荐网传佛山码 | **2026-10-06** ✅ |
+| 129 | YouTube Help 10390801 · Foreign TIN examples | https://support.google.com/youtube/answer/10390801?hl=en | 示例含 IN/ID/JP/RU/UK；**无 China**；字段 charset a-z0-9 - &；仍建议咨询当地税局 | **2026-10-06** ✅ 复读 |
+| 130 | SAFE 天津分局 · 结售汇数据统计提示12 | https://www.safe.gov.cn/tianjin/2019/1118/1294.html | 个人境外**稿费**结汇 → 横栏「124专有权利使用费和特许费」纵栏居民个人 | **2019-11-18** ✅ |
+| 131 | Shorts EN/ZH 复抓 15424877 / 6013276 / 13486873 | https://support.google.com/youtube/answer/15424877?hl=en · zh-Hans | EN 仍「主张则禁播」；ZH 仍「2026-09-24 起不再自动禁播」+AI 免责；blog 无配套英文确认 | **2026-10-06 晚** ✅ |
+
+**Batch 3 刻意不收录**：交行/邮储**官网原文**仍缺（#121–124；表行以 SWIFT 目录 #127 收录）；`COMMCNSHFOS`（#128 目录 0）；第三方 6 位残缺代码；lilys AI 摘要中的「老汪」时间线（未打开原视频）；facaimike 改香港地区步骤（仅作冲突警告）。
+
 ## 5. Shorts 原创排序（2026-10）——官方表述 + 二级报道
 
 | # | 文献 | URL | 支撑 | 🕒 |
@@ -295,6 +323,9 @@ verifiedAt: 2026-10-06
 | 收款自查清单 / 付款日历推算器 | 44, 69, 70, 71, 72, 73, 42, 63, 56, 46, 52, 107, 108, 109 |
 | 版权主张 vs 版权警示 vs 社区准则警示 | 96, 97, 98, 99, 100, 101, 41, 110, 111 |
 | AdSense / 专章结汇口径 | 52, 107, 108, 109, 56 |
+| 银行 SWIFT 速查 | 112–116, 121–128 |
+| 个税事实边界 | 117, 118, 65, 66, 49 |
+| 公开案例时间线 | 119, 120, 71, 44 |
 | 第 13 章核实：频道国家设置决定 YPP 资格 | 62, 40, 41 |
 | 第 13 章核实：IRS 表列中国 Royalties 10% | 64, 48, 46 |
 | 第 13 章核实：个税项目依实施条例事实归类 | 65, 66, 49 |

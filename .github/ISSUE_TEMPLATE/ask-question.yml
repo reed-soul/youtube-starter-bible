@@ -1,0 +1,56 @@
+name: 读者提问
+description: 卡在收款 / YPP / 税务等？用模板提问（先搜 FAQ）
+title: "[提问] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先阅读 [大陆 FAQ](https://creator.taoliapp.com/13-大陆FAQ) 与 [提问说明](https://creator.taoliapp.com/提问)。
+        也可发到 [Discussions Q&A](https://github.com/reed-soul/youtube-starter-bible/discussions/categories/q-a)。
+        **不要**询问 VPN、改地区、假地址或如何少报税。
+  - type: dropdown
+    id: step
+    attributes:
+      label: 你卡在哪一步
+      options:
+        - 注册 / 创建频道
+        - 内容与涨粉
+        - YPP 资格 / 门槛
+        - 审核 / 被拒 / 申诉
+        - 美国税务 / W-8BEN
+        - 地址 PIN
+        - 电汇 / Hyperwallet
+        - 结汇
+        - 版权主张 / 警示
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Studio / AdSense 原文提示
+      description: 可打码账号；不要发密码或完整证件号
+    validations:
+      required: true
+  - type: input
+    id: region
+    attributes:
+      label: 频道国家/地区设置（可选）
+  - type: textarea
+    id: tried
+    attributes:
+      label: 已试过什么
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: 已读的官方帮助 URL
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: 确认
+      options:
+        - label: 我已阅读本站不提供 VPN / 改地区 / 假地址 / 少报税指导
+          required: true

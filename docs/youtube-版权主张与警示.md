@@ -89,7 +89,7 @@ verifiedAt: 2026-10-06
 **【本站结论】**
 
 1. **英文三页口径一致**：1–3 分钟 Shorts 上若存在有效 Content ID 主张（含手动主张），**无论权利方政策是创收 / 跟踪 / 禁播，视频都会被禁播**；不等于版权警示；解决主张后可再被观看与创收。  
-2. **中文页写的是相反方向的变更**（2026-09-24 起新 Shorts「不再自动禁播」），但同页带 **AI 翻译免责**；检索 blog.youtube / Creator Insider 公开帖（核对日）**未**找到与该日期配套的英文官方博客确认。  
+2. **中文页写的是相反方向的变更**（2026-09-24 起新 Shorts「不再自动禁播」），但同页带 **AI 翻译免责**；**2026-10-06 晚间复抓**英文 [15424877](https://support.google.com/youtube/answer/15424877?hl=en) / [6013276](https://support.google.com/youtube/answer/6013276?hl=en) / [13486873](https://support.google.com/youtube/answer/13486873?hl=en) **仍写**「有有效主张则全球禁播」——**尚未**与中文页对齐。检索 blog.youtube / Creator Insider 公开帖**仍未**找到与 2026-09-24 配套的英文官方博客确认。部分第三方博客误把中文句写成英文 Help 原文；以本站当场打开的英文页为准。  
 3. 因此本站**采用英文 Help 现行表述**作为对创作者可见的现行规则；同时保留中文页原文与日期，便于你自行对照。政策若变，以 Google 更新后的英文页为准，并再核中文页是否同步。
 
 ## 常见追问
@@ -114,6 +114,6 @@ verifiedAt: 2026-10-06
 | D | 抗辩 / 撤销 | 10 个美国工作日；撤销即解除 | **可核** | [2807684](https://support.google.com/youtube/answer/2807684?hl=zh-Hans) · [2807691](https://support.google.com/youtube/answer/2807691?hl=zh-Hans) |
 | E | 社区准则 | 警告 → 1 周 → 2 周 → 90 天内 3 条 | **可核** | [2802032](https://support.google.com/youtube/answer/2802032?hl=zh-Hans) |
 | F | 申诉窗口 | 警告 / 警示 6 个月；内容移除 1 年 | **可核** | [185111](https://support.google.com/youtube/answer/185111?hl=zh-Hans) |
-| G | Shorts 1–3 分钟被主张后是否禁播 | **英文三页一致：有有效主张则禁播（不论政策）**；中文页写 2026-09-24 起新 Shorts「不再自动禁播」且带 AI 翻译提示——本站采英文现行口径，并列中文原文 | **已核 · 采英文** | [6013276 en](https://support.google.com/youtube/answer/6013276?hl=en) · [15424877 en](https://support.google.com/youtube/answer/15424877?hl=en) · zh 对照页 |
+| G | Shorts 1–3 分钟被主张后是否禁播 | **2026-10-06 复抓：英文三页仍一致禁播**；中文页仍写 2026-09-24「不再自动禁播」+ AI 翻译提示——本站采英文，并列中文；**对齐与否仍软** | **已核 · 采英文 · ZH/EN 未对齐** | [6013276](https://support.google.com/youtube/answer/6013276?hl=en) · [15424877](https://support.google.com/youtube/answer/15424877?hl=en) · [zh](https://support.google.com/youtube/answer/15424877?hl=zh-Hans) |
 
 **声明**：非法律意见。抗辩通知是法律程序，请谨慎并在需要时咨询律师。
