@@ -236,6 +236,9 @@ verifiedAt: 2026-10-06
 | 126 | Swift · Free BIC Search | https://www.swift.com/bsl/ → https://www.swiftref.com/en/bicsearch · [条款](https://www.swift.com/about-us/legal/online-services/free-bic-search-swiftcom) | 免费 BIC 检索（免登录）；截图 `/workspace/yt-design/swift-bic/` | **2026-10-06** ✅ |
 | 127 | BIC Search · COMMCNSHXXX / PSBCCNBJXXX | 同上（查询当日） | **VALID** 总行：COMMCNSHXXX（上海交行）；PSBCCNBJXXX（北京邮储）；前缀 COMMCNSH≈270、PSBCCNBJ=5 | **2026-10-06** ✅ |
 | 128 | BIC Search · COMMCNSHFOS | 同上 | **0 BICs**（查两次）— 不推荐网传佛山码 | **2026-10-06** ✅ |
+| 129 | YouTube Help 10390801 · Foreign TIN examples | https://support.google.com/youtube/answer/10390801?hl=en | 示例含 IN/ID/JP/RU/UK；**无 China**；字段 charset a-z0-9 - &；仍建议咨询当地税局 | **2026-10-06** ✅ 复读 |
+| 130 | SAFE 天津分局 · 结售汇数据统计提示12 | https://www.safe.gov.cn/tianjin/2019/1118/1294.html | 个人境外**稿费**结汇 → 横栏「124专有权利使用费和特许费」纵栏居民个人 | **2019-11-18** ✅ |
+| 131 | Shorts EN/ZH 复抓 15424877 / 6013276 / 13486873 | https://support.google.com/youtube/answer/15424877?hl=en · zh-Hans | EN 仍「主张则禁播」；ZH 仍「2026-09-24 起不再自动禁播」+AI 免责；blog 无配套英文确认 | **2026-10-06 晚** ✅ |
 
 **Batch 3 刻意不收录**：交行/邮储**官网原文**仍缺（#121–124；表行以 SWIFT 目录 #127 收录）；`COMMCNSHFOS`（#128 目录 0）；第三方 6 位残缺代码；lilys AI 摘要中的「老汪」时间线（未打开原视频）；facaimike 改香港地区步骤（仅作冲突警告）。
 

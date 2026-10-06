@@ -83,7 +83,9 @@ verifiedAt: 2026-10-06
 - Line **6b**：仅在依法无需从居民国取得 FTIN（含该国不签发 TIN）时可勾选。  
 - **核对 2026-10-06**：该 IRS 名单公开列出的辖区包括 Australia、Bermuda、British Virgin Islands、Cayman Islands、Japan 等；**未见 China / People’s Republic of China**。结合中国国内法与 OECD，中国**签发**纳税人识别号（对持身份证的个人即公民身份号码），**不属于**「不签发外国税号」辖区。
 
-**【Google】** 申请条约优惠需要提供外国或美国纳税人识别号；「哪种号码可以接受」原文仍建议咨询当地税务部门（[10390801](https://support.google.com/youtube/answer/10390801?hl=zh-Hans)）。本站据此只陈述「中国国内法下公民身份号码 = 自然人纳税人识别号」这一事实，**不**写成「你在 AdSense 里必须填身份证号」的操作指令。
+**【Google】** 申请条约优惠需要提供外国或美国纳税人识别号；「哪种号码可以接受」原文仍建议咨询当地税务部门（[10390801](https://support.google.com/youtube/answer/10390801?hl=en) · [zh](https://support.google.com/youtube/answer/10390801?hl=zh-Hans)）。Help 文末「Foreign TINs 示例」列有印度 PAN、印尼 NPWP、日本 My Number、俄罗斯 INN、英国 UTR/NINO 等，**未列出 China / 中国公民身份号码**——故本站**仍无法**从 Google 原文核出「AdSense 税务工具必接受的中国 FTIN 精确字符串」。
+
+**【可核的边界】** 税务工具字段仅允许字母、数字、空格、连字符与 `&`（同上 Help）；中国公民身份号码为 18 位数字或 17 位数字 + 校验字母 `X`，字符集上**兼容**该限制。本站只陈述「中国国内法下公民身份号码 = 自然人纳税人识别号」+「字段字符集兼容」；**不**写成「你在 AdSense 里必须填身份证号」或「填完一定通过」的操作指令。
 
 ### 审核状态与常见拒因
 
@@ -144,7 +146,7 @@ W-8 常见触发审核的原因（官方原文摘要）：法定名字或非独�
 | E | 中美 Royalties | 条约 10% 上限；Table 1 Copyrights=10 | **可核** | china.pdf · Table 1 |
 | F | 收入类型勾选 | Other Copyright Royalties / Services 等；选所有有资格的 | **可核** | 10390801 · 10735961 |
 | G | 审核 / 年终表 | ≤7 工作日；1042-S 约 4/14 前 | **可核** | 10390801 · 10391362 |
-| H | 中国 FTIN / Line 6a | 公民身份号码 = 自然人纳税人识别号（个税法九条 · 税总 2018/59）；OECD：ID card → TIN is ID number；中国不在 IRS「不签发 FTIN」名单 | **可核** | 个税法 · 税总 2018/59 · OECD China-TIN · IRS iw8ben · IRS FTIN 名单 |
+| H | 中国 FTIN / Line 6a | 国内法/OECD/IRS 名单同上；**Google 未公布**中国可接受 FTIN 精确字符串（示例表无 China） | **国内法可核 · Google 接受串仍软** | 个税法 · 税总 · OECD · IRS · [10390801](https://support.google.com/youtube/answer/10390801?hl=en) |
 | I | Line 6b | 中国签发 TIN，一般不适用「FTIN not legally required」勾选 | **可核** | IRS iw8ben · IRS FTIN 名单 |
 
 **声明**：非法律或税务意见。不提供「中国居民唯一正确截图」。
