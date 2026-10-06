@@ -35,6 +35,11 @@
 - [1 万播放多少钱](https://creator.taoliapp.com/youtube-1万播放多少钱)：RPM / CPM 官方定义 + 诚实估算器 + 带日期公开样本
 - [Shorts 收益怎么分配](https://creator.taoliapp.com/shorts-收益分配)：创作者池四步、音乐 1/2 与 1/3、45%、2027 每月 1,000 万
 - [AdSense 电汇收款](https://creator.taoliapp.com/adsense-电汇收款)：中国电汇与 Hyperwallet、付款周期、PIN
+- [收款自查清单](https://creator.taoliapp.com/收款自查清单)：11 项可勾选 / 可打印：PIN、税表、电汇、20 日门槛、21–26 日付款
+- [付款日历 / 到账推算](https://creator.taoliapp.com/youtube-付款日历)：7–12 日入余额、20 日截止、21–26 日发起、电汇最多约 15 个工作日（估算器）
+- [W-8BEN 字段图解](https://creator.taoliapp.com/w8ben-填写图解)：AdSense 税务工具路径、Line 1–10、中美条约 Royalties 10%、未提交 24%（非税务建议）
+- [注册 · 品牌账号 · 两步验证](https://creator.taoliapp.com/youtube-注册与品牌账号)：创建频道、品牌账号、Handle 规则、2FA（YPP 必需）、频道权限五级
+- [版权主张 vs 警示](https://creator.taoliapp.com/youtube-版权主张与警示)：Content ID 30/7 天、版权警示 90 天与抗辩 10 个工作日、社区准则 1/2 周与 90 天内 3 条
 - [政策更新日志](https://creator.taoliapp.com/更新日志)：可核对的官方变更时间线；RSS https://creator.taoliapp.com/feed.xml
 - [作战卡](https://creator.taoliapp.com/作战卡)：一页打印漏斗与发布前检查
 - [图示索引](https://creator.taoliapp.com/图示)：全书 Mermaid 图示

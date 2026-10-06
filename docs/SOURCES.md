@@ -175,6 +175,29 @@ verifiedAt: 2026-10-06
 
 **Batch 1 刻意不收录**：facaimike「9 个中文频道 RPM」汇编（视频截图时间码未逐一打开核对）；任何「行业平均 RPM」表；VPN / 改频道地区操作说明。
 
+### Batch 2：W-8BEN 图解 / 注册与品牌账号 / 收款清单与付款日历 / 版权三类警示（2026-10-06）
+
+| # | 文献 | URL | 支撑 | 🕒 |
+|---|------|-----|------|----|
+| 86 | AdSense · 提交美国税务信息 FAQ | https://support.google.com/adsense/answer/10735961?hl=zh-Hans | W-9 / W-8BEN / W-8BEN-E / W-8ECI / W-8IMY；税务工具确定条约细节；收入类型选所有有资格的；实体优惠限制 | **2026-10-06** ✅ 已读原文 |
+| 87 | IRS · Instructions for Form W-8BEN（Rev. 10/2021） | https://www.irs.gov/instructions/iw8ben | Line 1–10 / Part III 含义；永久地址不能用金融机构 / 邮政信箱；Line 10 在版权税率有差异时填写；ITIN 通常 4–6 周；有效期至第三个后续日历年末 | **2026-10-06** ✅ 已读原文 |
+| 88 | IRS · 中美税收协定文本 Art.11（Royalties） | https://www.irs.gov/pub/irs-trty/china.pdf | 第 2 款：受益所有人情况下不超过特许权使用费毛额 **10%** | **2026-10-06** ✅（补充 #48） |
+| 89 | 创建 YouTube 频道 | https://support.google.com/youtube/answer/1646861?hl=zh-Hans | 个人频道：设置 → 添加或管理频道；品牌账号：频道列表 → 创建新频道 | **2026-10-06** ✅ |
+| 90 | 管理您的品牌账号 | https://support.google.com/youtube/answer/7001996?hl=zh-Hans | 2021-08-04 后新建品牌账号仅限 YouTube；多所有者 / 管理员；删除须当所有者满 7 天 | **2026-10-06** ✅ |
+| 91 | 检查是否有品牌账号 / 品牌账号间转移频道 | https://support.google.com/youtube/answer/7286468?hl=zh-Hans · https://support.google.com/youtube/answer/3056283?hl=zh-Hans | myaccount.google.com/brandaccounts；同一 Google 账号下品牌账号间转移；操作不当可能误删 | **2026-10-06** ✅ |
+| 92 | 了解 YouTube 标识名 | https://support.google.com/youtube/answer/11585688?hl=zh-Hans | 3–30 字符；汉字 1–10；_ - . · 不能首尾 | **2026-10-06** ✅ |
+| 93 | Google 账号 · 开启两步验证 | https://support.google.com/accounts/answer/185839?hl=zh-Hans | 安全性与登录 → 开启两步验证；新号码最长 7 天信任；Google 提示防 SIM 交换 | **2026-10-06** ✅ |
+| 94 | 频道权限 | https://support.google.com/youtube/answer/9481328?hl=zh-Hans | 五个权限级别；所有者无法转让所有权；受限角色无收入数据；品牌账号须先改用频道权限 | **2026-10-06** ✅ |
+| 95 | 恢复遭到入侵的频道 | https://support.google.com/youtube/answer/76187?hl=zh-Hans | 三步：恢复 Google 账号 → 还原更改 → 安全做法 | **2026-10-06** ✅ |
+| 96 | 了解版权主张（Content ID） | https://support.google.com/youtube/answer/6013276?hl=zh-Hans | 禁播 / 创收 / 跟踪；不等于警示；一般不影响频道 | **2026-10-06** ✅（Shorts 2026-09-24 表述中英不一致，未采用） |
+| 97 | 对版权主张提出异议 | https://support.google.com/youtube/answer/2797454?hl=zh-Hans | 30 天回应；申诉 7 天；升级为申诉；不可取消；非正当理由列表 | **2026-10-06** ✅ |
+| 98 | 了解版权警示 | https://support.google.com/youtube/answer/2814000?hl=zh-Hans | 版权学院 + 90 天；90 天内 3 条可能终止；延迟执行 7 天；直播 7 / 14 天 | **2026-10-06** ✅ |
+| 99 | 提交版权抗辩通知 / 撤销移除要求 | https://support.google.com/youtube/answer/2807684?hl=zh-Hans · https://support.google.com/youtube/answer/2807691?hl=zh-Hans | 法律程序；10 个美国工作日；撤销即解除警示并恢复内容 | **2026-10-06** ✅ |
+| 100 | 社区准则警示基础知识 | https://support.google.com/youtube/answer/2802032?hl=zh-Hans | 首次通常警告（培训起 90 天）；1 周 / 2 周；90 天内 3 条可能移除；删内容不消除警示 | **2026-10-06** ✅ |
+| 101 | 针对社区准则警示申诉 | https://support.google.com/youtube/answer/185111?hl=zh-Hans | 警告 / 警示 6 个月内申诉；内容移除 1 年；删视频后无法申诉 | **2026-10-06** ✅ |
+
+**Batch 2 刻意不收录**：「中国居民字段就填 X」类指令；中国居民可接受外国税号的具体种类（Google 原文建议咨询当地税务部门）；SAFE 便利化额度数字；虚拟号 / 养号 / 网络访问方式；Content ID 对 1–3 分钟 Shorts 的 2026-09-24 新表述（中英帮助页冲突）。
+
 ## 5. Shorts 原创排序（2026-10）——官方表述 + 二级报道
 
 | # | 文献 | URL | 支撑 | 🕒 |
@@ -251,6 +274,10 @@ verifiedAt: 2026-10-06
 | Shorts 创作者池 45% 与音乐拆分 | 78, 76, 67 |
 | YPP 审核 / 申诉 / 30·90 天 / 再利用内容 | 19, 79, 80, 23, 50 |
 | 政策更新日志条目 | 67, 68, 24, 60, 23, 78, 85 |
+| W-8BEN 字段图解 | 46, 47, 86, 87, 88, 64, 44 |
+| 注册 · 品牌账号 · 两步验证 · 频道权限 | 89, 90, 91, 92, 93, 94, 95, 41, 82 |
+| 收款自查清单 / 付款日历推算器 | 44, 69, 70, 71, 72, 73, 42, 63, 56, 46 |
+| 版权主张 vs 版权警示 vs 社区准则警示 | 96, 97, 98, 99, 100, 101, 41 |
 | 第 13 章核实：频道国家设置决定 YPP 资格 | 62, 40, 41 |
 | 第 13 章核实：IRS 表列中国 Royalties 10% | 64, 48, 46 |
 | 第 13 章核实：个税项目依实施条例事实归类 | 65, 66, 49 |

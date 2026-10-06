@@ -6,7 +6,7 @@ description: 【官方】收款地址为中国时，AdSense/YouTube 支持电汇
 
 # YouTube AdSense 中国电汇收款怎么设置
 
-> 核对日：**2026-10-06** · 相关：[13 专章 §4](13-中国大陆创作者专章.md#_4-adsense-收款-电汇、银行与结汇) · [YPP 地区资格](ypp-中国大陆资格.md) · [1 万播放多少钱](youtube-1万播放多少钱.md) · [大陆 FAQ](13-大陆FAQ.md) · [政策更新日志](更新日志.md)
+> 核对日：**2026-10-06** · 相关：[13 专章 §4](13-中国大陆创作者专章.md#_4-adsense-收款-电汇、银行与结汇) · [收款自查清单](收款自查清单.md) · [付款日历](youtube-付款日历.md) · [W-8BEN 图解](w8ben-填写图解.md) · [YPP 地区资格](ypp-中国大陆资格.md) · [1 万播放多少钱](youtube-1万播放多少钱.md) · [大陆 FAQ](13-大陆FAQ.md) · [政策更新日志](更新日志.md)
 
 ## 一句话答案
 
@@ -49,6 +49,12 @@ description: 【官方】收款地址为中国时，AdSense/YouTube 支持电汇
 - 电汇到账以银行与中间行为准，Help 写明可允许最多约 **15 个工作日**。
 
 主文献：[付款时间](https://support.google.com/adsense/answer/7164703?hl=zh-Hans) · [付款最低限额](https://support.google.com/adsense/answer/1709871?hl=zh-Hans)
+
+### 选个月份，推算哪天到账
+
+<PayoutCalendar />
+
+也有独立页：[付款日历 / 到账推算](youtube-付款日历.md)。
 
 
 ## 设置电汇（官方步骤框架）
@@ -106,13 +112,15 @@ description: 【官方】收款地址为中国时，AdSense/YouTube 支持电汇
 
 **【官方 · PIN】** 余额达验证门槛（USD 常见地址验证 **$10**）后寄送 6 位 PIN；通常约 **3 周**送达；满 3 周可重寄；生成日起 **4 个月**内须完成验证，否则可能停止展示广告。输错三次会停投广告。第 4 次重寄仍未收到 → 使用官方 PIN 排查工具。Google **不提供**运单号。[PIN 概览](https://support.google.com/adsense/answer/157667?hl=zh-Hans)
 
-**【官方 · 税务】** 启用创收须提交美国税务信息；非美个人常见 **W-8BEN**。未提交时预扣可能显著更高；提交后对适用美国来源收益常见协定区间（中美条约 Royalties 框架多见 **10%** 上限讨论——**非个人税务意见**）。→ [大陆 FAQ](13-大陆FAQ.md) · [提交税务信息](https://support.google.com/youtube/answer/10390801?hl=zh-Hans)
+**【官方 · 税务】** 启用创收须提交美国税务信息；非美个人常见 **W-8BEN**。未提交时预扣可能显著更高；提交后对适用美国来源收益常见协定区间（中美条约 Royalties 框架多见 **10%** 上限讨论——**非个人税务意见**）。→ [W-8BEN 字段图解](w8ben-填写图解.md) · [大陆 FAQ](13-大陆FAQ.md) · [提交税务信息](https://support.google.com/youtube/answer/10390801?hl=zh-Hans)
 
 **【官方 · USD 门槛简表】** 税务信息 $0 · 验证 $10 · 选收款方式 $10 · **起付 $100** · 撤销账号 $10。[付款最低限额](https://support.google.com/adsense/answer/1709871?hl=zh-Hans)
 
 ---
 
 ## 常见卡点自查
+
+可勾选、可打印、进度可回访的版本 → [收款自查清单](收款自查清单.md)。
 
 - [ ] 付款方式国家表「中国」行已打开，确认电汇 / Hyperwallet  
 - [ ] 银行与收款地址**同国**；SWIFT / 户名 / 账号与银行预留一致  

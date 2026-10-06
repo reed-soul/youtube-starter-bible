@@ -208,7 +208,16 @@ export default withMermaid(
                 { text: '大陆高意图 FAQ', link: '/13-大陆FAQ' },
                 { text: 'YPP 中国大陆资格', link: '/ypp-中国大陆资格' },
                 { text: '「创收功能无法在您所在地区使用」', link: '/创收功能无法在您所在地区使用' },
-                { text: 'AdSense 电汇收款', link: '/adsense-电汇收款' }
+                { text: '注册 · 品牌账号 · 两步验证', link: '/youtube-注册与品牌账号' }
+              ]
+            },
+            {
+              text: '收款与税务',
+              items: [
+                { text: 'AdSense 电汇收款', link: '/adsense-电汇收款' },
+                { text: '收款自查清单（可勾选）', link: '/收款自查清单' },
+                { text: '付款日历 / 到账推算', link: '/youtube-付款日历' },
+                { text: 'W-8BEN 字段图解', link: '/w8ben-填写图解' }
               ]
             },
             {
@@ -218,6 +227,7 @@ export default withMermaid(
                 { text: 'YPP 审核 · 被拒 · 申诉', link: '/ypp-审核被拒与申诉' },
                 { text: '1 万播放多少钱（RPM）', link: '/youtube-1万播放多少钱' },
                 { text: 'Shorts 收益怎么分配', link: '/shorts-收益分配' },
+                { text: '版权主张 vs 警示', link: '/youtube-版权主张与警示' },
                 { text: '政策更新日志', link: '/更新日志' }
               ]
             }
@@ -267,7 +277,16 @@ export default withMermaid(
             { text: '大陆高意图 FAQ', link: '/13-大陆FAQ' },
             { text: 'YPP 中国大陆资格', link: '/ypp-中国大陆资格' },
             { text: '「创收功能无法在您所在地区使用」', link: '/创收功能无法在您所在地区使用' },
-            { text: 'AdSense 电汇收款', link: '/adsense-电汇收款' }
+            { text: '注册 · 品牌账号 · 两步验证', link: '/youtube-注册与品牌账号' }
+          ]
+        },
+        {
+          text: '收款与税务',
+          items: [
+            { text: 'AdSense 电汇收款', link: '/adsense-电汇收款' },
+            { text: '收款自查清单（可勾选）', link: '/收款自查清单' },
+            { text: '付款日历 / 到账推算', link: '/youtube-付款日历' },
+            { text: 'W-8BEN 字段图解', link: '/w8ben-填写图解' }
           ]
         },
         {
@@ -276,7 +295,8 @@ export default withMermaid(
             { text: 'YPP 进度计算器（含 2027）', link: '/ypp-进度计算器' },
             { text: 'YPP 审核 · 被拒 · 申诉', link: '/ypp-审核被拒与申诉' },
             { text: '1 万播放多少钱（RPM / CPM）', link: '/youtube-1万播放多少钱' },
-            { text: 'Shorts 收益怎么分配', link: '/shorts-收益分配' }
+            { text: 'Shorts 收益怎么分配', link: '/shorts-收益分配' },
+            { text: '版权主张 vs 警示', link: '/youtube-版权主张与警示' }
           ]
         },
         {
@@ -335,6 +355,11 @@ export default withMermaid(
 
     transformHtml(code) {
       return code
+        // Percent-encode non-ASCII asset paths (e.g. /assets/06-Shorts漏斗.md.*.lean.js).
+        // Cloudflare Pages copies <link rel=preload|modulepreload> into an HTTP Link
+        // header; raw UTF-8 there is read as Latin-1 by browsers → garbled 404 preload.
+        .replace(/(<(?:link|script)\b[^>]*\s(?:href|src)=")(\/assets\/[^"]*[^\x00-\x7F][^"]*)"/g,
+          (_m, pre: string, path: string) => `${pre}${encodeURI(path)}"`)
         .replace(/<link[^>]*href="[^"]*inter-[^"]*"[^>]*>\s*/gi, '')
         .replace(
           /<link[^>]*rel="modulepreload"[^>]*href="[^"]*(?:mermaid|katex|cytoscape|dagre|Diagram|cynefin|cose-bilkent|swimlane|architecture|sequence|gantt|mindmap|sankey|venn|wardley|ishikawa|railroad|treemap|kanban|timeline|blockDiagram|flowDiagram|chunk-TICWLB2K|chunk-IMKFNOWR|sizeCapture)[^"]*"[^>]*>\s*/gi,

@@ -36,6 +36,11 @@ export default {
     app.component('RevenueEstimator', defineAsyncComponent(() => import('./components/RevenueEstimator.vue')))
     app.component('ShortsPool', defineAsyncComponent(() => import('./components/ShortsPool.vue')))
     app.component('YppReviewFlow', defineAsyncComponent(() => import('./components/YppReviewFlow.vue')))
+    app.component('W8benMock', defineAsyncComponent(() => import('./components/W8benMock.vue')))
+    app.component('AccountSetupFlow', defineAsyncComponent(() => import('./components/AccountSetupFlow.vue')))
+    app.component('PayoutChecklist', defineAsyncComponent(() => import('./components/PayoutChecklist.vue')))
+    app.component('PayoutCalendar', defineAsyncComponent(() => import('./components/PayoutCalendar.vue')))
+    app.component('StrikeCompare', defineAsyncComponent(() => import('./components/StrikeCompare.vue')))
     if (typeof window !== 'undefined') {
       watch(
         () => router.route.path,

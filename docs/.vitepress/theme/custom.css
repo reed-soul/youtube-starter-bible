@@ -775,3 +775,19 @@ button:focus-visible,
     z-index: 20;
   }
 }
+
+/* Print: checklists / battle cards → clean paper (batch 2) */
+@media print {
+  .VPNav, .VPLocalNav, .VPSidebar, .VPDocAside, .VPDocFooter, .VPFooter,
+  .yp-progress, .yp-verified, .yp-noprint, .edit-link, .prev-next {
+    display: none !important;
+  }
+  .VPContent, .VPDoc, .VPDoc .container, .VPDoc .content, .VPDoc .content-container {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: none !important;
+  }
+  .vp-doc a { color: inherit; text-decoration: underline; }
+  .vp-doc h2 { break-after: avoid; }
+  body { background: #fff !important; }
+}
