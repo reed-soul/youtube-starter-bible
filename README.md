@@ -74,7 +74,10 @@ youtube-starter-bible/
     ├── SOURCES.md · GLOSSARY.md
 ```
 
-**在线文档站（正式域）**：https://creator.taoliapp.com/（待 DNS/Zone 接入 Cloudflare 后生效）  
+**在线文档站**：https://creator.taoliapp.com/（阿里云 DNS 需 CNAME → `youtube-starter-bible.pages.dev`）  
+**Pages 预览**：https://youtube-starter-bible.pages.dev/  
+部署：`npm run deploy`（`wrangler pages deploy`；CI 需 `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID`）  
+
 **临时 Workers 预览**：https://youtube-starter-bible.lsqup0702.workers.dev/  
 本地预览：`npm install && npm run docs:dev`  
 部署：`npm run docs:build && cf deploy`（需 `cf auth login`；自定义域需账号内有 `taoliapp.com` zone）

@@ -9,7 +9,8 @@
     "docs:build": "node scripts/generate-llms-full.mjs && vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "docs:llms": "node scripts/generate-llms-full.mjs",
-    "deploy": "npm run docs:build && cf deploy"
+    "deploy": "npm run docs:build && wrangler pages deploy docs/.vitepress/dist --project-name youtube-starter-bible --branch main",
+    "deploy:pages": "npm run docs:build && wrangler pages deploy docs/.vitepress/dist --project-name youtube-starter-bible --branch main"
   },
   "devDependencies": {
     "cf": "^1.0.0-beta.12",

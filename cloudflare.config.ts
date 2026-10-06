@@ -1,5 +1,14 @@
 import { defineConfig } from "cf/config";
 
+/**
+ * Production site: Cloudflare Pages project `youtube-starter-bible`
+ *   https://youtube-starter-bible.pages.dev
+ *   custom domain creator.taoliapp.com (external CNAME → *.pages.dev)
+ * Deploy: `npm run deploy` → wrangler pages deploy
+ *
+ * This file / `cf deploy` targets a leftover Workers Static Assets Worker
+ * (same name, *.workers.dev). Keep until Pages custom domain is active, then delete Worker.
+ */
 export default defineConfig({
 	worker: {
 		name: "youtube-starter-bible",
@@ -7,18 +16,11 @@ export default defineConfig({
 		workersDev: true,
 		observability: {
 			enabled: true,
-			traces: {
-				enabled: true,
-			},
+			traces: { enabled: true },
 		},
 		assets: {
 			htmlHandling: "auto-trailing-slash",
 			notFoundHandling: "404-page",
 		},
-		// Custom domain requires an active Cloudflare zone for taoliapp.com
-		// on this account. Currently blocked: zone not present; public NS are
-		// Alibaba (hichina). Re-add "creator.taoliapp.com" under domains once
-		// the zone is on this account.
-		// domains: ["creator.taoliapp.com"],
 	},
 });

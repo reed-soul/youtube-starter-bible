@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare Workers
+name: Deploy to Cloudflare Pages
 
 on:
   push:
@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: cloudflare-deploy
+  group: cloudflare-pages-deploy
   cancel-in-progress: false
 
 jobs:
@@ -43,13 +43,13 @@ jobs:
             echo "present=true" >> "$GITHUB_OUTPUT"
           else
             echo "present=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::Skipping Cloudflare deploy: repo secrets CLOUDFLARE_API_TOKEN and/or CLOUDFLARE_ACCOUNT_ID are not set. Deploy manually with \`cf deploy\` while authenticated, or add a scoped API token."
+            echo "::notice::Skipping Cloudflare Pages deploy: set repo secrets CLOUDFLARE_API_TOKEN (Account — Cloudflare Pages:Edit + Account Settings:Read) and CLOUDFLARE_ACCOUNT_ID. Or deploy locally with: npm run deploy"
           fi
 
-      - name: Deploy with Wrangler
+      - name: Deploy to Cloudflare Pages
         if: steps.cf_secrets.outputs.present == 'true'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: deploy
+          command: pages deploy docs/.vitepress/dist --project-name youtube-starter-bible --branch main
