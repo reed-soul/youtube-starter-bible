@@ -228,13 +228,11 @@ verifiedAt: 2026-10-06
 | 118 | 《个人所得税法》第九、十条 | https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_901ca8faba104739bbf54e22483e6079.html | 识别号；境外所得申报情形 | **2026-10-06** ✅ |
 | 119 | facaimike · youtube-payment（一手） | https://facaimike.com/youtube-payment/ | YPP 邮件 2022-10-17；PIN≈39 天；首笔 2023-01；223.44/13.77 | **2026-10-06** ✅ 已读保存 HTML |
 | 120 | facaimike · open-make-money（一手） | https://facaimike.com/open-make-money/ | 2026-01–05 月收入序列 | **2026-10-06** ✅ |
-
 | 121 | 交通银行 · 离岸汇款账户行 | https://www.bankcomm.com/BankCommSite/shtml/jyjr/cn/7387/7610/7621/7622/7625/list.shtml?channelId=7387 | 仅境外账户行 SWIFT（COMMHKHHXXX 等）；**无** COMMCNSH | **2026-10-06** ✅（legacy TLS） |
 | 122 | 交通银行 · 2025 H 股年报 PDF | https://www.bankcomm.com/BankCommSite/file/fileDownload.html?fileId=17075f452dbd43eeaf9d02d2f6864ac0 | 英文名 Bank of Communications Co., Ltd.；全文无 COMMCNSH | **2026-10-06** ✅ |
 | 123 | 邮储 · 银邮汇款 / EN remittance | https://www.psbc.com/cn/grfw/cdh/wh/gjhk/202010/t20201014_5924.html · https://www.psbc.com/en/products_and_services/personal/feb/202011/t20201124_45679.html | 要求填收款行 BIC；**无** PSBCCNBJ | **2026-10-06** ✅ |
 | 124 | 邮储 · 联系我们 / 金融许可证 | https://www.psbc.com/cn/common/lxwm/ · http://www.psbc.com/cn/common/jrxkzxx/ | 英文名 POSTAL SAVINGS BANK OF CHINA CO.,LTD.；无 SWIFT | **2026-10-06** ✅ |
-| 125 | GLEIF LEI API（次级） | https://api.gleif.org/api/v1/lei-records/549300AX1UM10U30HK09 · https://api.gleif.org/api/v1/lei-records/300300C1040311005298 | 交行 bic 含 COMMCNSHXXX；邮储 bic=PSBCCNBJXXX — **仅次级，不进速查表** | **2026-10-06** 次级 |
-
+| 125 | GLEIF LEI API（次级） | https://api.gleif.org/api/v1/lei-records/549300AX1UM10U30HK09 · https://api.gleif.org/api/v1/lei-records/300300C1040311005298 | 交行 bic 含 COMMCNSHXXX；邮储 bic=PSBCCNBJXXX — **次级佐证**（表行以 #127 BIC Search 为准，非 GLEIF） | **2026-10-06** 次级 |
 | 126 | Swift · Free BIC Search | https://www.swift.com/bsl/ → https://www.swiftref.com/en/bicsearch · [条款](https://www.swift.com/about-us/legal/online-services/free-bic-search-swiftcom) | 免费 BIC 检索（免登录）；截图 `/workspace/yt-design/swift-bic/` | **2026-10-06** ✅ |
 | 127 | BIC Search · COMMCNSHXXX / PSBCCNBJXXX | 同上（查询当日） | **VALID** 总行：COMMCNSHXXX（上海交行）；PSBCCNBJXXX（北京邮储）；前缀 COMMCNSH≈270、PSBCCNBJ=5 | **2026-10-06** ✅ |
 | 128 | BIC Search · COMMCNSHFOS | 同上 | **0 BICs**（查两次）— 不推荐网传佛山码 | **2026-10-06** ✅ |
@@ -322,7 +320,7 @@ verifiedAt: 2026-10-06
 | 收款自查清单 / 付款日历推算器 | 44, 69, 70, 71, 72, 73, 42, 63, 56, 46, 52, 107, 108, 109 |
 | 版权主张 vs 版权警示 vs 社区准则警示 | 96, 97, 98, 99, 100, 101, 41, 110, 111 |
 | AdSense / 专章结汇口径 | 52, 107, 108, 109, 56 |
-| 银行 SWIFT 速查 | 112, 113, 114, 115, 116 |
+| 银行 SWIFT 速查 | 112–116, 121–128 |
 | 个税事实边界 | 117, 118, 65, 66, 49 |
 | 公开案例时间线 | 119, 120, 71, 44 |
 | 第 13 章核实：频道国家设置决定 YPP 资格 | 62, 40, 41 |
