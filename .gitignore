@@ -4,3 +4,6 @@ docs/.vitepress/cache/
 .DS_Store
 *.log
 .npm/
+
+# generated at build
+docs/public/llms-full.txt

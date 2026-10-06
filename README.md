@@ -63,17 +63,20 @@ youtube-starter-bible/
 ├── LICENSE                 # 文档 CC-BY-4.0；站点脚手架可 MIT
 ├── CONTRIBUTING.md
 ├── package.json            # VitePress 文档站
-├── .github/                # Pages 部署 + lychee 链接检查 + Issue 模板
+├── .github/                # Cloudflare Workers 部署 + lychee 链接检查 + Issue 模板
 └── docs/
     ├── index.md            # 站点首页
-    ├── .vitepress/         # VitePress 配置（base: /youtube-starter-bible/）
+    ├── .vitepress/         # VitePress 配置（base: / ；正式域 creator.taoliapp.com）
+    ├── public/             # robots.txt · llms.txt（llms-full 构建生成）
+    ├── 关于.md
     ├── 00-导读.md … 13-中国大陆创作者专章.md
     ├── 作战卡.md · 图示.md
     ├── SOURCES.md · GLOSSARY.md
 ```
 
-**在线文档站**：https://reed-soul.github.io/youtube-starter-bible/  
-本地预览：`npm install && npm run docs:dev`
+**在线文档站**：https://creator.taoliapp.com/  
+本地预览：`npm install && npm run docs:dev`  
+部署：`npm run docs:build && npx wrangler deploy`（需 Cloudflare 账号与 `creator.taoliapp.com` 自定义域）
 
 ---
 

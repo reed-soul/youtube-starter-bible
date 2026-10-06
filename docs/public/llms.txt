@@ -1,0 +1,39 @@
+# 小白油管起步，一路玩到专家
+
+> 开源中文 YouTube 起步完全指南：从 0 订阅到能独立运营的基本功。官方文档优先，证据分级，可审计可贡献。
+
+- 站点：https://creator.taoliapp.com/
+- 仓库：https://github.com/reed-soul/youtube-starter-bible
+- 维护者：reed-soul
+- 许可：内容 CC-BY-4.0
+- 基准日期：2026-10-06（Asia/Shanghai）
+- 完整正文（可选）：https://creator.taoliapp.com/llms-full.txt
+- 关于与编辑政策：https://creator.taoliapp.com/关于
+
+## 章节
+
+- [首页](https://creator.taoliapp.com/)：站点入口与阅读地图
+- [00 导读](https://creator.taoliapp.com/00-导读)：怎么用本指南、证据等级、2025–2026 必知更新
+- [01 推荐系统心智模型](https://creator.taoliapp.com/01-推荐系统心智模型)：推荐是「视频×观众」匹配预测，不是频道大小神话
+- [02 冷启动 0 到 1000](https://creator.taoliapp.com/02-冷启动0到1000)：无目录无核心粉时的阶段作业与产能
+- [03 定位选题与系列化](https://creator.taoliapp.com/03-定位选题与系列化)：定位三角、内容桶、选题漏斗与播放列表
+- [04 标题封面与包装](https://creator.taoliapp.com/04-标题封面与包装)：可重复包装流程；诚实 CTR；A/B 看 watch time
+- [05 脚本留存与完播](https://creator.taoliapp.com/05-脚本留存与完播)：开场兑现、关键时刻、结构与钩子
+- [06 Shorts 漏斗](https://creator.taoliapp.com/06-Shorts漏斗)：短转长 Related Video 四步与原创优先
+- [07 频道装修与 Studio](https://creator.taoliapp.com/07-频道装修与Studio)：频道页转化落地与 Studio 诊断顺序
+- [08 发布节奏实验与复盘](https://creator.taoliapp.com/08-发布节奏实验与复盘)：可维持节奏、单变量纪律、周/月复盘
+- [09 变现与合规红线](https://creator.taoliapp.com/09-变现与合规红线)：YPP、质量信号、版权与绝对红线
+- [10 通用审计清单](https://creator.taoliapp.com/10-通用审计清单)：任意频道结构化体检（可打印）
+- [11 常见问题 FAQ](https://creator.taoliapp.com/11-常见问题FAQ)：高频问答，区分官方/实践/神话
+- [12 反例与失败模式](https://creator.taoliapp.com/12-反例与失败模式)：症状→机制→纠正的失败模式库
+- [13 中国大陆创作者专章](https://creator.taoliapp.com/13-中国大陆创作者专章)：YPP 地区、AdSense 收款、美税/个税框架、核实状态表
+- [作战卡](https://creator.taoliapp.com/作战卡)：一页打印漏斗与发布前检查
+- [图示索引](https://creator.taoliapp.com/图示)：全书 Mermaid 图示
+- [术语表 GLOSSARY](https://creator.taoliapp.com/GLOSSARY)：Studio/官方用语中英对照
+- [来源 SOURCES](https://creator.taoliapp.com/SOURCES)：主张→文献对照与核对日
+- [关于 / 作者与更新](https://creator.taoliapp.com/关于)：维护者、编辑政策、更正方式、许可
+
+## 使用注意
+
+- 证据标记：【官方】/【行业实践】/【神话】；税率与银行费以后台/开户行为准。
+- 本文非法律/税务/投资意见；不提供规避网络管理或虚假申报的操作说明。

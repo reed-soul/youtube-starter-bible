@@ -1,9 +1,9 @@
 import { defineConfig, type HeadConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
-const SITE_HOST = 'https://reed-soul.github.io'
-const SITE_BASE = '/youtube-starter-bible/'
-const SITE_ORIGIN = `${SITE_HOST}${SITE_BASE}`
+const SITE_ORIGIN = 'https://creator.taoliapp.com/'
+const SITE_HOST = 'https://creator.taoliapp.com'
+const SITE_BASE = '/'
 
 export default withMermaid(
   defineConfig({
@@ -53,7 +53,7 @@ export default withMermaid(
       const canonicalUrl =
         pageData.relativePath === 'index.md'
           ? SITE_ORIGIN
-          : `${SITE_HOST}${SITE_BASE}${rel}`
+          : `${SITE_HOST}/${rel}`
 
       const title =
         (pageData.frontmatter.title as string | undefined) || pageData.title
@@ -89,14 +89,14 @@ export default withMermaid(
               dateModified,
               mainEntityOfPage: canonicalUrl,
               author: {
-                '@type': 'Organization',
-                name: '小白油管起步，一路玩到专家',
-                url: SITE_ORIGIN
+                '@type': 'Person',
+                name: 'reed-soul',
+                url: 'https://github.com/reed-soul'
               },
               publisher: {
                 '@type': 'Organization',
-                name: '小白油管起步，一路玩到专家',
-                url: SITE_ORIGIN
+                name: 'reed-soul',
+                url: 'https://github.com/reed-soul'
               }
             },
             {
@@ -162,6 +162,7 @@ export default withMermaid(
         { text: '大陆创作者', link: '/13-中国大陆创作者专章' },
         { text: '作战卡', link: '/作战卡' },
         { text: 'FAQ', link: '/11-常见问题FAQ' },
+        { text: '关于', link: '/关于' },
         {
           text: 'GitHub',
           link: 'https://github.com/reed-soul/youtube-starter-bible'
@@ -203,7 +204,8 @@ export default withMermaid(
             { text: '作战卡（一页打印）', link: '/作战卡' },
             { text: '图示索引（Mermaid）', link: '/图示' },
             { text: '术语表 GLOSSARY', link: '/GLOSSARY' },
-            { text: '来源与主张对照 SOURCES', link: '/SOURCES' }
+            { text: '来源与主张对照 SOURCES', link: '/SOURCES' },
+            { text: '关于 / 作者与更新', link: '/关于' }
           ]
         }
       ],
@@ -217,9 +219,9 @@ export default withMermaid(
 
       footer: {
         message:
-          '内容采用 <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>；站点构建代码可采用 MIT。',
+          '内容采用 <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>；站点构建代码可采用 MIT。 · <a href="/关于">关于 / 作者与更新</a> · <a href="/llms.txt">llms.txt</a>',
         copyright:
-          'Copyright © 2026 「小白油管起步，一路玩到专家」贡献者 · 无任何涨粉保证'
+          'Copyright © 2026 reed-soul / 「小白油管起步，一路玩到专家」贡献者 · 无任何涨粉保证 · https://creator.taoliapp.com/'
       },
 
       editLink: {
