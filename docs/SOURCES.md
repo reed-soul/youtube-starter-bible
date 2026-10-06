@@ -78,7 +78,7 @@
 | 21 | How to earn money on YouTube | https://support.google.com/youtube/answer/72857 | 功能与门槛总表 | ✅ |
 | 22 | Choose how you want to monetize | https://support.google.com/youtube/answer/94522?hl=en | 功能对照 | ✅ |
 | 23 | Channel monetization policies | https://support.google.com/youtube/answer/1311392?hl=en | 可变现内容质量入口 | 不真实内容澄清以此为根 ✅ |
-| 24 | YPP updates toward 2027 | https://blog.youtube/news-and-events/youtube-partner-program-updates-2027-new-opportunities-earn/ | 新申请人门槛上调等 | 规划信号 ✅ |
+| 24 | YPP updates toward 2027 (EN Blog) | https://blog.youtube/news-and-events/youtube-partner-program-updates-2027-new-opportunities-earn/ | 2027-02-01 新申请人 8k 小时 / 20M Shorts；Fan Funding 不变；已在 YPP 不受进入门槛影响 | **2026-08-10** ✅ |
 | 25 | Fake engagement policy | https://support.google.com/youtube/answer/3399767 | 买量、sub4sub 等 | 红线 ✅ |
 | 26 | Spam, deceptive practices, scams | https://support.google.com/youtube/answer/2801973 | 垃圾与欺骗；无机推广；与再利用精神相关 | Shorts 原创更新常引用 ✅ |
 | 26b | Copyright on YouTube | https://support.google.com/youtube/answer/2797466 | 版权基础；许可/例外路径 | ✅ 2026-10-05 |
@@ -127,6 +127,14 @@
 | 64 | IRS Tax Treaty Table 1（Rev. May 2023） | https://www.irs.gov/pub/irs-lbi/tax-treaty-table-1.pdf | China Royalties **10%** | ✅ |
 | 65 | 个税法实施条例（国务院令第707号） | https://www.gov.cn/zhengce/content/2018-12/22/content_5351177.htm | 特许权/劳务/稿酬/经营定义 | ✅ |
 | 66 | 境外所得个税公告 2020 年第 3 号（12366） | https://12366.chinatax.gov.cn/bzds/082/082-5-4.html | 申报期、抵免限额、凭证 | ✅ |
+
+### YPP 2027-02-01 门槛变更（2026-10-06 核实）
+
+| # | 文献 | URL | 支撑 | 🕒 |
+|---|------|-----|------|----|
+| 67 | Changes to the YouTube Partner Program (Help) | https://support.google.com/youtube/answer/12843009?hl=en | 新申请人 8,000 小时或 20M Shorts + 仍须 1k 订阅；已在 YPP 不受影响；Fan Funding/Shopping 不变 | **2026-10-06** ✅ |
+| 68 | blog.google zh-tw · YPP 收益管道與異動 | https://blog.google/intl/zh-tw/products/explore-get-answers/youtube-partner-program-update/ | 繁中官方：8,000 有效公開觀看時數 / 2,000 萬 Shorts；粉絲贊助與 Shopping 門檻維持不變；已加入不受影響 | **2026-08-10** ✅ |
+| 24↑ | YouTube Blog EN（同上 §4 #24） | https://blog.youtube/news-and-events/youtube-partner-program-updates-2027-new-opportunities-earn/ | 英文官方同日稿；门槛句未逐字写 1k 订阅（以 #67 为准） | **2026-08-10** ✅ |
 
 
 **第 13 章刻意不引用为操作依据的内容**：教虚假选区/住宅 IP 包装、具体「必过银行卡」担保、未标注日期的税率截图教程。
@@ -185,7 +193,7 @@
 | Shorts 独立价值；长转短 | 13, 15 |
 | Shorts 原创优先（2026-10） | 27–30, 26 |
 | Trailer / 布局 / 结束画面 / Podcast | 11, 10, 12 |
-| YPP 门槛与 2027 规划 | 19–24 |
+| YPP 门槛与 2027-02-01 新门槛 | 19–24, 67, 68 |
 | Fake engagement / Spam / 站外无机推广 | 25, 26 |
 | 版权 / fair use / Content ID 局限 | 26b, 26c |
 | 付费推广披露 | 26d, 26e, 26f |
@@ -203,6 +211,7 @@
 | 第 13 章核实：频道国家设置决定 YPP 资格 | 62, 40, 41 |
 | 第 13 章核实：IRS 表列中国 Royalties 10% | 64, 48, 46 |
 | 第 13 章核实：个税项目依实施条例事实归类 | 65, 66, 49 |
+| YPP 资格页：2027-02-01 新申请人 8k/20M 对照 | 67, 68, 24, 19, 21 |
 
 ---
 
