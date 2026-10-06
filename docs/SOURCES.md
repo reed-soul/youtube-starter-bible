@@ -235,9 +235,11 @@ verifiedAt: 2026-10-06
 | 124 | 邮储 · 联系我们 / 金融许可证 | https://www.psbc.com/cn/common/lxwm/ · http://www.psbc.com/cn/common/jrxkzxx/ | 英文名 POSTAL SAVINGS BANK OF CHINA CO.,LTD.；无 SWIFT | **2026-10-06** ✅ |
 | 125 | GLEIF LEI API（次级） | https://api.gleif.org/api/v1/lei-records/549300AX1UM10U30HK09 · https://api.gleif.org/api/v1/lei-records/300300C1040311005298 | 交行 bic 含 COMMCNSHXXX；邮储 bic=PSBCCNBJXXX — **仅次级，不进速查表** | **2026-10-06** 次级 |
 
-| 126 | Swift · Free BIC Search | https://www.swift.com/bsl/ · [条款](https://www.swift.com/about-us/legal/online-services/free-bic-search-swiftcom) | 官方免费 BIC 检索入口（验证码）；本环境未完成查询 | **2026-10-06** 入口 ✅ / 结果待核 |
+| 126 | Swift · Free BIC Search | https://www.swift.com/bsl/ → https://www.swiftref.com/en/bicsearch · [条款](https://www.swift.com/about-us/legal/online-services/free-bic-search-swiftcom) | 免费 BIC 检索（免登录）；截图 `/workspace/yt-design/swift-bic/` | **2026-10-06** ✅ |
+| 127 | BIC Search · COMMCNSHXXX / PSBCCNBJXXX | 同上（查询当日） | **VALID** 总行：COMMCNSHXXX（上海交行）；PSBCCNBJXXX（北京邮储）；前缀 COMMCNSH≈270、PSBCCNBJ=5 | **2026-10-06** ✅ |
+| 128 | BIC Search · COMMCNSHFOS | 同上 | **0 BICs**（查两次）— 不推荐网传佛山码 | **2026-10-06** ✅ |
 
-**Batch 3 刻意不收录**：交行/邮储（官网仍无总行 BIC 原文，见 #121–124；GLEIF #125 仅次级）；第三方 6 位残缺代码；lilys AI 摘要中的「老汪」时间线（未打开原视频）；facaimike 改香港地区步骤（仅作冲突警告）。
+**Batch 3 刻意不收录**：交行/邮储**官网原文**仍缺（#121–124；表行以 SWIFT 目录 #127 收录）；`COMMCNSHFOS`（#128 目录 0）；第三方 6 位残缺代码；lilys AI 摘要中的「老汪」时间线（未打开原视频）；facaimike 改香港地区步骤（仅作冲突警告）。
 
 ## 5. Shorts 原创排序（2026-10）——官方表述 + 二级报道
 
