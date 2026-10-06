@@ -16,15 +16,40 @@ verifiedAt: 2026-10-06
 
 <SwiftLookup />
 
-## 未收录说明
+## 未收录说明（交行 / 邮储 · 2026-10-06 复核）
 
 | 银行 | 状态 | 原因 |
 |------|------|------|
-| 交通银行 | **未收录代码** | 2026-10-06 未能在 bankcomm.com 公开页稳定抓到带 `COMMCNSH` 的原文；第三方表常见 8 位写法，但 facaimike 曾误写 6 位 `COMMCN`——本站拒绝照抄 |
-| 邮储银行 | **未收录代码** | 未能在 psbc.com 公开页核到 `PSBCCNBJ` 原文 |
+| 交通银行 | **仍未收录代码** | 见下方复核；官网公开页**未写出**大陆总行 `COMMCNSH` |
+| 邮储银行 | **仍未收录代码** | 见下方复核；psbc.com **未公示**自身总行 `PSBCCNBJ` |
 | 华夏 / 民生等 | **未收录** | 未完成官网逐家核对 |
 
 **请向开户行或网银「跨境汇款 / 收款路径」页索取你账户适用的 SWIFT。**
+
+### 为何上一轮先跳过
+
+1. **交行**：`bankcomm.com` 在部分现代 TLS 客户端会因 **UnsafeLegacyRenegotiation** 握手失败，抓取得到空页，无法稳定读原文（本轮用兼容配置后已打开）。
+2. **邮储**：产品页可打开，但只指导客户填写*对方银行* SWIFT，**从不写邮储自己的总行 BIC**。
+3. 第三方目录 / 残缺 6 位码（如 facaimike 的 `COMMCN`）一律不当作收录依据。
+
+### 交通银行复核
+
+- **英文法定名（官网/年报可核）**：`Bank of Communications Co., Ltd.`（[2025 H 股年报 PDF](https://www.bankcomm.com/BankCommSite/file/fileDownload.html?fileId=17075f452dbd43eeaf9d02d2f6864ac0)，自 [投资者关系](https://www.bankcomm.com/BankCommSite/shtml/jyjr/en/2600223/list.shtml) 链出）。
+- **官网实际写到的 SWIFT**：离岸汇款「账户行」页只列**境外**交行/代理行码，例如 `COMMHKHHXXX`（港交行）、`COMMDEFFXXX`、`COMMSGSGXXX`、`COMMJPJTXXX` 等——见 [离岸汇款说明](https://www.bankcomm.com/BankCommSite/shtml/jyjr/cn/7387/7610/7621/7622/7625/list.shtml?channelId=7387)（及 [手机站同文](https://m.bankcomm.com/wap/shtml/wap/cn/15165/15168/15180/15206/15215/list.shtml?channelId=2600145)）。**全文无 `COMMCNSH` / `COMMCNSHXXX`。**
+- **年报**：同上 PDF 全文检索无 `COMMCNSH`、无 SWIFT/BIC 总行码字段。
+- **用户粘贴候选** `COMMCNSH` / `COMMCNSHXXX`、分行例 `COMMCNSHFOS`：**未在上述官网页见到**，故不进速查表。
+- **次级佐证（不收录）**：GLEIF LEI [`549300AX1UM10U30HK09`](https://api.gleif.org/api/v1/lei-records/549300AX1UM10U30HK09) 的 `bic` 数组含 `COMMCNSHXXX`（另有多家境外分行码）；Wise/XE 等目录亦列同码——**仅次级**，不能替代银行域名原文。
+
+### 邮储银行复核
+
+- **英文法定名（官网可核）**：`POSTAL SAVINGS BANK OF CHINA CO.,LTD.`（[联系我们](https://www.psbc.com/cn/common/lxwm/)）；金融许可证页写法接近 `POSTAL SAVINGS BANK OF CHINA Co., Ltd.`（[金融许可证信息](http://www.psbc.com/cn/common/jrxkzxx/)）。地址：北京西城区金融大街 3 号。
+- **官网汇款页**： [银邮汇款](https://www.psbc.com/cn/grfw/cdh/wh/gjhk/202010/t20201014_5924.html) / [EN Cross-Border Remittance](https://www.psbc.com/en/products_and_services/personal/feb/202011/t20201124_45679.html) 要求客户提供**收款行** SWIFT BIC（8 或 11 位），**不公布邮储总行码**。全文无 `PSBCCNBJ`。
+- **用户粘贴候选** `PSBCCNBJ` / `PSBCCNBJXXX`：**未在 psbc.com 打开页见到**，故不进速查表。
+- **次级佐证（不收录）**：GLEIF LEI [`300300C1040311005298`](https://api.gleif.org/api/v1/lei-records/300300C1040311005298) 的 `bic` 为 `["PSBCCNBJXXX"]`；第三方目录同——**仅次级**。
+
+### 收录门槛（不变）
+
+只有**银行官网页面（或该行域名上的汇路/年报 PDF）原文**出现的 8/11 位 BIC 才进入上方 `<SwiftLookup />`。GLEIF / SWIFT 公开映射 / 支付 App 目录一律标次级、不进表。
 
 ## 核实状态（本页 · 2026-10-06）
 
@@ -35,6 +60,7 @@ verifiedAt: 2026-10-06
 | C | 中国银行总行 | BKCHCNBJ | **可核** | [boc.cn SWIFT 名录](https://www.boc.cn/aboutboc/ab6/200810/t20081016_7363.html) |
 | D | 建设银行 | PCBCCNBJXXX | **可核（信用卡汇路页）** | [ccb.com FAQ](https://ccb.com/faq/20130930_475197001/questionlist_1.html) |
 | E | 农业银行 | ABOCCNBJXXX | **可核** | [ru.abchina.com Requisites](http://www.ru.abchina.com/en/Requisites/) |
-| F | 交行 / 邮储 | — | **未收录** | 见上表 |
+| F | 交行 | — | **未收录（复核）** | 离岸页/年报无 COMMCNSH；GLEIF 次级见上 |
+| G | 邮储 | — | **未收录（复核）** | 银邮汇款页无 PSBCCNBJ；GLEIF 次级见上 |
 
 **声明**：非银行意见；代码变更以官网与开户行当日告知为准。

@@ -229,7 +229,13 @@ verifiedAt: 2026-10-06
 | 119 | facaimike · youtube-payment（一手） | https://facaimike.com/youtube-payment/ | YPP 邮件 2022-10-17；PIN≈39 天；首笔 2023-01；223.44/13.77 | **2026-10-06** ✅ 已读保存 HTML |
 | 120 | facaimike · open-make-money（一手） | https://facaimike.com/open-make-money/ | 2026-01–05 月收入序列 | **2026-10-06** ✅ |
 
-**Batch 3 刻意不收录**：交行/邮储未在官网核到的 SWIFT；第三方 6 位残缺代码；lilys AI 摘要中的「老汪」时间线（未打开原视频）；facaimike 改香港地区步骤（仅作冲突警告）。
+| 121 | 交通银行 · 离岸汇款账户行 | https://www.bankcomm.com/BankCommSite/shtml/jyjr/cn/7387/7610/7621/7622/7625/list.shtml?channelId=7387 | 仅境外账户行 SWIFT（COMMHKHHXXX 等）；**无** COMMCNSH | **2026-10-06** ✅（legacy TLS） |
+| 122 | 交通银行 · 2025 H 股年报 PDF | https://www.bankcomm.com/BankCommSite/file/fileDownload.html?fileId=17075f452dbd43eeaf9d02d2f6864ac0 | 英文名 Bank of Communications Co., Ltd.；全文无 COMMCNSH | **2026-10-06** ✅ |
+| 123 | 邮储 · 银邮汇款 / EN remittance | https://www.psbc.com/cn/grfw/cdh/wh/gjhk/202010/t20201014_5924.html · https://www.psbc.com/en/products_and_services/personal/feb/202011/t20201124_45679.html | 要求填收款行 BIC；**无** PSBCCNBJ | **2026-10-06** ✅ |
+| 124 | 邮储 · 联系我们 / 金融许可证 | https://www.psbc.com/cn/common/lxwm/ · http://www.psbc.com/cn/common/jrxkzxx/ | 英文名 POSTAL SAVINGS BANK OF CHINA CO.,LTD.；无 SWIFT | **2026-10-06** ✅ |
+| 125 | GLEIF LEI API（次级） | https://api.gleif.org/api/v1/lei-records/549300AX1UM10U30HK09 · https://api.gleif.org/api/v1/lei-records/300300C1040311005298 | 交行 bic 含 COMMCNSHXXX；邮储 bic=PSBCCNBJXXX — **仅次级，不进速查表** | **2026-10-06** 次级 |
+
+**Batch 3 刻意不收录**：交行/邮储（官网仍无总行 BIC 原文，见 #121–124；GLEIF #125 仅次级）；第三方 6 位残缺代码；lilys AI 摘要中的「老汪」时间线（未打开原视频）；facaimike 改香港地区步骤（仅作冲突警告）。
 
 ## 5. Shorts 原创排序（2026-10）——官方表述 + 二级报道
 
