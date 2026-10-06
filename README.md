@@ -2,7 +2,7 @@
 
 > 一份面向 2026 年开频道者的开源中文指南：从 0 订阅到能独立运营的「专家级基本功」。  
 > **状态**：知识库 / 静态站友好 · 官方优先 · 可复用检查清单  
-> **基准日期**：2026-10-05（Asia/Shanghai）
+> **基准日期**：2026-10-06（Asia/Shanghai）
 
 ---
 
@@ -46,7 +46,8 @@
 7. **[09 变现与合规](docs/09-变现与合规红线.md)** — YPP、质量信号、版权/真实故事伦理、红线  
 8. **[10 审计清单](docs/10-通用审计清单.md)** + **[11 FAQ](docs/11-常见问题FAQ.md)** — 自检与答疑（FAQ ≥50）  
 9. **[12 反例与失败模式](docs/12-反例与失败模式.md)** — 高 CTR 低留存、刮擦 Shorts、假系列、燃尽日更等  
-10. 随时查阅 **[作战卡](docs/作战卡.md)**（一页打印）· **[图示](docs/图示.md)** · **[GLOSSARY](docs/GLOSSARY.md)** · **[SOURCES](docs/SOURCES.md)**
+10. **[13 中国大陆创作者专章](docs/13-中国大陆创作者专章.md)** — YPP 适用地区、AdSense 收款/结汇、W-8BEN、个税框架、搬运与 AI 披露  
+11. 随时查阅 **[作战卡](docs/作战卡.md)**（一页打印）· **[图示](docs/图示.md)** · **[GLOSSARY](docs/GLOSSARY.md)** · **[SOURCES](docs/SOURCES.md)**
 
 每章结构：**5分钟速读**（章首）→ 正文 → 检查清单 → **本周作业**（章末）。
 
@@ -66,7 +67,7 @@ youtube-starter-bible/
 └── docs/
     ├── index.md            # 站点首页
     ├── .vitepress/         # VitePress 配置（base: /youtube-starter-bible/）
-    ├── 00-导读.md … 12-反例与失败模式.md
+    ├── 00-导读.md … 13-中国大陆创作者专章.md
     ├── 作战卡.md · 图示.md
     ├── SOURCES.md · GLOSSARY.md
 ```

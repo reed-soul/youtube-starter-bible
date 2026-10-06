@@ -1,12 +1,16 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type HeadConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
+
+const SITE_HOST = 'https://reed-soul.github.io'
+const SITE_BASE = '/youtube-starter-bible/'
+const SITE_ORIGIN = `${SITE_HOST}${SITE_BASE}`
 
 export default withMermaid(
   defineConfig({
     lang: 'zh-CN',
     title: '小白油管起步，一路玩到专家',
     description: '从零到专家的 YouTube 起步完全指南（开源，持续更新）',
-    base: '/youtube-starter-bible/',
+    base: SITE_BASE,
     cleanUrls: true,
     lastUpdated: true,
     ignoreDeadLinks: [
@@ -14,25 +18,113 @@ export default withMermaid(
       /^https?:\/\/creativecommons\.org/
     ],
 
+    sitemap: {
+      // trailing slash required so relative page paths resolve under base
+      hostname: `${SITE_HOST}${SITE_BASE}`
+    },
+
     head: [
       ['meta', { name: 'theme-color', content: '#ff0000' }],
-      ['meta', { name: 'og:type', content: 'website' }],
-      ['meta', { name: 'og:locale', content: 'zh_CN' }],
+      ['meta', { property: 'og:type', content: 'website' }],
+      ['meta', { property: 'og:locale', content: 'zh_CN' }],
+      ['meta', { property: 'og:site_name', content: '小白油管起步，一路玩到专家' }],
       [
         'meta',
         {
-          name: 'og:title',
+          property: 'og:title',
           content: '小白油管起步，一路玩到专家'
         }
       ],
       [
         'meta',
         {
-          name: 'og:description',
+          property: 'og:description',
           content: '从零到专家的 YouTube 起步完全指南（开源，持续更新）'
         }
-      ]
+      ],
+      ['meta', { name: 'twitter:card', content: 'summary' }]
     ],
+
+    transformPageData(pageData) {
+      const rel =
+        pageData.relativePath === 'index.md'
+          ? ''
+          : pageData.relativePath.replace(/\.md$/, '').replace(/\/index$/, '')
+      const canonicalUrl =
+        pageData.relativePath === 'index.md'
+          ? SITE_ORIGIN
+          : `${SITE_HOST}${SITE_BASE}${rel}`
+
+      const title =
+        (pageData.frontmatter.title as string | undefined) || pageData.title
+      const description =
+        (pageData.frontmatter.description as string | undefined) ||
+        (pageData.description as string | undefined) ||
+        '从零到专家的 YouTube 起步完全指南（开源，持续更新）'
+
+      pageData.frontmatter.head ??= []
+      const head = pageData.frontmatter.head as HeadConfig[]
+
+      head.push(['link', { rel: 'canonical', href: canonicalUrl }])
+      head.push(['meta', { property: 'og:url', content: canonicalUrl }])
+      head.push(['meta', { property: 'og:title', content: title }])
+      head.push(['meta', { property: 'og:description', content: description }])
+      head.push(['meta', { name: 'twitter:title', content: title }])
+      head.push(['meta', { name: 'twitter:description', content: description }])
+
+      // Article + BreadcrumbList JSON-LD for doc chapters (not home)
+      if (pageData.relativePath !== 'index.md') {
+        const dateModified =
+          pageData.lastUpdated
+            ? new Date(pageData.lastUpdated).toISOString()
+            : new Date().toISOString()
+        const jsonLd = {
+          '@context': 'https://schema.org',
+          '@graph': [
+            {
+              '@type': 'Article',
+              headline: title,
+              description,
+              inLanguage: 'zh-CN',
+              dateModified,
+              mainEntityOfPage: canonicalUrl,
+              author: {
+                '@type': 'Organization',
+                name: '小白油管起步，一路玩到专家',
+                url: SITE_ORIGIN
+              },
+              publisher: {
+                '@type': 'Organization',
+                name: '小白油管起步，一路玩到专家',
+                url: SITE_ORIGIN
+              }
+            },
+            {
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                {
+                  '@type': 'ListItem',
+                  position: 1,
+                  name: '首页',
+                  item: SITE_ORIGIN
+                },
+                {
+                  '@type': 'ListItem',
+                  position: 2,
+                  name: title,
+                  item: canonicalUrl
+                }
+              ]
+            }
+          ]
+        }
+        head.push([
+          'script',
+          { type: 'application/ld+json' },
+          JSON.stringify(jsonLd)
+        ])
+      }
+    },
 
     themeConfig: {
       logo: undefined,
@@ -67,6 +159,7 @@ export default withMermaid(
       nav: [
         { text: '首页', link: '/' },
         { text: '导读', link: '/00-导读' },
+        { text: '大陆创作者', link: '/13-中国大陆创作者专章' },
         { text: '作战卡', link: '/作战卡' },
         { text: 'FAQ', link: '/11-常见问题FAQ' },
         {
@@ -97,7 +190,11 @@ export default withMermaid(
             { text: '09 · 变现与合规红线', link: '/09-变现与合规红线' },
             { text: '10 · 通用审计清单', link: '/10-通用审计清单' },
             { text: '11 · 常见问题 FAQ', link: '/11-常见问题FAQ' },
-            { text: '12 · 反例与失败模式', link: '/12-反例与失败模式' }
+            { text: '12 · 反例与失败模式', link: '/12-反例与失败模式' },
+            {
+              text: '13 · 中国大陆创作者专章',
+              link: '/13-中国大陆创作者专章'
+            }
           ]
         },
         {

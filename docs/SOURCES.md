@@ -1,6 +1,6 @@
 # 来源与引用 SOURCES
 
-> 基准核对日：**2026-10-05**（Asia/Shanghai）  
+> 基准核对日：**2026-10-06**（Asia/Shanghai；含第 13 章大陆创作者来源）  
 > 原则：**官方优先**；第三方仅作标注的二级原则。政策会变——动手前请打开原链确认。  
 > 本页同时承担：**章节主张 → 文献** 对照表，便于审计与 PR。
 
@@ -89,6 +89,30 @@
 
 ---
 
+## 4b. 中国大陆创作者：YPP 地区、收款、税务、结汇、AI 披露（第 13 章）
+
+| # | 文献 | URL | 支撑 | 🕒 |
+|---|------|-----|------|----|
+| 40 | YPP 适用地区列表 | https://support.google.com/youtube/answer/7101720?hl=zh-Hans | 名单含香港/台湾等；**2026-10-06 未见「中国」** | **2026-10-06** ✅ |
+| 41 | YPP 概览与资格 | https://support.google.com/youtube/answer/72851?hl=zh-Hans | 门槛；居住地条件；审核 | ✅ |
+| 42 | 添加 AdSense/YouTube 收款方式 | https://support.google.com/adsense/answer/1714397?hl=zh-Hans | **中国：电汇 + Hyperwallet** | ✅ |
+| 43 | 通过电汇接收款项 | https://support.google.com/adsense/answer/3372975?hl=zh-Hans | 电汇字段与流程 | ✅ |
+| 44 | 如何在 YouTube 上获得收益 | https://support.google.com/youtube/answer/14732067?hl=zh-Hans | 验证/税务/方式/起付额与付款周期示例 | ✅ |
+| 45 | 设置 AdSense YouTube 广告账号 | https://support.google.com/youtube/answer/9914702?hl=zh-Hans | 须经 Studio 创建；PIN≈$10 | ✅ |
+| 46 | YouTube 收入美国税务规定 | https://support.google.com/youtube/answer/10391362?hl=zh-Hans | 预扣范围；未提交最高约 24%；12/10 | ✅ |
+| 47 | 向 Google 提交美国税务信息 | https://support.google.com/youtube/answer/10390801?hl=zh-Hans | W-8BEN 路径；协定类型 | ✅ |
+| 48 | IRS 中美税收协定文本 | https://www.irs.gov/pub/irs-trty/china.pdf | Royalties 条款 **10%** 上限框架 | 条约文本 |
+| 48b | IRS China treaty documents | https://www.irs.gov/businesses/international-businesses/china-tax-treaty-documents | 条约文档索引 | ✅ |
+| 49 | 境外所得个税政策公告（政府网） | https://www.gov.cn/zhengce/zhengceku/2020-01/22/content_5471604.htm | 次年 3/1–6/30 申报等框架 | 公开政策 |
+| 50 | 频道创收政策（二次利用/不实内容等） | https://support.google.com/youtube/answer/1311392?hl=zh-Hans | 搬运判定；AI 敏感人设等 | ✅ |
+| 51 | 披露生成式 AI 内容 | https://support.google.com/youtube/answer/14328491?hl=zh-Hans | 写实合成须披露；自声克隆通常免 | ✅ |
+| 52 | 个人外汇管理公开规章入口（SAFE） | https://www.safe.gov.cn/safe/2022/0818/21330.html | 《个人外汇管理办法》等入口；便利化额度以现行细则/银行为准 | 入口页；细则请再核 |
+| 53 | Google Search Central · helpful content | https://developers.google.com/search/docs/fundamentals/creating-helpful-content | 本站 SEO 与 YMYL 写作原则 | 2026 |
+| 54 | Search Central · title / snippet / sitemap | https://developers.google.com/search/docs/appearance/title-link · https://developers.google.com/search/docs/appearance/snippet · https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview | 标题、描述、sitemap | 2026 |
+| 55 | Article structured data | https://developers.google.com/search/docs/appearance/structured-data/article | 可选 Article JSON-LD | 2026-09 文档 |
+
+**第 13 章刻意不引用为操作依据的内容**：教虚假选区/住宅 IP 包装、具体「必过银行卡」担保、未标注日期的税率截图教程。
+
 ## 5. Shorts 原创排序（2026-10）——官方表述 + 二级报道
 
 | # | 文献 | URL | 支撑 | 🕒 |
@@ -150,6 +174,12 @@
 | AI slop / 质量变现 | 18, 23, 31 |
 | 包装前置、内容桶、单变量实验 | 35（二级）；实验纪律为实践 |
 | 「先做大量视频每次改一件事」 | 34（二级，2022） |
+| 第 13 章：YPP 适用地区无「中国」（核验日） | 40, 41 |
+| 第 13 章：中国收款电汇+Hyperwallet | 42, 43, 44 |
+| 第 13 章：W-8BEN / 美预扣 / 协定 10% 框架 | 46, 47, 48, 48b |
+| 第 13 章：中国境外所得申报时间窗 | 49 |
+| 第 13 章：二次利用 / AI 披露 | 50, 51, 27–30 |
+| 第 13 章：结汇便利化额度口径需再核银行/SAFE | 52 |
 
 ---
 
