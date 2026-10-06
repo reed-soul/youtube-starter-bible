@@ -101,13 +101,16 @@ button:focus-visible,
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
+  html {
     scroll-behavior: auto !important;
+  }
+  .card,
+  .btn,
+  .faq-item,
+  .VPDocFooter .pager-link,
+  .yp-progress {
+    transition: none !important;
+    animation: none !important;
   }
   .yp-progress {
     display: none !important;
@@ -382,10 +385,10 @@ button:focus-visible,
 
 .vp-doc tr {
   border: none;
-  background: transparent !important;
+  background: transparent;
 }
-.vp-doc tr:nth-child(2n) {
-  background: var(--vp-c-bg-soft) !important;
+.vp-doc tbody tr:nth-child(even) {
+  background: var(--vp-c-bg-soft);
 }
 .vp-doc th,
 .vp-doc td {
@@ -671,4 +674,104 @@ button:focus-visible,
 .yp-mermaid__scroll svg .nodeLabel,
 .yp-mermaid__scroll svg .label {
   overflow: visible;
+}
+
+/* Full-height sidebar rail (fixes full-page screenshot + visual continuity) */
+@media (min-width: 960px) {
+  .Layout.has-sidebar {
+    background-image: linear-gradient(
+      to right,
+      var(--vp-sidebar-bg-color, var(--vp-c-bg-alt)) var(--vp-sidebar-width),
+      transparent var(--vp-sidebar-width)
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .dark {
+    --vp-sidebar-bg-color: #0e0e10;
+  }
+  :root:not(.dark) {
+    --vp-sidebar-bg-color: var(--vp-c-bg-alt);
+  }
+  .VPSidebar {
+    background-color: var(--vp-sidebar-bg-color) !important;
+  }
+}
+
+/* Mermaid lazy placeholder — reserve space, avoid CLS */
+.yp-mermaid {
+  position: relative;
+  min-height: 140px;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 160px;
+}
+.yp-mermaid__placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  border: 1px dashed var(--vp-c-border);
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+  font-size: 0.85rem;
+  font-weight: 500;
+  pointer-events: none;
+}
+.yp-mermaid[data-state='ready'] .yp-mermaid__placeholder,
+.yp-mermaid[data-state='error'] .yp-mermaid__placeholder {
+  display: none;
+}
+
+/* CSS-only table scroll (no JS wrap — avoids layout thrash) */
+.vp-doc .yp-table-scroll { display: contents; }
+@media (max-width: 960px) {
+  .vp-doc {
+    overflow-x: auto;
+  }
+}
+
+/* Long-doc layout containment — cuts style/layout cost on chapter pages */
+@media (min-width: 0) {
+  .vp-doc > h2,
+  .vp-doc > h3,
+  .vp-doc > h4,
+  .vp-doc > p,
+  .vp-doc > ul,
+  .vp-doc > ol,
+  .vp-doc > blockquote,
+  .vp-doc > .custom-block,
+  .vp-doc > .yp-mermaid,
+  .vp-doc > div[class*='language-'] {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 72px;
+  }
+}
+
+/* Fixed full-viewport sidebar rail (real continuity, not only first paint) */
+@media (min-width: 960px) {
+  .VPSidebar {
+    position: fixed !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    height: 100vh !important;
+    height: 100dvh !important;
+    background-color: var(--vp-sidebar-bg-color, var(--vp-c-bg-alt)) !important;
+  }
+  .Layout.has-sidebar::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--vp-sidebar-width);
+    height: 100vh;
+    height: 100dvh;
+    background: var(--vp-sidebar-bg-color, var(--vp-c-bg-alt));
+    z-index: 19;
+    pointer-events: none;
+  }
+  .VPSidebar {
+    z-index: 20;
+  }
 }

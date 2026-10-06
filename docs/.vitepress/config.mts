@@ -9,6 +9,7 @@ const SITE_BASE = '/'
 export default withMermaid(
   defineConfig({
     lang: 'zh-CN',
+    router: { prefetchLinks: false },
     title: '小白油管起步，一路玩到专家',
     description: '从零到专家的 YouTube 起步完全指南（开源，持续更新）',
     base: SITE_BASE,
@@ -269,12 +270,88 @@ export default withMermaid(
       class: 'mermaid'
     },
 
+    // Strip Inter font preloads (we use system CJK stack) and avoid leaking
+    // Mermaid/KaTeX modulepreloads onto every page HTML.
+    transformHead({ assets }) {
+      const head: HeadConfig[] = []
+      for (const file of assets) {
+        if (/inter-.*\.woff2$/i.test(file)) continue
+        if (/\.(woff2?)$/i.test(file)) continue
+      }
+      return head
+    },
+
+    transformHtml(code) {
+      return code
+        .replace(/<link[^>]*href="[^"]*inter-[^"]*"[^>]*>\s*/gi, '')
+        .replace(
+          /<link[^>]*rel="modulepreload"[^>]*href="[^"]*(?:mermaid|katex|cytoscape|dagre|Diagram|cynefin|cose-bilkent|swimlane|architecture|sequence|gantt|mindmap|sankey|venn|wardley|ishikawa|railroad|treemap|kanban|timeline|blockDiagram|flowDiagram|chunk-TICWLB2K|chunk-IMKFNOWR|sizeCapture)[^"]*"[^>]*>\s*/gi,
+          ''
+        )
+    },
+
     vite: {
+      plugins: [
+        {
+          name: 'yp-strip-inter-fontface',
+          transform(code, id) {
+            if (!id.includes('vitepress') && !id.endsWith('.css') && !id.includes('&lang.css') && !id.includes('type=style')) {
+              // still try fonts
+            }
+            if (/fonts\.css|Inter|vitepress.*style/.test(id) && code.includes('Inter') && code.includes('@font-face')) {
+              return code.replace(/@font-face\s*\{[^}]*?font-family:\s*["']?Inter["']?[^}]*\}/gi, '')
+            }
+            if (id.includes('.css') && code.includes('@font-face') && code.includes('Inter')) {
+              return {
+                code: code.replace(/@font-face\s*\{[\s\S]*?font-family:\s*["']?Inter["']?[\s\S]*?\}/gi, ''),
+                map: null
+              }
+            }
+          },
+          generateBundle(_opts, bundle) {
+            for (const chunk of Object.values(bundle)) {
+              if (chunk.type === 'asset' && /\.css$/.test(chunk.fileName)) {
+                let css = String(chunk.source)
+                const before = css.length
+                css = css.replace(/@font-face\{[^}]*font-family:Inter[^}]*\}/g, '')
+                if (css.length !== before) chunk.source = css
+              }
+            }
+          }
+        },
+        {
+          name: 'yp-strip-heavy-preloads',
+          transformIndexHtml: {
+            order: 'post',
+            handler(html) {
+              return html
+                .replace(/<link[^>]*href="[^"]*inter-[^"]*"[^>]*>\s*/gi, '')
+                .replace(
+                  /<link[^>]*rel="modulepreload"[^>]*href="[^"]*(?:mermaid|katex|cytoscape|dagre|Diagram|cynefin|cose-bilkent|swimlane|architecture|sequence|gantt|mindmap|sankey|venn|wardley|ishikawa|railroad|treemap|kanban|timeline|blockDiagram|flowDiagram|sizeCapture)[^"]*"[^>]*>\s*/gi,
+                  ''
+                )
+            }
+          }
+        }
+      ],
       resolve: {
         alias: {
           'vitepress-plugin-mermaid/Mermaid.vue': fileURLToPath(
             new URL('./theme/components/Mermaid.vue', import.meta.url)
           )
+        }
+      },
+      build: {
+        modulePreload: {
+          resolveDependencies(filename, deps) {
+            const heavy =
+              /(katex|cytoscape|dagre|Diagram|cynefin|cose-bilkent|swimlane|architecture|mermaid|sequence|gantt|mindmap|sankey|venn|wardley|ishikawa|railroad|treemap|kanban|timeline|blockDiagram|flowDiagram|sizeCapture|chunk-TICWLB2K|chunk-IMKFNOWR|cynefin-OW5HDTMX)/i
+            // Only filter when the host is the app entry / theme — keep page-local deps
+            if (/\/(app|theme)\./.test(filename) || filename.includes('app.')) {
+              return deps.filter((d) => !heavy.test(d))
+            }
+            return deps.filter((d) => !heavy.test(d))
+          }
         }
       }
     }

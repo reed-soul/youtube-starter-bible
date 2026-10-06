@@ -203,8 +203,8 @@ const faqs = [
   position: absolute;
   inset: 10% 15% auto;
   height: 220px;
-  background: radial-gradient(ellipse at center, rgba(200, 30, 30, 0.16), transparent 70%);
-  filter: blur(8px);
+  background: radial-gradient(ellipse at center, rgba(185, 28, 28, 0.1), transparent 70%);
+  /* blur removed for paint cost */
   pointer-events: none;
   z-index: 0;
 }
