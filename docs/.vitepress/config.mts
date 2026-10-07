@@ -206,8 +206,11 @@ export default withMermaid(
               items: [
                 { text: '13 · 专章总览', link: '/13-中国大陆创作者专章' },
                 { text: '大陆高意图 FAQ', link: '/13-大陆FAQ' },
+                { text: '国内做油管合法吗', link: '/国内做油管合法吗' },
                 { text: 'YPP 中国大陆资格', link: '/ypp-中国大陆资格' },
                 { text: '「创收功能无法在您所在地区使用」', link: '/创收功能无法在您所在地区使用' },
+                { text: '频道被盗 · 终止申诉', link: '/youtube-频道被盗与终止申诉' },
+                { text: '超级感谢/留言/会员 · 大陆', link: '/超级感谢超级留言会员-中国大陆' },
                 { text: '注册 · 品牌账号 · 两步验证', link: '/youtube-注册与品牌账号' },
                 { text: '设备与剪辑起步', link: '/设备与剪辑起步' }
               ]
@@ -216,6 +219,8 @@ export default withMermaid(
               text: '收款与税务',
               items: [
                 { text: 'AdSense 电汇收款', link: '/adsense-电汇收款' },
+                { text: '必须香港银行卡吗', link: '/必须香港银行卡吗' },
+                { text: 'Hyperwallet 中国', link: '/hyperwallet-中国' },
                 { text: '收款自查清单（可勾选）', link: '/收款自查清单' },
                 { text: '付款日历 / 到账推算', link: '/youtube-付款日历' },
                 { text: 'W-8BEN 字段图解', link: '/w8ben-填写图解' },
@@ -281,8 +286,11 @@ export default withMermaid(
           text: '大陆专题落地页',
           items: [
             { text: '大陆高意图 FAQ', link: '/13-大陆FAQ' },
+            { text: '国内做油管合法吗', link: '/国内做油管合法吗' },
             { text: 'YPP 中国大陆资格', link: '/ypp-中国大陆资格' },
             { text: '「创收功能无法在您所在地区使用」', link: '/创收功能无法在您所在地区使用' },
+            { text: '频道被盗 · 终止申诉', link: '/youtube-频道被盗与终止申诉' },
+            { text: '超级感谢/留言/会员 · 大陆', link: '/超级感谢超级留言会员-中国大陆' },
             { text: '注册 · 品牌账号 · 两步验证', link: '/youtube-注册与品牌账号' },
             { text: '设备与剪辑起步', link: '/设备与剪辑起步' }
           ]
@@ -291,6 +299,8 @@ export default withMermaid(
           text: '收款与税务',
           items: [
             { text: 'AdSense 电汇收款', link: '/adsense-电汇收款' },
+            { text: '必须香港银行卡吗', link: '/必须香港银行卡吗' },
+            { text: 'Hyperwallet 中国', link: '/hyperwallet-中国' },
             { text: '收款自查清单（可勾选）', link: '/收款自查清单' },
             { text: '付款日历 / 到账推算', link: '/youtube-付款日历' },
             { text: 'W-8BEN 字段图解', link: '/w8ben-填写图解' },

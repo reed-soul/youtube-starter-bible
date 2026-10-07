@@ -252,6 +252,21 @@ verifiedAt: 2026-10-06
 | 134 | 剪映官网 / CapCut / DaVinci Resolve 下载入口 | https://www.capcut.cn/ · https://www.capcut.com/ · https://www.blackmagicdesign.com/products/davinciresolve | 仅官方下载链接（无联盟） | **2026-10-07** ✅ 入口页 |
 | 135 | （本站）可打印清单 UX | — | `@media print` +「打印 / 另存为 PDF」；收款清单 / 作战卡 / 审计 / 再利用自查 | **2026-10-07** 内部 |
 
+### Batch 5：合法边界 / 港卡神话 / 被盗终止 / Hyperwallet / 超级*（2026-10-07）
+
+| # | 文献 | URL | 支撑 | 🕒 |
+|---|------|-----|------|----|
+| 136 | YouTube · 频道被盗恢复 | https://support.google.com/youtube/answer/76187?hl=zh-Hans | 三步；先 Google；**9 个月**支持窗 | **2026-10-07** ✅ |
+| 137 | YouTube · 终止申诉 | https://support.google.com/youtube/answer/2802168?hl=zh-Hans | **1 年**窗；**1 年内 2 次**；禁止规避 | **2026-10-07** ✅ |
+| 138 | AdSense · 付款方式表（中国行） | https://support.google.com/adsense/answer/1714397?hl=zh-Hans | 中国：电汇+Hyperwallet 适用 | **2026-10-07** ✅ 复读 |
+| 139 | YouTube · 添加收款方式 APAC 表 | https://support.google.com/youtube/answer/14728152?hl=zh-Hans | **2026-10-07 APAC 表无「中国」**（与 1714397 不一致） | **2026-10-07** ✅ |
+| 140 | 超级留言/贴纸 · 创作者地区 | https://support.google.com/youtube/answer/9277801?hl=zh-Hans | 名单无中国大陆；含港台 | **2026-10-07** ✅ |
+| 141 | 超级感谢 · 创作者地区 | https://support.google.com/youtube/answer/10879035?hl=zh-Hans | 同上 | **2026-10-07** ✅ |
+| 142 | 频道会员 · 创作者地区 | https://support.google.com/youtube/answer/7636690?hl=zh-Hans | 同上 | **2026-10-07** ✅ |
+| 143 | 超级留言 · 观看者购买地区 | https://support.google.com/youtube/answer/9178363?hl=zh-Hans | 购买名单无中国大陆 | **2026-10-07** ✅ |
+| 144 | 计算机信息网络国际联网暂行规定 | https://www.gov.cn/gongbao/content/2011/content_1860862.htm | 国际联网信道条文（合法吗页） | **2026-10-07** ✅ 入口 |
+| 145 | 互联网视听节目服务管理规定 | https://www.gov.cn/zhengce/2022-08/23/content_5722664.htm | 境内向公众提供视听服务适用范围 | **2026-10-07** ✅ 入口 |
+
 ## 5. Shorts 原创排序（2026-10）——官方表述 + 二级报道
 
 | # | 文献 | URL | 支撑 | 🕒 |
@@ -337,6 +352,7 @@ verifiedAt: 2026-10-06
 | 设备与剪辑起步（上传编码 / 官方下载） | 132, 133, 134 |
 | 可打印清单（作战卡 / 审计 / 再利用自查） | 135 |
 | 个税事实边界 | 117, 118, 65, 66, 49 |
+| batch-5：合法吗四层 / 港卡神话 / 76187·2802168 / Hyperwallet / 超级* | 136–145, 42, 60, 61, 7164701, 72857 |
 | 公开案例时间线 | 119, 120, 71, 44 |
 | 第 13 章核实：频道国家设置决定 YPP 资格 | 62, 40, 41 |
 | 第 13 章核实：IRS 表列中国 Royalties 10% | 64, 48, 46 |

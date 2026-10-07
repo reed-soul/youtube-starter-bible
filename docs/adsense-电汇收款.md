@@ -1,18 +1,18 @@
 ---
-verifiedAt: 2026-10-06
+verifiedAt: 2026-10-07
 title: YouTube AdSense 中国电汇收款怎么设置
-description: 【官方】收款地址为中国时，AdSense/YouTube 支持电汇与 Hyperwallet。银行须与地址同国；Google 不收电汇费，本行/中间行费用以银行价目为准。核对日 2026-10-06。
+description: 【官方】收款地址为中国时，AdSense/YouTube 支持电汇与 Hyperwallet。银行须与地址同国；Google 不收电汇费，本行/中间行费用以银行价目为准。核对日 2026-10-07。
 ---
 
 # YouTube AdSense 中国电汇收款怎么设置
 
-> 核对日：**2026-10-06** · 相关：[13 专章 §4](13-中国大陆创作者专章.md#_4-adsense-收款-电汇、银行与结汇) · [收款自查清单](收款自查清单.md) · [付款日历](youtube-付款日历.md) · [W-8BEN 图解](w8ben-填写图解.md) · [YPP 地区资格](ypp-中国大陆资格.md) · [1 万播放多少钱](youtube-1万播放多少钱.md) · [大陆 FAQ](13-大陆FAQ.md) · [政策更新日志](更新日志.md)
+> 核对日：**2026-10-07** · 相关：[13 专章 §4](13-中国大陆创作者专章.md#_4-adsense-收款-电汇、银行与结汇) · [必须香港银行卡吗](必须香港银行卡吗.md) · [Hyperwallet 中国](hyperwallet-中国.md) · [收款自查清单](收款自查清单.md) · [付款日历](youtube-付款日历.md) · [W-8BEN 图解](w8ben-填写图解.md) · [YPP 地区资格](ypp-中国大陆资格.md) · [1 万播放多少钱](youtube-1万播放多少钱.md) · [大陆 FAQ](13-大陆FAQ.md) · [政策更新日志](更新日志.md)
 
 ## 一句话答案
 
 **【官方】** 当 AdSense / AdSense YouTube 广告账号的**收款地址国家为中国**时，付款方式表中**电汇**与 **PayPal Hyperwallet** 为适用选项（支票/普通 EFT 等见原表）。银行（或分行）须与收款地址**位于同一国家/地区**，否则 SWIFT 可能无法保存。【官方】[付款方式国家表](https://support.google.com/adsense/answer/1714397?hl=zh-Hans) · [付款 FAQ](https://support.google.com/adsense/answer/7164701?hl=zh-Hans)
 
-**【神话】**「中国 AdSense 完全收不到钱 / 必须先办香港卡」——与官方付款国家表及 Hyperwallet 中国可用性公告不符。境外卡须与真实居住与税务安排一致；本站不教虚假身份。【合规】
+**【神话】**「中国 AdSense 完全收不到钱 / 必须先办香港卡」——与官方付款国家表及 Hyperwallet 中国可用性公告不符；专页 → [必须香港银行卡吗](必须香港银行卡吗.md)。境外卡须与真实居住与税务安排一致；本站不教虚假身份。【合规】
 
 流程细节参考了 [发财麦克的实操记录](https://facaimike.com/youtube-payment.html/)，已按官方帮助中心核对。**本站不收录**「改频道国家/地区到港台、VPN、虚假地址」类操作。
 
@@ -130,16 +130,15 @@ description: 【官方】收款地址为中国时，AdSense/YouTube 支持电汇
 
 ## Hyperwallet（中国）
 
-- 【官方】2025-10-30 起明确中国发布商可用 Hyperwallet；YouTube/AdSense 付款表均为适用。  
-- 须**新建** Hyperwallet 账号（勿混用其它场景账号）。  
-- **提现费率不在 Help 写死**——登录后查看。  
-- 详见专章 [§4.4](13-中国大陆创作者专章.md#_4-4-paypal-hyperwallet-中国-·-已核对) 与 [中国可用公告](https://support.google.com/adsense/answer/16691394?hl=zh-Hans)。
+- 【官方】2025-10-30 起明确中国发布商可用 Hyperwallet；YouTube/AdSense 付款表均为适用（[16691394](https://support.google.com/adsense/answer/16691394?hl=zh-Hans) · [1714397](https://support.google.com/adsense/answer/1714397?hl=zh-Hans)）。  
+- 须**新建** Hyperwallet 账号；**提现费率登录后查看**（[15292512](https://support.google.com/adsense/answer/15292512?hl=zh-Hans)）。  
+- **完整步骤、与电汇对照、14728152 滞后说明** → [Hyperwallet 中国](hyperwallet-中国.md)。专章摘要仍见 [§4.4](13-中国大陆创作者专章.md#_4-4-paypal-hyperwallet-中国-·-已核对)。
 
 ---
 
 ## PIN、税务与门槛（收款前置）
 
-**【官方 · PIN】** 余额达验证门槛（USD 常见地址验证 **$10**）后寄送 6 位 PIN；通常约 **3 周**送达；满 3 周可重寄；生成日起 **4 个月**内须完成验证，否则可能停止展示广告。输错三次会停投广告。第 4 次重寄仍未收到 → 使用官方 PIN 排查工具。Google **不提供**运单号。[PIN 概览](https://support.google.com/adsense/answer/157667?hl=zh-Hans)
+**【官方 · PIN】** 余额达验证门槛（USD 常见地址验证 **$10**）后寄送 6 位 PIN；通常约 **2–4 周**送达（[1348257](https://support.google.com/adsense/answer/1348257?hl=zh-Hans)）；满 3 周可重寄；生成日起 **4 个月**内须完成验证，否则可能停止展示广告。输错三次会停投广告（[9668823](https://support.google.com/adsense/answer/9668823?hl=zh-Hans)）。第 4 次重寄仍未收到 → 使用官方 PIN 排查工具。Google **不提供**运单号。[PIN 概览](https://support.google.com/adsense/answer/157667?hl=zh-Hans)
 
 **【官方 · 税务】** 启用创收须提交美国税务信息；非美个人常见 **W-8BEN**。未提交时预扣可能显著更高；提交后对适用美国来源收益常见协定区间（中美条约 Royalties 框架多见 **10%** 上限讨论——**非个人税务意见**）。→ [W-8BEN 字段图解](w8ben-填写图解.md) · [大陆 FAQ](13-大陆FAQ.md) · [提交税务信息](https://support.google.com/youtube/answer/10390801?hl=zh-Hans)
 
