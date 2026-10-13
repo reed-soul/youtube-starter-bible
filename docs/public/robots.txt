@@ -1,28 +1,18 @@
 User-agent: *
 Allow: /
 
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
+# AI training crawlers blocked (policy 2026-10-11); search/citation bots (OAI-SearchBot, ChatGPT-User, PerplexityBot, Claude-SearchBot, etc.) remain allowed via *
 User-agent: GPTBot
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
 User-agent: ClaudeBot
-Allow: /
-
+User-agent: anthropic-ai
+User-agent: CCBot
+User-agent: Bytespider
 User-agent: Google-Extended
-Allow: /
+User-agent: Applebot-Extended
+User-agent: meta-externalagent
+User-agent: cohere-training-data-crawler
+User-agent: Diffbot
+User-agent: omgili
+Disallow: /
 
 Sitemap: https://creator.taoliapp.com/sitemap.xml
