@@ -248,6 +248,10 @@ export default withMermaid(
         { text: '提问', link: '/提问' },
         { text: '关于', link: '/关于' },
         {
+          text: '付费 Skill',
+          link: '/products/大陆油管答疑-skill'
+        },
+        {
           text: 'GitHub',
           link: 'https://github.com/reed-soul/youtube-starter-bible'
         }
@@ -318,6 +322,15 @@ export default withMermaid(
             { text: '版权主张 vs 警示', link: '/youtube-版权主张与警示' },
             { text: '公开案例时间线', link: '/公开案例时间线' },
             { text: '新手路线图', link: '/新手路线图' }
+          ]
+        },
+        {
+          text: '产品 / 付费工具',
+          items: [
+            {
+              text: '大陆油管答疑 Skill（付费）',
+              link: '/products/大陆油管答疑-skill'
+            }
           ]
         },
         {

@@ -777,6 +777,24 @@ button:focus-visible,
 }
 
 /* Print: checklists / battle cards / self-checks → clean paper */
+/* Paid skill product page */
+.vp-doc .skill-pay-note {
+  margin: 1rem 0 1.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-warning-soft);
+  border: 1px solid rgba(161, 98, 7, 0.25);
+}
+
+.vp-doc img[alt*='占位'] {
+  max-width: 280px;
+  display: block;
+  margin: 0.5rem 0 1rem;
+  border-radius: 8px;
+}
+
 @media print {
   .VPNav, .VPLocalNav, .VPSidebar, .VPDocAside, .VPDocFooter, .VPFooter,
   .VPSkipLink, .VPBackdrop, .VPSidebarItem .caret,
