@@ -279,7 +279,8 @@ export default withMermaid(
             {
               text: '13 · 中国大陆创作者专章',
               link: '/13-中国大陆创作者专章'
-            }
+            },
+            { text: '14 · 直播：发现与信任引擎', link: '/14-直播' }
           ]
         },
         {

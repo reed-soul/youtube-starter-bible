@@ -47,7 +47,8 @@
 8. **[10 审计清单](docs/10-通用审计清单.md)** + **[11 FAQ](docs/11-常见问题FAQ.md)** — 自检与答疑（FAQ ≥50）  
 9. **[12 反例与失败模式](docs/12-反例与失败模式.md)** — 高 CTR 低留存、刮擦 Shorts、假系列、燃尽日更等  
 10. **[13 中国大陆创作者专章](docs/13-中国大陆创作者专章.md)** — YPP 适用地区、AdSense 收款/结汇、W-8BEN、个税框架、搬运与 AI 披露  
-11. 随时查阅 **[作战卡](docs/作战卡.md)**（一页打印）· **[图示](docs/图示.md)** · **[GLOSSARY](docs/GLOSSARY.md)** · **[SOURCES](docs/SOURCES.md)**
+11. **[14 直播：发现与信任引擎](docs/14-直播.md)** — 双流进 Shorts 流、直播包装与回放再利用、2027 直播新功能地图  
+12. 随时查阅 **[作战卡](docs/作战卡.md)**（一页打印）· **[图示](docs/图示.md)** · **[GLOSSARY](docs/GLOSSARY.md)** · **[SOURCES](docs/SOURCES.md)**
 
 每章结构：**5分钟速读**（章首）→ 正文 → 检查清单 → **本周作业**（章末）。
 
@@ -69,7 +70,7 @@ youtube-starter-bible/
     ├── .vitepress/         # VitePress 配置（base: / ；正式域 creator.taoliapp.com）
     ├── public/             # robots.txt · llms.txt（llms-full 构建生成）
     ├── 关于.md
-    ├── 00-导读.md … 13-中国大陆创作者专章.md
+    ├── 00-导读.md … 14-直播.md
     ├── 作战卡.md · 图示.md
     ├── SOURCES.md · GLOSSARY.md
 ```

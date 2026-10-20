@@ -27,6 +27,7 @@
 - [11 常见问题 FAQ](https://creator.taoliapp.com/11-常见问题FAQ)：高频问答，区分官方/实践/神话
 - [12 反例与失败模式](https://creator.taoliapp.com/12-反例与失败模式)：症状→机制→纠正的失败模式库
 - [13 中国大陆创作者专章](https://creator.taoliapp.com/13-中国大陆创作者专章)：YPP 地区、AdSense 收款、美税/个税框架、核实状态表
+- [14 直播：发现与信任引擎](https://creator.taoliapp.com/14-直播)：双流进 Shorts 流、直播包装与回放再利用、2026–2027 直播新功能地图
 - [大陆高意图 FAQ](https://creator.taoliapp.com/13-大陆FAQ)：收款、YPP、税务、搬运等高意图问答
 - [YPP 中国大陆资格](https://creator.taoliapp.com/ypp-中国大陆资格)：适用地区名单核对、现行与 2027-02-01 门槛对照
 - [「创收功能无法在您所在地区使用」](https://creator.taoliapp.com/创收功能无法在您所在地区使用)：Studio 提示含义、名单无中国、虚报居住地违反政策
