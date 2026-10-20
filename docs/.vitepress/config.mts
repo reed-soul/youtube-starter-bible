@@ -14,6 +14,8 @@ export default withMermaid(
     description: '从零到专家的 YouTube 起步完全指南（开源，持续更新）',
     base: SITE_BASE,
     cleanUrls: true,
+    // docs/agents/*.md are per-repo config for engineering skills, not site pages
+    srcExclude: ['agents/**'],
     lastUpdated: true,
     ignoreDeadLinks: [
       // GitHub raw README is outside docs srcDir; site home is /
