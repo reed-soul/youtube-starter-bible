@@ -6,7 +6,14 @@
 <atom:link href="https://creator.taoliapp.com/feed.xml" rel="self" type="application/rss+xml"/>
 <description>按时间记录 YPP、Shorts、AdSense 收款等官方政策变化与本站对应更新（只收录可在官方页面核对的条目）。</description>
 <language>zh-CN</language>
-<lastBuildDate>Wed, 07 Oct 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 21 Oct 2026 04:00:00 GMT</lastBuildDate>
+<item>
+<title>2026-10-21 · 本站：batch-6 平台变化核实（观看计数 / Amazon 购物 / 缩图规格 / 双流直播 / 直播新工具）</title>
+<link>https://creator.taoliapp.com/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97#c-2026-10-21-site-batch6</link>
+<guid isPermaLink="false">https://creator.taoliapp.com/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97#c-2026-10-21-site-batch6</guid>
+<pubDate>Wed, 21 Oct 2026 04:00:00 GMT</pubDate>
+<description>&lt;p&gt;&lt;strong&gt;本站更新&lt;/strong&gt;：线索来自对 TubeAI 创始人 @NickBYT_ 推文的整理（&lt;a href=&quot;https://creator.taoliapp.com/SOURCES&quot;&gt;SOURCES #156&lt;/a&gt;，工具厂商渠道，不作依据），逐条回到官方页面核对后登记 &lt;a href=&quot;https://creator.taoliapp.com/SOURCES&quot;&gt;SOURCES #146–#156&lt;/a&gt;——&lt;strong&gt;官方条目 #146、#148–#152 已核对原文&lt;/strong&gt;；#147（TeamYouTube 社群公告）本环境仅抓到标题，待人工复核，其核心内容已由 Help 2991785（#146）覆盖；#153–#155 为二级佐证；#156 为仓库内研究登记。核实结果：① 观看计数 2026-08-24 新规（&lt;a href=&quot;https://support.google.com/youtube/answer/2991785?hl=en&quot;&gt;2991785&lt;/a&gt;）；② Amazon 接入 YouTube Shopping 联盟计划（&lt;a href=&quot;https://blog.youtube/news-and-events/youtube-shopping-amazon-creator-affiliates&quot;&gt;Blog 2026-08-27&lt;/a&gt; + &lt;a href=&quot;https://support.google.com/youtube/answer/17105501?hl=en&quot;&gt;17105501&lt;/a&gt;：美/巴/印、须 YPP 与 Amazon 账号绑定）；③ 缩图规格（&lt;a href=&quot;https://support.google.com/youtube/answer/72431?hl=en&quot;&gt;72431&lt;/a&gt;：桌面上限 50MB、推荐 3840×2160）；④ 双流直播（&lt;a href=&quot;https://support.google.com/youtube/answer/2474026?hl=en&quot;&gt;2474026&lt;/a&gt;：默认横竖同播、第三方编码器、仅竖版进 Shorts 流）；⑤ Made on YouTube 直播工具（&lt;a href=&quot;https://blog.youtube/news-and-events/made-on-youtube-live-tools-fan-funding-dubbing&quot;&gt;Blog 2026-09-23&lt;/a&gt;：Watch With 扩展 / Go Live Together / Live Showdowns / 实时自动配音；React Live 开关的独立 Help 页未找到）。&lt;strong&gt;页面改动随后续批次&lt;/strong&gt;：导读 §4 与 07 章观看计数读数节、04 章缩图规格更新、直播内容扩充。&lt;/p&gt;</description>
+</item>
 <item>
 <title>2026-10-07 · 本站：batch-5 大陆创作者五专题页</title>
 <link>https://creator.taoliapp.com/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97#c-2026-10-07-site-batch5</link>
@@ -76,6 +83,27 @@
 <guid isPermaLink="false">https://creator.taoliapp.com/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97#c-2026-10-06-site</guid>
 <pubDate>Tue, 06 Oct 2026 04:00:00 GMT</pubDate>
 <description>&lt;p&gt;&lt;strong&gt;本站更新&lt;/strong&gt;：新增 &lt;a href=&quot;https://creator.taoliapp.com/%E5%88%9B%E6%94%B6%E5%8A%9F%E8%83%BD%E6%97%A0%E6%B3%95%E5%9C%A8%E6%82%A8%E6%89%80%E5%9C%A8%E5%9C%B0%E5%8C%BA%E4%BD%BF%E7%94%A8&quot;&gt;「创收功能无法在您所在地区使用」是什么意思&lt;/a&gt;、&lt;a href=&quot;https://creator.taoliapp.com/ypp-%E8%BF%9B%E5%BA%A6%E8%AE%A1%E7%AE%97%E5%99%A8&quot;&gt;YPP 进度计算器&lt;/a&gt;、&lt;a href=&quot;https://creator.taoliapp.com/youtube-1%E4%B8%87%E6%92%AD%E6%94%BE%E5%A4%9A%E5%B0%91%E9%92%B1&quot;&gt;1 万播放多少钱（RPM / CPM）&lt;/a&gt;、&lt;a href=&quot;https://creator.taoliapp.com/shorts-%E6%94%B6%E7%9B%8A%E5%88%86%E9%85%8D&quot;&gt;Shorts 收益怎么分配&lt;/a&gt;、&lt;a href=&quot;https://creator.taoliapp.com/ypp-%E5%AE%A1%E6%A0%B8%E8%A2%AB%E6%8B%92%E4%B8%8E%E7%94%B3%E8%AF%89&quot;&gt;YPP 审核与申诉&lt;/a&gt;；每页顶部显示「官方核对」日期（超过 90 天自动提示待复核）。所有数字按当日官方页面重新核对。&lt;/p&gt;</description>
+</item>
+<item>
+<title>2026-09-23 · Made on YouTube：直播新工具（Watch With 扩展 / Go Live Together / Live Showdowns / 实时自动配音）</title>
+<link>https://creator.taoliapp.com/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97#c-2026-09-23-live</link>
+<guid isPermaLink="false">https://creator.taoliapp.com/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97#c-2026-09-23-live</guid>
+<pubDate>Wed, 23 Sep 2026 04:00:00 GMT</pubDate>
+<description>&lt;p&gt;&lt;strong&gt;官方&lt;/strong&gt;：2026 年 8 月，每天有 &lt;strong&gt;6 亿+ 登录用户&lt;/strong&gt;观看直播内容（含回放）。① &lt;strong&gt;Watch With / React Live&lt;/strong&gt;：此前限于大型活动与创作者互播，将扩展到「所有合资格&lt;strong&gt;长视频&lt;/strong&gt;」（starting later this year）；反应的创作者保留其直播广告与粉丝资助收入，被反应的原创者获得清晰署名、Studio 中的观看计入，并可控制哪些视频可被反应（开关所在的独立 Help 页本站尚未找到，以 Studio 内实际设置为准）。② &lt;strong&gt;Go Live Together&lt;/strong&gt;：除邀请嘉宾外，新增创作者匹配——浏览在播创作者或加入快速匹配队列自动配对（in early 2027）。③ &lt;strong&gt;Live Showdowns&lt;/strong&gt;：共播中的实时对战，观众用聊天、礼物与 Super Chat 为创作者推分（coming in 2027）。④ &lt;strong&gt;直播实时自动配音&lt;/strong&gt;：观众可用偏好语言实时收听（试点 starting in early 2027；40%+ 直播观看时长来自创作者母国之外）。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;：&lt;a href=&quot;https://blog.youtube/news-and-events/made-on-youtube-live-tools-fan-funding-dubbing&quot;&gt;YouTube Blog（2026-09-23）&lt;/a&gt; · &lt;a href=&quot;https://creator.taoliapp.com/SOURCES&quot;&gt;SOURCES #152&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;本站改动&lt;/strong&gt;：本条记录；直播内容扩充随后续批次。&lt;/p&gt;</description>
+</item>
+<item>
+<title>2026-08-27 · Amazon 接入 YouTube Shopping 联盟计划</title>
+<link>https://creator.taoliapp.com/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97#c-2026-08-27-amazon</link>
+<guid isPermaLink="false">https://creator.taoliapp.com/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97#c-2026-08-27-amazon</guid>
+<pubDate>Thu, 27 Aug 2026 04:00:00 GMT</pubDate>
+<description>&lt;p&gt;&lt;strong&gt;官方&lt;/strong&gt;：「Amazon is officially part of the YouTube Shopping Affiliate Program.」合资格&lt;strong&gt;美国&lt;/strong&gt;创作者可在 &lt;strong&gt;Shorts、长视频、直播&lt;/strong&gt;中直接挂 Amazon 商品；观众购买后创作者获得佣金。（官方博文署名 Travis Katz、日期 08-27；CEO Neal Mohan 于 08-28 在 X 转发同一消息，本页以博文为准。）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;资格（Help 页）&lt;/strong&gt;：已加入 &lt;strong&gt;YPP&lt;/strong&gt;；已加入&lt;strong&gt;美国 / 巴西 / 印度&lt;/strong&gt;的 YouTube Shopping 联盟计划；美国创作者须为 Amazon Influencer Program（AIP）或 Amazon Associates（AAP）成员并将账号绑定频道（2024-09 之前绑定过的需重新绑定）；&lt;strong&gt;一个 Amazon 账号只能绑定一个频道&lt;/strong&gt;。佣金经 &lt;strong&gt;AdSense&lt;/strong&gt; 随联盟付款一起发放（月度锁定，如 1 月锁定的收入在 3 月付款周期到账）；YouTube 可能会审看近期上传并自动为合资格商品打标；目前&lt;strong&gt;无法&lt;/strong&gt;按视频或商品拆看 Amazon 成交来源。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;：&lt;a href=&quot;https://blog.youtube/news-and-events/youtube-shopping-amazon-creator-affiliates&quot;&gt;YouTube Blog（2026-08-27）&lt;/a&gt; · &lt;a href=&quot;https://support.google.com/youtube/answer/17105501?hl=en&quot;&gt;Help 17105501&lt;/a&gt; · &lt;a href=&quot;https://creator.taoliapp.com/SOURCES&quot;&gt;SOURCES #148–#149&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;本站改动&lt;/strong&gt;：本条记录；购物内容随后续批次（含 13 章「大陆创作者不可用，需以美/巴/印资格为前提」标注）。&lt;/p&gt;</description>
+</item>
+<item>
+<title>2026-08-17 · 观看计数口径：2026-08-24 起「开始播放即计观看」</title>
+<link>https://creator.taoliapp.com/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97#c-2026-08-17-views</link>
+<guid isPermaLink="false">https://creator.taoliapp.com/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97#c-2026-08-17-views</guid>
+<pubDate>Mon, 17 Aug 2026 04:00:00 GMT</pubDate>
+<description>&lt;p&gt;&lt;strong&gt;官方（Help 2991785，已核对原文）&lt;/strong&gt;：自 &lt;strong&gt;2026-08-24&lt;/strong&gt; 起，「views are counted the moment a video starts to play across all formats, including Shorts, long-form video (VOD), and live streams」——公开观看数在视频&lt;strong&gt;开始播放的瞬间&lt;/strong&gt;计入，&lt;strong&gt;无最低观看时长&lt;/strong&gt;，VOD / Shorts / 直播统一口径。同页明确：&lt;strong&gt;「YPP earnings will still be based on 'engaged views' and 'engaged watch hours'」&lt;/strong&gt;，&lt;strong&gt;「YPP eligibility will still be based on 'qualified views'」&lt;/strong&gt;；低质量播放（多设备、多窗口重复播放等）仍会被审核丢弃，计数在发布初期可能滞后或暂时冻结。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公告出处&lt;/strong&gt;：TeamYouTube 于 2026-08-17 在 Help Community 发布公告，并在 X（@TeamYouTube）同步说明目的为「统一口径以反映创作者真实曝光、便于向品牌伙伴展示价值」且「不影响创作者收入与 YPP 资格」——该公告帖本环境仅抓到标题，内容待人工复核；上述收入/资格结论以 Help 2991785 原文为准。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对你的含义&lt;/strong&gt;：2026-08-24 前后的公开观看数&lt;strong&gt;不可直接对比&lt;/strong&gt;（包括自己的历史视频）；公开数字变大≠推荐变好；判断内容表现请看 Studio 中的 engaged views、平均观看时长、留存与回访，而不是公开播放数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;：&lt;a href=&quot;https://support.google.com/youtube/answer/2991785?hl=en&quot;&gt;Help 2991785 · How views are counted&lt;/a&gt; · &lt;a href=&quot;https://support.google.com/youtube/thread/433409976/an-update-to-how-we-count-public-views-across-youtube?hl=en&quot;&gt;TeamYouTube 公告（2026-08-17，待复核）&lt;/a&gt; · &lt;a href=&quot;https://creator.taoliapp.com/SOURCES&quot;&gt;SOURCES #146–#147&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;本站改动&lt;/strong&gt;：本条记录；导读 §4 与 07 章「观看数口径与替代指标」读数节随后续批次。&lt;/p&gt;</description>
 </item>
 <item>
 <title>2026-08-10 · YouTube 宣布 2027-02-01 起的 YPP 更新</title>

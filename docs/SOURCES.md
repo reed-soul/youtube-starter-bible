@@ -1,10 +1,10 @@
 ---
-verifiedAt: 2026-10-06
+verifiedAt: 2026-10-21
 ---
 
 # 来源与引用 SOURCES
 
-> 基准核对日：**2026-10-06**（Asia/Shanghai；第 13 章五项核实补强同日）  
+> 基准核对日：**2026-10-06**（Asia/Shanghai；第 13 章五项核实补强同日）；**Batch 6 平台变化核实：2026-10-21**（观看计数 / Amazon 购物 / 缩图规格 / 双流直播 / 直播新工具）  
 > 原则：**官方优先**；第三方仅作标注的二级原则。政策会变——动手前请打开原链确认。  
 > 本页同时承担：**章节主张 → 文献** 对照表，便于审计与 PR。
 
@@ -27,6 +27,7 @@ verifiedAt: 2026-10-06
 | Made on YouTube 2026 工具 | 🟢 Official Blog | https://blog.youtube/news-and-events/made-on-youtube-new-tools-power-creation-journey/ | **2026-09-23**；2026-10-05 抓取 HTTP 200 |
 | CEO 公开信 2026 | 🟢 Official Blog | https://blog.youtube/inside-youtube/the-future-of-youtube-2026/ | **2026-01-21**；仍为质量/AI 叙事主文献 |
 | Shorts → 长视频 Related Video | 🟢 Official Blog | https://blog.youtube/creator-and-artist-stories/youtube-related-videos-traffic-guide/ | **2026-07-14** |
+| 观看计数口径（2026-08-24 起开始播放即计观看） | 🟢 YouTube Help · How views are counted | https://support.google.com/youtube/answer/2991785?hl=en | **2026-08-24 生效**；2026-10-21 核对 ✅（详见 #146） |
 
 ---
 
@@ -267,6 +268,23 @@ verifiedAt: 2026-10-06
 | 144 | 计算机信息网络国际联网暂行规定 | https://www.gov.cn/gongbao/content/2011/content_1860862.htm | 国际联网信道条文（合法吗页） | **2026-10-07** ✅ 入口 |
 | 145 | 互联网视听节目服务管理规定 | https://www.gov.cn/zhengce/2022-08/23/content_5722664.htm | 境内向公众提供视听服务适用范围 | **2026-10-07** ✅ 入口 |
 
+### Batch 6：2026-08/09 平台变化核实——观看计数 / Amazon 购物 / 缩图规格 / 双流直播 / 直播新工具（2026-10-21）
+
+> 线索来源：对 TubeAI 创始人 @NickBYT_ 2026-07～10 推文的整理（#156）；**全部条目均已回到官方页面核对原文**，推文本身不作依据。
+
+| # | 文献 | URL | 支撑 | 🕒 |
+|---|------|-----|------|----|
+| 146 | 🟢 YouTube Help · How views are counted | https://support.google.com/youtube/answer/2991785?hl=en | **2026-08-24 起**「views are counted the moment a video starts to play across all formats, including Shorts, long-form video (VOD), and live streams」；**YPP 收入仍按 engaged views / engaged watch hours，资格仍按 qualified views**；低质播放会被丢弃 | **2026-10-21** ✅ |
+| 147 | 🟢 TeamYouTube · Help Community 公告「An update to how we count public views across YouTube」 | https://support.google.com/youtube/thread/433409976/an-update-to-how-we-count-public-views-across-youtube?hl=en | 2026-08-17 发布的公告帖；@TeamYouTube 同日在 X 同步（x.com/TeamYouTube/status/2089382301960388854）称目的为统一口径反映真实曝光、便于向品牌展示价值，且不影响收入与 YPP 资格。**本条仅证明公告日期与出处；规则原文与收入/资格结论以 #146 为准** | **2026-08-17**；2026-10-21 ⚠️ 本环境抓取仅得标题（动态加载），正文待人工打开复核 |
+| 148 | 🟢 YouTube Blog · Amazon 加入 YouTube Shopping 联盟计划 | https://blog.youtube/news-and-events/youtube-shopping-amazon-creator-affiliates | **2026-08-27**，Travis Katz（Shopping GM/VP）：「Amazon is officially part of the YouTube Shopping Affiliate Program」；合资格**美国**创作者可在 Shorts、长视频、直播挂 Amazon 商品。（推文线索为 CEO Neal Mohan 08-28 的 X 转发，同一事件；以博文为准） | **2026-10-21** ✅ |
+| 149 | 🟢 YouTube Help · 挂 Amazon 商品（Tag Amazon products） | https://support.google.com/youtube/answer/17105501?hl=en | 资格：已加入 **YPP** + 已加入 **美国 / 巴西 / 印度** 的 Shopping 联盟计划；美国须 Amazon Influencer（AIP）或 Associates（AAP）账号且已绑定频道；**一个 Amazon 账号仅一个频道**；收入经 AdSense 随联盟付款；YouTube 可能自动识别并打标；无法按视频/商品拆看 Amazon 成交 | **2026-10-21** ✅ |
+| 150 | 🟢 YouTube Help · 添加视频缩图（规格） | https://support.google.com/youtube/answer/72431?hl=en | **桌面上传上限 50MB**（视频 / Shorts / 播客缩图），移动端 2MB（播客 10MB）；**推荐 3840×2160**（Shorts 2160×3840，播客 1:1）；最小宽 640；JPG/PNG；16:9 缩图用于竖版视频时首页等位置会换成自动 4:5 | **2026-10-21** ✅（Help 页无日期；变更时间线见 #153） |
+| 151 | 🟢 YouTube Help · 直播入门（Get started with live streaming · Dual stream 段） | https://support.google.com/youtube/answer/2474026?hl=en | Live Control Room **默认横（16:9）竖（9:16）同播**，竖版默认中心裁切，可改布局并直播中调整；**第三方编码器**：Stream 页 Auto→Encoder，RTMP(S)，用第二串流密钥送竖版；**仅竖版进 Shorts 信息流**且可滑动；横竖共用一条 go-live 通知与同一聊天；分析先合并、竖版单独数据约 24 小时后；**开播后不可追加竖版**；竖版缺可点聊天链接 / 直播中插前贴广告 / 4K / 首映 / 直播重定向；会员与赠送会员两端都可用 | **2026-10-21** ✅ |
+| 152 | 🟢 YouTube Blog · Made on YouTube 直播工具（Barbara Macdonald，YouTube Live PM） | https://blog.youtube/news-and-events/made-on-youtube-live-tools-fan-funding-dubbing | **2026-09-23**：2026-08 每天 6 亿+ 登录用户观看直播内容（含回放）；**Watch With / React Live** 由直播扩展到「所有合资格长视频」，「starting later this year」，反应者保留直播广告与粉丝资助收入、原创者获署名 + Studio 观看计入 + 可控制哪些视频可被反应；**Go Live Together** 创作者匹配（浏览在播创作者或快速匹配队列）「in early 2027」；**Live Showdowns** 共播对战（观众用聊天 / 礼物 / Super Chat 推分）「coming in 2027」；**实时自动配音**试点「starting in early 2027」（40%+ 直播观看时长来自创作者母国以外）。**React Live「允许他人反应」开关的独立 Help 文章未找到**（2026-10-21）；「合资格直播默认允许、可关闭」仅见二级报道，以 Studio 内实际设置为准 | **2026-10-21** ✅（开关 Help 页待补） |
+| 153 | 🟡 9to5Google · 缩图上限 2MB→50MB | https://9to5google.com/2025/10/30/youtube-video-thumbnail-file-size-limits | 变更时间线（2025-10-30 报道，面向 TV 端高分辨率缩图）；**规格以 #150 为准** | 2025-10 二级 |
+| 154 | 🟡 PPC Land · 第三方编码器获得双流 | https://ppc.land/encoders-gain-youtube-dual-streaming-as-vertical-feed-lacks-5-of-9-features | 2026-08-20 落地时间线；竖版功能缺口汇总；**机制以 #151 为准** | 2026-08 二级 |
+| 155 | 🟡 Streams Charts · 2026 Q2 全球直播格局 | https://streamscharts.com/news/q2-2026-global-livestreaming-landscape | 全平台 314 亿小时；YouTube 156 亿（+14.8%）、TikTok Live 89 亿（平）、Twitch 43 亿（平）、Kick 16 亿（+7.6%）；**第三方统计口径，非平台数据** | 2026-09 二级（直播章引用） |
+
 ## 5. Shorts 原创排序（2026-10）——官方表述 + 二级报道
 
 | # | 文献 | URL | 支撑 | 🕒 |
@@ -366,6 +384,7 @@ verifiedAt: 2026-10-06
 | # | 文献 | 说明 |
 |---|------|------|
 | 39 | `/workspace/youtube-growth-playbook.md` | 既有悬疑/叙事向手册；本圣经**泛化升级**并去除「唯一品类路径」；仍有效的结构/清单已吸收。Phase 1 **不**审计悬疑档案室。 |
+| 156 | `research/nickbyt-twitter-2026Q3/`（仓库内，不进站点） | TubeAI 创始人 @NickBYT_ 2026-07-19～10-20 共 256 条推文的整理与对本站的建议。**定性：工具厂商内容营销；其「研究了 N 亿条视频」数据无法独立核验且多处自相矛盾**。本站只采用其中能回到官方页面核对的线索（→ Batch 6）；其数据最多以【行业实践·工具厂商自报】出现并注明不可核验。 |
 
 ---
 
@@ -409,3 +428,7 @@ verifiedAt: 2026-10-06
 13. https://blog.youtube/creator-and-artist-stories/youtube-related-videos-traffic-guide/  
 14. https://blog.youtube/inside-youtube/the-future-of-youtube-2026/  
 15. https://blog.youtube/news-and-events/made-on-youtube-new-tools-power-creation-journey/  
+16. https://support.google.com/youtube/answer/2991785 （观看计数口径，2026-08-24 起）  
+17. https://support.google.com/youtube/answer/72431 （缩图规格：50MB / 3840×2160）  
+18. https://support.google.com/youtube/answer/2474026 （直播入门 · Dual stream）  
+19. https://blog.youtube/news-and-events/made-on-youtube-live-tools-fan-funding-dubbing （直播新工具 2026-09-23）  
