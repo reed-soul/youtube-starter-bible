@@ -284,6 +284,10 @@ verifiedAt: 2026-10-21
 | 153 | 🟡 9to5Google · 缩图上限 2MB→50MB | https://9to5google.com/2025/10/30/youtube-video-thumbnail-file-size-limits | 变更时间线（2025-10-30 报道，面向 TV 端高分辨率缩图）；**规格以 #150 为准** | 2025-10 二级 |
 | 154 | 🟡 PPC Land · 第三方编码器获得双流 | https://ppc.land/encoders-gain-youtube-dual-streaming-as-vertical-feed-lacks-5-of-9-features | 2026-08-20 落地时间线；竖版功能缺口汇总；**机制以 #151 为准** | 2026-08 二级 |
 | 155 | 🟡 Streams Charts · 2026 Q2 全球直播格局 | https://streamscharts.com/news/q2-2026-global-livestreaming-landscape | 全平台 314 亿小时；YouTube 156 亿（+14.8%）、TikTok Live 89 亿（平）、Twitch 43 亿（平）、Kick 16 亿（+7.6%）；**第三方统计口径，非平台数据** | 2026-09 二级（直播章引用） |
+| 157 | 🟢 YouTube Help · 添加视频章节（Add video chapters） | https://support.google.com/youtube/answer/9884579?hl=en | 描述里列时间戳；**第一个必须 00:00**；**至少 3 个**、升序；**每章至少 10 秒**；「允许自动章节」新上传默认勾选、手动覆盖自动；有有效警示或内容可能不适时可能无章节；页面仅提「章节可出现在转录稿」，**未提搜索展示** | **2026-10-21** ✅ |
+| 158 | 🟢 YouTube Help · 邀请协作者（Invite collaborators to your video） | https://support.google.com/youtube/answer/16554898?hl=en | **最多 10 位**协作者；长视频与 Shorts 均可；可加到已归档直播、不能加到进行中的直播；接受后显示名字与订阅按钮；官方目标为推荐给双方受众（「起初可能看不到搜索/推荐变化」）；**收入归发布频道、不分成**；路径：Studio 上传/编辑 → 详情 → 受众 → 显示更多 → 协作 → 邀请协作者；品牌内容须勾选付费推广并选品牌合作方频道，该频道可在其 Google Ads 侧查看视频表现 | **2026-10-21** ✅ |
+
+> **2026-10-21 复核 #16（Made on YouTube 2026 官方博文）**：全文未提及 Shorts「Series」季集化、微短剧、Shorts「Get feedback」、Shorts 自定义封面、Shows、Ask Studio 写品牌提案、会员免费试用、Custom Feeds。推文中的这些说法暂无官方原文，**不进正文，术语表亦暂不收 Semantic ID / Custom Feeds / Shorts Series / Shows 词条**；若后续官方发布，按更新日志公约补录。
 
 ## 5. Shorts 原创排序（2026-10）——官方表述 + 二级报道
 
@@ -353,6 +357,8 @@ verifiedAt: 2026-10-21
 | 标题/封面第三方数据参考层（04 §5.5、§6.4） | 156（二级，只取方向、不引倍数）；官方基线仍为 6, 7 |
 | 直播：双流 / 2027 新工具 / 格局（14 章） | 151, 152；格局数据 155（二级）；供需观察 156（二级，只取方向） |
 | 真人出镜价值回升 / AI 新鲜感流量 / 24 小时判死刑 / 抄最大频道（01 §5、§7；12 §3.5、§3.6、§5.5） | 156（二级，只取方向、不引数字）；官方取向锚 18, 23 |
+| 章节规则（05 §7.1）；协作者（07 §4.5） | 157, 158 |
+| 社区帖 / 置顶评论 / 订阅请求时机 / 品牌合作怎么谈（07 §4.5、05 §7.2、09 §9.3） | 156（二级方法框架与方向）；合规边界仍为 25, 26, 26d–26f |
 | 第 13 章：中国收款电汇+Hyperwallet | 42, 43, 44 |
 | 第 13 章：W-8BEN / 美预扣 / 协定 10% 框架 | 46, 47, 48, 48b |
 | 第 13 章：中国境外所得申报时间窗 | 49 |
