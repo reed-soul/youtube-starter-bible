@@ -278,7 +278,7 @@ verifiedAt: 2026-10-21
 | 147 | 🟢 TeamYouTube · Help Community 公告「An update to how we count public views across YouTube」 | https://support.google.com/youtube/thread/433409976/an-update-to-how-we-count-public-views-across-youtube?hl=en | 2026-08-17 发布的公告帖；@TeamYouTube 同日在 X 同步（x.com/TeamYouTube/status/2089382301960388854）称目的为统一口径反映真实曝光、便于向品牌展示价值，且不影响收入与 YPP 资格。**本条仅证明公告日期与出处；规则原文与收入/资格结论以 #146 为准** | **2026-08-17**；2026-10-21 ⚠️ 本环境抓取仅得标题（动态加载），正文待人工打开复核 |
 | 148 | 🟢 YouTube Blog · Amazon 加入 YouTube Shopping 联盟计划 | https://blog.youtube/news-and-events/youtube-shopping-amazon-creator-affiliates | **2026-08-27**，Travis Katz（Shopping GM/VP）：「Amazon is officially part of the YouTube Shopping Affiliate Program」；合资格**美国**创作者可在 Shorts、长视频、直播挂 Amazon 商品。（推文线索为 CEO Neal Mohan 08-28 的 X 转发，同一事件；以博文为准） | **2026-10-21** ✅ |
 | 149 | 🟢 YouTube Help · 挂 Amazon 商品（Tag Amazon products） | https://support.google.com/youtube/answer/17105501?hl=en | 资格：已加入 **YPP** + 已加入 **美国 / 巴西 / 印度** 的 Shopping 联盟计划；美国须 Amazon Influencer（AIP）或 Associates（AAP）账号且已绑定频道；**一个 Amazon 账号仅一个频道**；收入经 AdSense 随联盟付款；YouTube 可能自动识别并打标；无法按视频/商品拆看 Amazon 成交 | **2026-10-21** ✅ |
-| 150 | 🟢 YouTube Help · 添加视频缩图（规格） | https://support.google.com/youtube/answer/72431?hl=en | **桌面上传上限 50MB**（视频 / Shorts / 播客缩图），移动端 2MB（播客 10MB）；**推荐 3840×2160**（Shorts 2160×3840，播客 1:1）；最小宽 640；JPG/PNG；16:9 缩图用于竖版视频时首页等位置会换成自动 4:5 | **2026-10-21** ✅（Help 页无日期；变更时间线见 #153） |
+| 150 | 🟢 YouTube Help · 添加视频缩图（规格） | https://support.google.com/youtube/answer/72431?hl=en | **桌面上传上限 50MB**（视频 / Shorts / 播客缩图），移动端 2MB（播客 10MB）；**推荐 3840×2160**（Shorts 2160×3840，播客 1:1）；最小宽 640；JPG/PNG；16:9 缩图用于竖版视频时首页等位置会换成自动 4:5。**该页未说明规格变更原因，亦未提及电视端**（2026-10-21 全文核对） | **2026-10-21** ✅（Help 页无日期；变更时间线见 #153） |
 | 151 | 🟢 YouTube Help · 直播入门（Get started with live streaming · Dual stream 段） | https://support.google.com/youtube/answer/2474026?hl=en | Live Control Room **默认横（16:9）竖（9:16）同播**，竖版默认中心裁切，可改布局并直播中调整；**第三方编码器**：Stream 页 Auto→Encoder，RTMP(S)，用第二串流密钥送竖版；**仅竖版进 Shorts 信息流**且可滑动；横竖共用一条 go-live 通知与同一聊天；分析先合并、竖版单独数据约 24 小时后；**开播后不可追加竖版**；竖版缺可点聊天链接 / 直播中插前贴广告 / 4K / 首映 / 直播重定向；会员与赠送会员两端都可用 | **2026-10-21** ✅ |
 | 152 | 🟢 YouTube Blog · Made on YouTube 直播工具（Barbara Macdonald，YouTube Live PM） | https://blog.youtube/news-and-events/made-on-youtube-live-tools-fan-funding-dubbing | **2026-09-23**：2026-08 每天 6 亿+ 登录用户观看直播内容（含回放）；**Watch With / React Live** 由直播扩展到「所有合资格长视频」，「starting later this year」，反应者保留直播广告与粉丝资助收入、原创者获署名 + Studio 观看计入 + 可控制哪些视频可被反应；**Go Live Together** 创作者匹配（浏览在播创作者或快速匹配队列）「in early 2027」；**Live Showdowns** 共播对战（观众用聊天 / 礼物 / Super Chat 推分）「coming in 2027」；**实时自动配音**试点「starting in early 2027」（40%+ 直播观看时长来自创作者母国以外）。**React Live「允许他人反应」开关的独立 Help 文章未找到**（2026-10-21）；「合资格直播默认允许、可关闭」仅见二级报道，以 Studio 内实际设置为准 | **2026-10-21** ✅（开关 Help 页待补） |
 | 153 | 🟡 9to5Google · 缩图上限 2MB→50MB | https://9to5google.com/2025/10/30/youtube-video-thumbnail-file-size-limits | 变更时间线（2025-10-30 报道，面向 TV 端高分辨率缩图）；**规格以 #150 为准** | 2025-10 二级 |
@@ -347,6 +347,10 @@ verifiedAt: 2026-10-21
 | 包装前置、内容桶、单变量实验 | 35（二级）；实验纪律为实践 |
 | 「先做大量视频每次改一件事」 | 34（二级，2022） |
 | 第 13 章：YPP 适用地区无「中国」（核验日） | 40, 41 |
+| 观看计数口径 2026-08-24（07 §6.0 / 导读 §4.6 / 术语表） | 146, 147 |
+| 缩图规格 3840×2160 / 50MB（04 §6.2、§6.5 / 07 附录） | 150；时间线 153（二级） |
+| 利基 5 检 / 需求验证三法（03 §1.5、§5.5） | 156（二级方法框架；不采数据） |
+| 标题/封面第三方数据参考层（04 §5.5、§6.4） | 156（二级，只取方向、不引倍数）；官方基线仍为 6, 7 |
 | 第 13 章：中国收款电汇+Hyperwallet | 42, 43, 44 |
 | 第 13 章：W-8BEN / 美预扣 / 协定 10% 框架 | 46, 47, 48, 48b |
 | 第 13 章：中国境外所得申报时间窗 | 49 |
