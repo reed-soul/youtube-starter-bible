@@ -22,7 +22,6 @@
     "docs/.vitepress/theme/**/*",
     "wrangler.config.ts",
     "cloudflare.config.ts",
-    "scripts/**/*.mjs",
     "env.d.ts"
   ]
 }
