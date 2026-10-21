@@ -1,6 +1,6 @@
 # Cloudflare Pages custom headers (https://developers.cloudflare.com/pages/configuration/headers/)
 # VitePress copies this file from docs/public/ into docs/.vitepress/dist/.
-# Direct-upload deploy: wrangler pages deploy docs/.vitepress/dist --project-name youtube-starter-bible --branch main
+# Direct-upload deploy: wrangler pages deploy docs/.vitepress/dist --project-name youtube-starter-bible --branch master
 #
 # CSP is Report-Only until browser reports are clean; do not ship an enforcing
 # Content-Security-Policy yet. HSTS is 1 year + includeSubDomains, without preload.

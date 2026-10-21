@@ -354,7 +354,7 @@ export default withMermaid(
 
       editLink: {
         pattern:
-          'https://github.com/reed-soul/youtube-starter-bible/edit/main/docs/:path',
+          'https://github.com/reed-soul/youtube-starter-bible/edit/master/docs/:path',
         text: '在 GitHub 上编辑此页'
       }
     },
