@@ -54,6 +54,25 @@
 <script setup lang="ts">
 withDefaults(defineProps<{ view?: 'flow' | 'form' }>(), { view: 'form' })
 
+interface W8Field {
+  line: string
+  en: string
+  zh: string
+  ph?: string
+  checks?: string[]
+  note: string
+  src?: { t: string; url: string }
+  wide?: boolean
+  key?: boolean
+}
+
+interface W8Part {
+  id: string
+  tag: string
+  title: string
+  fields: W8Field[]
+}
+
 const IRS = { t: 'IRS', url: 'https://www.irs.gov/instructions/iw8ben' }
 const G = { t: '10390801', url: 'https://support.google.com/youtube/answer/10390801?hl=zh-Hans' }
 const TREATY = { t: '条约 Art.11', url: 'https://www.irs.gov/pub/irs-trty/china.pdf' }
@@ -74,7 +93,7 @@ const wizard = [
   { k: '状态', t: '审核中 → 已批准 / 已拒绝', n: '审核最多可能需要 7 个工作日；绿色「已批准」才算完成' }
 ]
 
-const parts = [
+const parts: W8Part[] = [
   {
     id: 'p1', tag: 'Part I', title: '受益所有人身份',
     fields: [
