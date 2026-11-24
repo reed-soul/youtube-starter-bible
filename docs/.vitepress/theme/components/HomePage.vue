@@ -195,6 +195,7 @@ const faqs = [
         <a class="btn btn-ghost" href="/ypp-中国大陆资格">YPP 资格</a>
         <a class="btn btn-ghost" href="/ypp-进度计算器">YPP 计算器</a>
         <a class="btn btn-ghost" href="/更新日志">政策更新</a>
+        <a class="btn btn-ghost" href="/products/大陆油管答疑-skill">助手 Skill 付费包</a>
       </div>
     </section>
   </div>
